@@ -1,0 +1,27 @@
+2019/04/29-08:49:12.654 39a1 Reusing MANIFEST /home/codex/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2019/04/29-08:49:12.654 39a1 Recovering log #128
+2019/04/29-08:49:12.655 39a1 Reusing old log /home/codex/.config/google-chrome/Default/Session Storage/000128.log 
+2019/04/29-10:14:20.894 4f1b Level-0 table #132: started
+2019/04/29-10:14:21.017 4f1b Level-0 table #132: 18631 bytes OK
+2019/04/29-10:14:21.074 4f1b Delete type=0 #128
+2019/04/29-14:28:12.314 4f1b Level-0 table #134: started
+2019/04/29-14:28:12.348 4f1b Level-0 table #134: 16869 bytes OK
+2019/04/29-14:28:12.386 4f1b Delete type=0 #131
+2019/04/29-14:28:12.386 4f1b Compacting 4@0 + 1@1 files
+2019/04/29-14:28:12.459 4f1b Generated table #135@0: 1722 keys, 57881 bytes
+2019/04/29-14:28:12.459 4f1b Compacted 4@0 + 1@1 files => 57881 bytes
+2019/04/29-14:28:12.496 4f1b compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/04/29-14:28:12.497 4f1b Delete type=2 #125
+2019/04/29-14:28:12.497 4f1b Delete type=2 #134
+2019/04/29-14:28:12.497 4f1b Delete type=2 #132
+2019/04/29-14:28:12.497 4f1b Delete type=2 #129
+2019/04/29-14:28:12.497 4f1b Delete type=2 #127
+2019/04/29-15:16:55.139 4f1b Level-0 table #137: started
+2019/04/29-15:16:55.201 4f1b Level-0 table #137: 19564 bytes OK
+2019/04/29-15:16:55.259 4f1b Delete type=0 #133
+2019/04/29-15:19:37.610 4f1b Level-0 table #139: started
+2019/04/29-15:19:37.657 4f1b Level-0 table #139: 29743 bytes OK
+2019/04/29-15:19:37.699 4f1b Delete type=0 #136
+2019/04/29-16:03:05.522 4f1b Level-0 table #141: started
+2019/04/29-16:03:05.597 4f1b Level-0 table #141: 18449 bytes OK
+2019/04/29-16:03:05.671 4f1b Delete type=0 #138

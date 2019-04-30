@@ -1,0 +1,41 @@
+{
+   "checksum": "ac50da26528de908c51d3d9edfd08d6b",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13200476502570586",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13200572050880395"
+            },
+            "name": "my webpage(SIYANDA)",
+            "sync_transaction_version": "40",
+            "type": "url",
+            "url": "file:///home/codex/project/basic-webpage/my-webpage.html"
+         } ],
+         "date_added": "13199195316397930",
+         "date_modified": "13200476502570586",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13199195316397936",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "40",
+      "synced": {
+         "children": [  ],
+         "date_added": "13199195316397937",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

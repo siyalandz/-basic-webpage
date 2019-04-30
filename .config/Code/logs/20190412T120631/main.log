@@ -1,0 +1,16 @@
+[2019-04-12 12:06:31.938] [main] [error] [uncaught exception in main]: Error: Unknown channel
+[2019-04-12 12:06:31.939] [main] [error] Error: Unknown channel
+    at w.onPromise (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:167:241)
+    at w.onRawMessage (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:166:981)
+    at protocolListener.protocol.onMessage.e (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:166:547)
+    at u.fire (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:49:209)
+    at o (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:175:607)
+    at Socket._socketDataListener.e (/usr/share/code/resources/app/out/vs/code/electron-main/main.js:175:813)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at Pipe.onread (net.js:636:20)
+[2019-04-12 12:06:32.055] [main] [info] update#setState idle
+[2019-04-12 12:07:02.062] [main] [info] update#setState checking for updates
+[2019-04-12 12:07:02.317] [main] [info] update#setState available for download

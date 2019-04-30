@@ -1,0 +1,274 @@
+<!doctype html>
+<html class="no-js" lang="en-ZA">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>codeX - Learn to code in Cape Town</title>
+          <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="stylesheet" href="/css/style.css?v=1.0.0">
+
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1636824716557306');
+        fbq('track', "PageView");</script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1636824716557306&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+
+    </head>
+
+  <body class="codex">
+    <nav class="nav-top">
+      <h2 class="visuallyhidden">Top Navigation</h2>
+      <h1>
+<a href="/" class="logo"><img src="/img/codeX-logo.svg" onerror="this.onerror=null; this.src='/img/codeX-logo.png'" alt="Project codeX"></a>
+</h1>
+
+      <a href="#menu" class="cta">Menu</a>
+
+      <h2 class="visuallyhidden">Navigation</h2>
+<ul>
+    <li class="active"><a href="/">Home</a></li>
+    <li><a href="/learn/">Learn to Code</a></li>
+    <li><a href="/hire/">Hire</a></li>
+    <li><a href="/support/">Support</a></li>
+    <li><a href="/bee-scorecard/">BEE ScoreCard</a></li>
+    <li><a href="/contact/">Contact</a></li>
+    <li><a href="/apply/" class="cta">Apply</a></li>
+</ul>
+
+    </nav>
+
+    
+    <div role="banner">
+      <p>Learn to code in Cape Town
+<br>and get placed as a software developer
+</p>
+    </div>
+
+    
+
+    <main id="content">
+      <section>
+  <h2 class="visuallyhidden">codeX</h2>
+  
+  <h2>Learn to code in just one year</h2>
+
+<p>codeX is a full time, one year coding program in Cape Town that trains and places bright young talent as software developers.</p>
+
+<p>We‚Äôre looking for problem solvers who have the aptitude and attitude to learn to code, whether you have matric, a university degree or already have work experience.</p>
+
+<p>At codeX you learn practical skills the tech industry demands and we help you find a job at a top local company that suits your interests and ambitions.</p>
+
+</section>
+
+<section id="whats-it-like">
+  <h3>How is codeX different to other programming courses?</h3>
+  
+  <ul>
+  <li><strong>Mentors, not teachers.</strong> We‚Äôre here to guide you on your learning journey. Technology advances quickly, so codeX prepares you for a path of lifelong learning. We give you the tools to learn any coding language you may need to solve a problem, rather than focusing on one technology that could go out of date in a few years.</li>
+  <li><strong>Self-paced program</strong> gives you the freedom to move quickly when you grasp a concept and to take time with more complex concepts. Along with mentors, codeX provides access to premium online coding tutorials to deepen your knowledge in targeted areas.</li>
+  <li><strong>Agile thinking.</strong> Software is not just about what you build, it‚Äôs about how you build it. We give you the tools to manage your work - and your thoughts - the way much of the software industry does.</li>
+  <li><strong>We help you find a job.</strong> Our team helps with your CV, LinkedIn profile, interview skills, and arranges interviews with employers looking for new talent. Your success is our success, so we do everything we can to make sure you‚Äôre supported as you begin your tech career.</li>
+  <li><strong>Collaboration, not competition.</strong> Our culture is about supporting each other to learn and succeed, not winning at all costs. Software development is a team sport.</li>
+  <li><strong>Industry access.</strong>  codeX is based in Harrington Street at the heart of Cape Town‚Äôs trendy East City Precinct. Our collaboration with industry speakers, mentors and user groups means you can build networks and learn through events, meetups, and hackathons.</li>
+  <li><strong>Personal development.</strong> codeX is an intense, fast-moving journey. We help you work through the challenges that arise during the program and provide you with the tools for success in the working world.</li>
+</ul>
+
+</section>
+
+<section class="section-alt" id="mission-statement">
+  <h3>We find great software developer talent</h3>
+  
+  <p>codeX aims to solve two of Africa‚Äôs major challenges: youth unemployment and a critical programming skills gap. We find, train, and place young developer talent in great entry-level jobs and ensure they have the solid foundation they need to build long-term digital careers.</p>
+
+<p>We emphasise problem solving over getting to the ‚Äúright‚Äù answer, the practical over the theoretical, broad conceptual understanding over language-specific idiosyncrasies, and collaboration over competition.</p>
+
+</section>
+
+<section class="videos">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Sj9NWNx-_Wc" frameborder="0" allowfullscreen=""></iframe>
+</section>
+
+<article class="testimonial testimonial-coder" id="testimonial-pholisa">
+  
+  <p><img src="/img/testimonials/coder/pholisa.jpg" alt="" /></p>
+
+  <blockquote>
+      
+      <p>‚ÄúI am using everything I learned at codeX in my current job.</p>
+
+<p>My codeX skills - especially the personal skills I learned at codeX - helped me easily understand and grasp a lot of the other concepts and things I had to learn at my placement. They help you be a better you and you obtain many more skills other than just coding. The staff at codeX is very dedicated to their work and go far and beyond to make sure their students get the best in terms of skills and placements after completing the program.‚Äù</p>
+
+<p><a href="https://www.linkedin.com/in/pholisa-fatyela-53507b9a/" class="testimonialLink" target="_blank">Pholisa</a> Junior Software Developer at REDISA</p>
+
+  </blockquote>
+</article>
+
+<section class="partners" id="employers">
+  <h2>Where do codeX Alumni work?</h2>
+  <div class="logos">
+    
+    <p><a href="https://www.acceleration.co.za/"><img src="/img/employers/acceleration.png" alt="" /></a> <img src="/img/employers/allan-gray.jpg" alt="" />
+<a href="https://www.capitecbank.co.za/"><img src="/img/partners/Capitec_logo_flat_RGB-01.jpg" alt="" /></a>
+<a href="https://www.directaxis.co.za/"><img src="/img/employers/directaxis.jpg" alt="" /></a> <a href="http://www.ogilvy.co.za/"><img src="/img/employers/ogilvy.png" alt="" /></a>  <a href="http://io.co.za/"><img src="/img/employers/io.png" alt="" /></a>
+<a href="https://www.get5.io/"><img src="/img/employers/Hi5.png" alt="" /></a>  <a href="http://uber5.com/"><img src="/img/employers/uber5.png" alt="" /></a>
+<a href="http://www.wealthmigrate.com/"><img src="/img/employers/wealthmigrate.jpg" alt="" /></a></p>
+
+  </div>
+</section>
+
+<article class="testimonial testimonial-employer" id="testimonial-allan-gray">
+ 
+ <p><img src="/img/testimonials/employer/benny.jpg" alt="" /></p>
+
+  <blockquote>
+      
+      <p>‚ÄúWorking with codeX has been a rather fulfilling experience ‚Äì having watched individuals whom have never been exposed to code to becoming proficient programmers is incredibly inspiring.</p>
+
+<p>My favourite interactions have been at the demo days where it‚Äôs been amazing to see what the coders have learned. They create innovative solutions for real life problems. One of the more memorable solutions for me was a mobile app which helped riders of taxis gauge the speed of the taxi they were in. Often times taxi riders feel unsafe due to reckless driving this app helped track the speed of the taxi and enabled riders to report bad drivers.</p>
+
+<p>The codeX coders not only learn technical skills but some valuable life skills that will help them succeed in the respective environments in which they enter. Allan Gray support codeX‚Äôs cause and have even employed one of their coders.‚Äù</p>
+
+<p><a href="https://www.linkedin.com/in/benny-o-8a505a2/" class="testimonialLink" target="_blank">Benny Ou</a> Allan Gray</p>
+
+  </blockquote>
+</article>
+
+<section class="partners" id="partners">
+  <h2>codeX Partners</h2>
+  <div class="logos">
+    
+    <p><a href="https://www.allangray.co.za/"><img src="/img/employers/allan-gray.jpg" alt="" /></a>
+<a href="https://www.capitecbank.co.za/"><img src="/img/partners/Capitec_logo_flat_RGB-01.jpg" alt="" /></a>
+<a href="http://clickfoundation.co.za/"><img src="/img/partners/clickfoundation.jpg" alt="" /></a>
+<a href="https://www.digitalocean.com/"><img src="/img/partners/digital ocean.png" alt="" /></a>
+<a href="http://harambee.co.za/"><img src="/img/partners/harambee.png" alt="" /></a>
+<a href="http://www.mlab.co.za/"><img src="/img/partners/mlab.png" alt="" /></a>
+<a href="http://services.mtn.co.za/mtnfoundation/"><img src="/img/partners/mtnfoundation.png" alt="" /></a>
+<a href="http://www.philippivillage.co.za/"><img src="/img/partners/philippivillage.png" alt="" /></a>
+<a href="https://www.uber.com/"><img src="/img/partners/uber.png" alt="" /></a>
+ <a href="http://uber5.com/"><img src="/img/employers/uber5.png" alt="" /></a>
+<a href="http://www.yearbeyond.org.za/"><img src="/img/partners/yearbeyond.png" alt="" /></a>
+<a href="http://www.steltix.co.za/"><img src="/img/partners/steltix.png" alt="" /></a></p>
+
+  </div>
+<section>
+</section></section>
+
+    </main>
+    <nav id="menu" class="nav">
+      <h2 class="visuallyhidden">Navigation</h2>
+<ul>
+    <li class="active"><a href="/">Home</a></li>
+    <li><a href="/learn/">Learn to Code</a></li>
+    <li><a href="/hire/">Hire</a></li>
+    <li><a href="/support/">Support</a></li>
+    <li><a href="/bee-scorecard/">BEE ScoreCard</a></li>
+    <li><a href="/contact/">Contact</a></li>
+    <li><a href="/apply/" class="">Apply</a></li>
+</ul>
+
+    </nav>
+    <nav id="social-media" class="nav-social">
+      <h2 class="visuallyhidden">Navigation</h2>
+<ul>
+  <li><a href="http://twitter.com/project_codeX" class="social social-twitter"><span class="visuallyhidden">Twitter</span></a></li>
+  <li><a href="http://www.facebook.com/projectcodeX" class="social social-facebook"><span class="visuallyhidden">Facebook</span></a></li>
+  <li><a href="mailto:info@projectcodex.co" class="social social-email"><span class="visuallyhidden">Facebook</span></a></li>
+  
+  <!-- <li><span class="social social-whatsapp">064 705 6017</span></li> -->
+</ul>
+
+    </nav>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Source Sans Pro:400,700']
+      },
+      timeout: 2000
+    });
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-55081444-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  </body>
+</html>
+Oa∑—Ê‘      \¢\¢@5[É\¢$A       :http://www.projectcodex.co/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+X-GUploader-UploadID: AEnB2UrC32rrHhgcQXHUcBu-xrnBpiFjsj4CWlYh4tH_Fv8-BhTl7AIUdp_dZuZFJqRvoFdq3b_aHeo6c7YF-ZY6YF8NZt9Ejg
+Expires: Mon, 01 Apr 2019 14:46:25 GMT
+Date: Mon, 01 Apr 2019 13:46:25 GMT
+Last-Modified: Thu, 14 Mar 2019 16:35:15 GMT
+ETag: "9191c9aa9ed696c9985d6e51cf109b00"
+x-goog-generation: 1552581315221086
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 12890
+x-goog-meta-goog-reserved-file-mtime: 1552581120
+Content-Type: text/html
+Content-Language: en
+x-goog-hash: crc32c=FMLhWA==, md5=kZHJqp7WlsmYXW5RzxCbAA==
+x-goog-storage-class: STANDARD
+Accept-Ranges: bytes
+Content-Length: 12890
+Server: UploadServer
+Cache-Control: public, max-age=3600
+Age: 486
+ original-response-headers X-GUploader-UploadID: AEnB2UrC32rrHhgcQXHUcBu-xrnBpiFjsj4CWlYh4tH_Fv8-BhTl7AIUdp_dZuZFJqRvoFdq3b_aHeo6c7YF-ZY6YF8NZt9Ejg
+Expires: Mon, 01 Apr 2019 14:46:25 GMT
+Date: Mon, 01 Apr 2019 13:46:25 GMT
+Last-Modified: Thu, 14 Mar 2019 16:35:15 GMT
+ETag: "9191c9aa9ed696c9985d6e51cf109b00"
+x-goog-generation: 1552581315221086
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 12890
+x-goog-meta-goog-reserved-file-mtime: 1552581120
+Content-Type: text/html
+Content-Language: en
+x-goog-hash: crc32c=FMLhWA==
+x-goog-hash: md5=kZHJqp7WlsmYXW5RzxCbAA==
+x-goog-storage-class: STANDARD
+Accept-Ranges: bytes
+Content-Length: 12890
+Server: UploadServer
+Cache-Control: public, max-age=3600
+Age: 486
+ uncompressed-len 0 predictor::resource-count 34 predictor::http://www.projectcodex.co/css/style.css?v=1.0.0 1,1,1554126871,4096 predictor::http://www.projectcodex.co/img/codeX-logo.svg 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/testimonials/coder/pholisa.jpg 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/employers/acceleration.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/employers/allan-gray.jpg 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/partners/Capitec_logo_flat_RGB-01.jpg 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/employers/directaxis.jpg 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/employers/ogilvy.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/employers/io.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/employers/Hi5.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/employers/uber5.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/employers/wealthmigrate.jpg 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/testimonials/employer/benny.jpg 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/partners/clickfoundation.jpg 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/partners/digital%20ocean.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/partners/harambee.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/partners/mlab.png 1,1,1554126871,4097 net-response-time-onstart 146 net-response-time-onstop 259 predictor::http://www.projectcodex.co/img/partners/mtnfoundation.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/partners/philippivillage.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/partners/uber.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/partners/yearbeyond.png 1,1,1554126871,4097 predictor::http://www.projectcodex.co/img/partners/steltix.png 1,1,1554126871,4097 predictor::https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js 1,1,1554126871,4096 predictor::https://connect.facebook.net/en_US/fbevents.js 1,1,1554126871,4096 predictor::http://www.projectcodex.co/css/img/home/home_learntocode_c_scale,w_1400.jpg 1,1,1554126871,4096 predictor::http://www.projectcodex.co/css/img/social-media.png 1,1,1554126871,4096 predictor::http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700 1,1,1554126871,4096 predictor::http://www.google-analytics.com/analytics.js 1,1,1554126871,4096 predictor::http://fonts.gstatic.com/s/sourcesanspro/v12/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2 1,1,1554126871,4096 predictor::http://fonts.gstatic.com/s/sourcesanspro/v12/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2 1,1,1554126871,4096 predictor::http://www.google-analytics.com/r/collect?v=1&_v=j73&a=1877952960&t=pageview&_s=1&dl=http%3A%2F%2Fwww.projectcodex.co%2F&dr=https%3A%2F%2Fwww.google.com%2F&ul=en-us&de=UTF-8&dt=codeX%20-%20Learn%20to%20code%20in%20Cape%20Town&sd=24-bit&sr=1366x768&vp=1149x587&je=0&_u=IEBAAEAB~&jid=873822826&gjid=1689577722&cid=620819629.1554126873&tid=UA-55081444-1&_gid=374790383.1554126873&_r=1&z=850125158 1,1,1554126871,4096 predictor::https://connect.facebook.net/signals/config/1636824716557306?v=2.8.45&r=stable 1,1,1554126871,4096 predictor::https://www.facebook.com/tr/?id=1636824716557306&ev=PageView&dl=http%3A%2F%2Fwww.projectcodex.co%2F&rl=https%3A%2F%2Fwww.google.com%2F&if=false&ts=1554126874189&sw=1366&sh=768&v=2.8.45&r=stable&ec=0&o=30&fbp=fb.1.1554126874186.881541981&it=1554126873702&coo=false&rqm=GET 1,1,1554126871,4096 predictor::https://www.facebook.com/tr/?id=1636824716557306&ev=Microdata&dl=http%3A%2F%2Fwww.projectcodex.co%2F&rl=https%3A%2F%2Fwww.google.com%2F&if=false&ts=1554126875977&cd[Schema.org]=%5B%5D&cd[OpenGraph]=%7B%7D&cd[Meta]=%7B%22title%22%3A%22codeX%20-%20Learn%20to%20code%20in%20Cape%20Town%22%2C%22meta%3Adescription%22%3A%22%22%7D&cd[DataLayer]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=1366&sh=768&v=2.8.45&r=stable&ec=1&o=30&fbp=fb.1.1554126874186.881541981&it=1554126873702&coo=false&es=automatic&rqm=GET 1,1,1554126871,4096   2Z

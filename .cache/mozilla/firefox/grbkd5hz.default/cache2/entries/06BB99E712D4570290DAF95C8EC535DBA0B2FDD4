@@ -1,0 +1,587 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7"  xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8"  xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html  xmlns="http://www.w3.org/1999/xhtml" prefix="" lang="en-US">
+<!--<![endif]-->
+<head>
+<!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='85006717-21',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Linux Tutorial Introduction | Linux Survival</title>
+	<meta name="KEYWORDS" content="online learning, linux tutorial, learn linux, linux training, learning linux, free online training, web-based training, how to learn linux, linux course, linux help, linux learning, free computer training, linux howto, linux learn, learn linux fast, linux training course" />
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://linuxsurvival.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="https://linuxsurvival.com/wp-content/themes/twentyfourteen/js/html5.js"></script>
+	<![endif]-->
+	
+<!-- BEGIN Metadata added by the Add-Meta-Tags WordPress plugin -->
+<meta name="description" content="Linux Tutorial - Learn Linux the easy way" />
+<!-- END Metadata added by the Add-Meta-Tags WordPress plugin -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Linux Survival &raquo; Feed" href="https://linuxsurvival.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Linux Survival &raquo; Comments Feed" href="https://linuxsurvival.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/linuxsurvival.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://linuxsurvival.com/wp-includes/css/dist/block-library/style.min.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bbp-default-css'  href='https://linuxsurvival.com/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.14-6684' type='text/css' media='screen' />
+<link rel='stylesheet' id='yop-public-css'  href='https://linuxsurvival.com/wp-content/plugins/yop-poll/public/assets/css/yop-poll-public.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-lato-css'  href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='https://linuxsurvival.com/wp-content/themes/twentyfourteen/genericons/genericons.css?ver=3.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='https://linuxsurvival.com/wp-content/themes/twentyfourteen-child/style.css?ver=5.1.1' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='https://linuxsurvival.com/wp-content/themes/twentyfourteen/css/ie.css?ver=20131205' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='tablepress-default-css'  href='https://linuxsurvival.com/wp-content/tablepress-combined.min.css?ver=12' type='text/css' media='all' />
+<link rel='stylesheet' id='popup-maker-site-css'  href='//linuxsurvival.com/wp-content/uploads/pum/pum-site-styles.css?generated=1552454324&#038;ver=1.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css'  href='https://linuxsurvival.com/wp-content/themes/twentyfourteen/style.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='https://linuxsurvival.com/wp-content/themes/twentyfourteen-child/style.css?ver=5.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://linuxsurvival.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var objectL10n = {"yopPollParams":{"urlParams":{"ajax":"https:\/\/linuxsurvival.com\/wp-admin\/admin-ajax.php","wpLogin":"https:\/\/linuxsurvival.com\/wp-login.php?redirect_to=https%3A%2F%2Flinuxsurvival.com%2Fwp-admin%2Fadmin-ajax.php%3Faction%3Dyop_poll_record_wordpress_vote"},"apiParams":{"reCaptcha":{"siteKey":""}},"captchaParams":{"imgPath":"https:\/\/linuxsurvival.com\/wp-content\/plugins\/yop-poll\/public\/assets\/img\/","url":"https:\/\/linuxsurvival.com\/wp-content\/plugins\/yop-poll\/app.php","accessibilityAlt":"Sound icon","accessibilityTitle":"Accessibility option: listen to a question and answer it!","accessibilityDescription":"Type below the <strong>answer<\/strong> to what you hear. Numbers or words:","explanation":"Click or touch the <strong>ANSWER<\/strong>","refreshAlt":"Refresh\/reload icon","refreshTitle":"Refresh\/reload: get new images and accessibility option!"},"voteParams":{"invalidPoll":"Invalid Poll","noAnswersSelected":"No answer selected","minAnswersRequired":"At least {min_answers_allowed} answer(s) required","maxAnswersRequired":"A max of {max_answers_allowed} answer(s) accepted","noAnswerForOther":"No other answer entered","noValueForCustomField":"{custom_field_name} is required","consentNotChecked":"You must agree to our terms and conditions","noCaptchaSelected":"Captcha is required","thankYou":"Thank you for your vote"},"resultsParams":{"singleVote":"vote","multipleVotes":"votes"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-content/plugins/yop-poll/public/assets/js/yop-poll-public.min.js?ver=5.1.1'></script>
+<link rel='https://api.w.org/' href='https://linuxsurvival.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://linuxsurvival.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://linuxsurvival.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.1.1" />
+<link rel="canonical" href="https://linuxsurvival.com/linux-tutorial-introduction/" />
+<link rel='shortlink' href='https://linuxsurvival.com/?p=127' />
+<link rel="alternate" type="application/json+oembed" href="https://linuxsurvival.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flinuxsurvival.com%2Flinux-tutorial-introduction%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://linuxsurvival.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flinuxsurvival.com%2Flinux-tutorial-introduction%2F&#038;format=xml" />
+	<style type="text/css" id="twentyfourteen-header-css">
+			.site-title,
+		.site-description {
+			clip: rect(1px 1px 1px 1px); /* IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+			position: absolute;
+		}
+		</style>
+		<script type="application/ld+json">
+	{
+  		"@context" : "https://schema.org",
+ 		"@type" : "WebSite",
+		"name" : "Linux Survival - Learn Linux the Easy Way",
+ 		"url" : "https://linuxsurvival.com"
+	}
+	</script>
+</head>
+
+<body class="page-template page-template-introduction page-template-introduction-php page page-id-127 header-image full-width footer-widgets singular">
+<div id="page" class="hfeed site">
+		<div id="site-header">
+		<a href="https://linuxsurvival.com/" rel="home">
+			<img src="https://linuxsurvival.com/wp-content/uploads/2015/01/cropped-Linux-Survival-banner12.png" width="1260" height="95" alt="">
+		</a>
+	</div>
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="https://linuxsurvival.com/" rel="home">Linux Survival</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text">Search</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Primary Menu</button>
+				<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+				<div class="menu-top-menu-container"><ul id="menu-top-menu" class="nav-menu"><li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-32"><a href="https://linuxsurvival.com/">Home</a></li>
+<li id="menu-item-477" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-477"><a href="https://linuxsurvival.com/blog/">Blog</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31"><a href="https://linuxsurvival.com/testimonials/">Testimonials</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="https://linuxsurvival.com/linux-links/">Linux Links</a></li>
+<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://linuxsurvival.com/command-list/">Command List</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://linuxsurvival.com/contact/">Contact</a></li>
+</ul></div>			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<form role="search" method="get" class="search-form" action="https://linuxsurvival.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+<head>
+<title>Linux Survival</title>
+<script src="/ls/jcubic-jquery.terminal/js/jquery-1.7.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+<script src="/ls/jcubic-jquery.terminal/js/jquery.mousewheel-min.js"></script>
+<script src="/ls/jcubic-jquery.terminal/js/jquery.terminal.min.js"></script>
+<script src="/ls/js/Utils.js"></script>
+<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet">
+<link href="/ls/css/jquery.terminal.css" rel="stylesheet"/>
+<link href="/ls/css/linux.survival.css" rel="stylesheet"/>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50175515-1', 'auto');
+  ga('require', 'linkid');
+  ga('send', 'pageview');
+
+</script></head>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$("#arrow_label").hide();
+			var image = "null";
+			var numCommands = "1";
+			var numPossibles = [1];
+			var commands = [["ls"]];
+			var congrats = ["Correct."];
+			var numAlmosts = [0];
+			var almosts = [["null"]];
+			var almostFailures = [["null"]];
+			var failures = ["#STANDARD_FAILURE#"];
+			var outputs = ["chimps        cobras       elephants\r\ngorillas      sq_monks"];
+			var prompts = ["#SAME_PROMPT#"];
+			var gifs = ["zoo.gif"];
+			var numDialogs = ["1"];
+			var dialogs = [["To find out what what the \"ls\" command actually does, click the right arrow to go to the next page.\n"]];
+
+			var jqdialogs = new Array();
+			var commandNum = 0;
+			var dialogNum = 0;
+			var prompt = "zoo> ";
+
+			// Print text in terminal before first prompt
+			function greetings(term) {
+				var termText = [];
+				if (termText != "[]") {
+					for (var i=0; i < termText.length; i++) {
+						term.echo(termText[i]);
+					}
+				}
+			}
+
+			function showGraphic(graphic) {
+				$('#bottom_graphic').replaceWith('<div id="bottom_graphic" style="text-align:center"><img src="/ls/images/' + graphic + '" align="middle"></div>');
+			}
+
+			function commandCorrect(command, commandNum) {
+				var entered = command.trim();
+				var numPoss = numPossibles[commandNum];
+
+				for (var i = 0; i < numPoss; i++) {	// check all possibles
+					var expected = commands[commandNum][i];
+					if (commandsMatch(entered, expected))
+						return true;
+				}
+
+				return false;
+			}
+
+			function commandAlmostCorrect(entered, commandNum) {
+				var numAlmsts = numAlmosts[commandNum];
+
+				for (var i = 0; i < numAlmsts; i++) {	// check all possibles
+					var almost = almosts[commandNum][i];
+					if (commandsMatch(entered, almost))
+						return i;
+				}
+
+				return -1;
+			}
+
+			function commandsMatch(entered, expected) {
+				if (expected == "#SPACE#")
+					if (entered == " ")
+						return true;
+					else
+						return false;
+				else {
+					var enteredTokens = entered.split(" ");
+					var expectedTokens = expected.split(" ");
+					var enteredCount = enteredTokens.length;
+					var expectedCount = expectedTokens.length;
+
+					var match = true;
+					if (enteredCount == expectedCount) {
+						for (var i = 0; i <= expectedCount; i++)
+							if (!(enteredTokens[i] == expectedTokens[i])) {
+								match = false;		// Command word doesn't match
+								break;
+							}
+					}
+					else match = false;				// Wrong number of words in command
+
+					return(match);
+				}
+			}
+
+			function strEndsWith(str, suffix) {
+			    return str.match(suffix+"$")==suffix;
+			}
+
+			// Create the terminal
+ 			$('#term').terminal(function(command, term) {
+
+				// Allow closing dialog box with Enter key without terminal thinking it's a command
+				term.pause();
+
+				dialogNum = 1;
+
+				if (commandCorrect(command, commandNum)) {
+ 					var congratulations = congrats[commandNum];
+					if (!(congratulations == "#NO_CONGRATS#"))
+						jqdialogs[0] = $.jqdialog(congratulations, true, term);
+ 				}
+				else {
+					var expected = commands[commandNum][0];
+					var almostIndex = commandAlmostCorrect(command, commandNum);
+					if (almostIndex > -1)
+						// Show failure message for almost correct command
+						jqdialogs[0] = $.jqdialog(almostFailures[commandNum][almostIndex], true, term);
+					else {
+						// Show failure text
+						var failure = failures[commandNum];
+						if (failure == "#STANDARD_FAILURE#")
+							jqdialogs[0] = $.jqdialog('You would type "' + expected + '".', true, term);
+						else
+							jqdialogs[0] = $.jqdialog(failure, true, term);
+					}
+					term.echo('[[;#ffff00;#000]' + prompt + expected + ']');
+				}
+
+ 				// Display image
+ 				var gif = gifs[commandNum];
+				if (!(gif == "#NO_GIF#" || gif == "#SAME_GIF#"))
+					showGraphic(gif);
+
+ 				// Set prompt text
+ 				var lastprompt = prompt;
+ 				prompt = prompts[commandNum];
+ 				if (prompt == "#SAME_PROMPT#")
+ 					prompt = lastprompt;
+ 				else
+					prompt = prompt + " ";
+				term.set_prompt(prompt);
+
+ 				// Show command output
+ 				var output = outputs[commandNum];
+ 				if (output != "#NO_OUTPUT#")
+ 					term.echo(output);			// command output
+
+				// If no subsequent dialog boxes, then resume terminal after initial dialog closes
+				if (numDialogs[commandNum] == 0)
+					jqdialogs[0].on("dialogclose", function(event, ui) {
+						if (commandNum < numCommands) {
+							term.resume();
+						}
+					});
+
+				// Show subsequent dialog boxes
+				for (var i = 0; i < numDialogs[commandNum]; i++) {
+					jqdialogs[i+1] = $.jqdialog(dialogs[commandNum][i], false, term);
+					jqdialogs[i].on("dialogclose", function(event, ui) {
+						jqdialogs[dialogNum].dialog("open");
+						dialogNum++;
+					});
+					if ((i + 1) == numDialogs[commandNum]) {
+						jqdialogs[i+1].on("dialogclose", function(event, ui) {
+							if (commandNum < numCommands) {
+								term.resume();
+							}
+						});
+					}
+				}
+
+				commandNum++;						// ready for next command
+
+				// If no more commands, force user to go to next page
+				if (commandNum >= numCommands) {
+					$("#arrow_label").show();
+					term.pause();
+				}
+
+			}, {
+				prompt: "zoo> ",
+				height: 280,
+				width: 500,
+				exit: false,
+				clear: false,
+
+				onBlur: function(term) {
+					return false;
+				},
+
+				onInit: function(term) {
+					term.clear();
+					greetings(term);
+				},
+
+			});
+
+			if (image != "null") {
+				showGraphic(image);
+			}
+
+			        	$("#leftArrow").click(function() {
+				window.location = '/index.php'
+			});
+
+        	$("#rightArrow").click(function() {
+				window.location = 'linux-directory-structure'
+			});
+
+			$("#term").trigger("click");
+});
+	</script>
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			<textarea readonly id="textpane" rows="30" cols="50" style="float:left">Linux Survival is a free tutorial designed to make it as easy as possible to learn Linux. Even though Linux has hundreds of commands, there are only about a dozen you need to know to perform most basic tasks.
+
+This tutorial uses a simulated Linux terminal so you can practice what you learn. To try it out, type "ls" (without the quotation marks) next to the "zoo>" prompt in the terminal and then hit Enter.
+			</textarea>
+			<div id="right_side" style="float:left">
+				<div id="term" tabindex="0"></div>
+				<div id="bottom_graphic" style="text-align:center"></div>
+			</div>
+				<br style="clear:both"/>
+	<div style="margin-bottom=10px;display:inline-block;font-size:14pt">
+	<strong>Page 1</strong>
+	</div>
+	<div style="width:10px;display:inline-block"></div>
+	<input type="submit" id="leftArrow" value="<" style="font-size:20pt;padding:0px 10px 0px 10px" />
+	<input type="submit" id="rightArrow" value=">" style="font-size:20pt;padding:0px 10px 0px 10px" />
+			<p id="arrow_label" style="color:yellow;font-family:arial;padding-top:20px">Click the right arrow.</p>
+
+			<br><br><br>
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+			<!-- Google ad: Home -->
+			<style>
+			.home_page_ad { max-width:728px }
+			</style>
+			<ins class="adsbygoogle home_page_ad"
+				 style="display:block"
+				 data-ad-client="ca-pub-7273964963639227"
+				 data-ad-slot="2326029039"
+				 data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	</div><!-- #main-content -->
+
+<div id="secondary">
+		<h2 class="site-description">Where learning Linux is easy</h2>
+	
+		<nav role="navigation" class="navigation site-navigation secondary-navigation">
+		<div class="menu-left-menu-container"><ul id="menu-left-menu" class="menu"><li id="menu-item-300" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-127 current_page_item menu-item-300"><a href="https://linuxsurvival.com/linux-tutorial-introduction/" aria-current="page">Module 1 Introduction</a></li>
+<li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333"><a href="https://linuxsurvival.com/linux-directory-structure/">Directory Structure</a></li>
+<li id="menu-item-330" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-330"><a href="https://linuxsurvival.com/linux-directory-listing-part-1/">List Directory</a></li>
+<li id="menu-item-352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-352"><a href="https://linuxsurvival.com/linux-more-command/">View File Contents</a></li>
+<li id="menu-item-346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346"><a href="https://linuxsurvival.com/linux-make-directory-command/">Create Directory</a></li>
+<li id="menu-item-353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-353"><a href="https://linuxsurvival.com/linux-move-and-rename-file-command/">Move and Rename File</a></li>
+<li id="menu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-324"><a href="https://linuxsurvival.com/linux-change-directory-command/">Change Directory</a></li>
+<li id="menu-item-291" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-291"><a href="https://linuxsurvival.com/linux-print-working-directory-command/">Get Current Location</a></li>
+<li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304"><a href="https://linuxsurvival.com/linux-tutorial-quiz-1/">Quiz 1</a></li>
+<li id="menu-item-296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-296"><a href="https://linuxsurvival.com/linux-tutorial-end-of-module-1/">End of Module 1</a></li>
+<li id="menu-item-301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-301"><a href="https://linuxsurvival.com/linux-tutorial-module-2-introduction/">Module 2 Introduction</a></li>
+<li id="menu-item-354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-354"><a href="https://linuxsurvival.com/linux-pathnames/">Pathnames</a></li>
+<li id="menu-item-329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-329"><a href="https://linuxsurvival.com/linux-copy-command/">Copy File</a></li>
+<li id="menu-item-295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-295"><a href="https://linuxsurvival.com/linux-remove-file-command/">Remove File</a></li>
+<li id="menu-item-294" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-294"><a href="https://linuxsurvival.com/linux-remove-directory-command/">Remove Directory</a></li>
+<li id="menu-item-338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-338"><a href="https://linuxsurvival.com/linux-file-security-permissions-part-1/">File Security</a></li>
+<li id="menu-item-325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-325"><a href="https://linuxsurvival.com/linux-change-file-permissions-command-part-1/">Change File Permissions</a></li>
+<li id="menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-308"><a href="https://linuxsurvival.com/linux-wildcards-part-1/">Wildcards</a></li>
+<li id="menu-item-344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-344"><a href="https://linuxsurvival.com/linux-groups-command/">Groups Memberships</a></li>
+<li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="https://linuxsurvival.com/linux-tutorial-quiz-2/">Quiz 2</a></li>
+<li id="menu-item-297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-297"><a href="https://linuxsurvival.com/linux-tutorial-end-of-module-2/">End of Module 2</a></li>
+<li id="menu-item-302" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-302"><a href="https://linuxsurvival.com/linux-tutorial-module-3-introduction/">Module 3 Introduction</a></li>
+<li id="menu-item-345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345"><a href="https://linuxsurvival.com/linux-home-directories/">Home Directories</a></li>
+<li id="menu-item-349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349"><a href="https://linuxsurvival.com/linux-manual-pages/">Manual Pages</a></li>
+<li id="menu-item-359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-359"><a href="https://linuxsurvival.com/linux-man-command-exercise/">User Information</a></li>
+<li id="menu-item-341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-341"><a href="https://linuxsurvival.com/linux-find-command-part-1/">Find File</a></li>
+<li id="menu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-318"><a href="https://linuxsurvival.com/concatenating-linux-files-part-1/">Concatenate Files</a></li>
+<li id="menu-item-313" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-313"><a href="https://linuxsurvival.com/redirecting-linux-command-output-part-1/">Redirect Output</a></li>
+<li id="menu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311"><a href="https://linuxsurvival.com/printing-linux-files-part-1/">Print</a></li>
+<li id="menu-item-289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-289"><a href="https://linuxsurvival.com/linux-print-job-status-part-1/">Print Job Status</a></li>
+<li id="menu-item-316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-316"><a href="https://linuxsurvival.com/cancelling-linux-print-jobs/">Cancel Print Job</a></li>
+<li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306"><a href="https://linuxsurvival.com/linux-tutorial-quiz-3/">Quiz 3</a></li>
+<li id="menu-item-298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-298"><a href="https://linuxsurvival.com/linux-tutorial-end-of-module-3/">End of Module 3</a></li>
+<li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="https://linuxsurvival.com/linux-tutorial-module-4-introduction/">Module 4 Introduction</a></li>
+<li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-320"><a href="https://linuxsurvival.com/copying-linux-directories/">Copy Tree</a></li>
+<li id="menu-item-334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-334"><a href="https://linuxsurvival.com/linux-disk-space-part-1/">Disk Space</a></li>
+<li id="menu-item-315" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-315"><a href="https://linuxsurvival.com/removing-linux-directories/">Remove Tree</a></li>
+<li id="menu-item-292" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-292"><a href="https://linuxsurvival.com/linux-process-status-part-1/">Process Status</a></li>
+<li id="menu-item-310" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310"><a href="https://linuxsurvival.com/piping-linux-command-output/">Pipe Output</a></li>
+<li id="menu-item-355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-355"><a href="https://linuxsurvival.com/linux-pattern-matching-part-1/">Pattern Matching</a></li>
+<li id="menu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-322"><a href="https://linuxsurvival.com/killing-linux-processes-part-1/">Kill Process</a></li>
+<li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-307"><a href="https://linuxsurvival.com/linux-tutorial-quiz-4/">Quiz 4</a></li>
+<li id="menu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-299"><a href="https://linuxsurvival.com/linux-tutorial-end-of-module-4/">Conclusion</a></li>
+</ul></div>	</nav>
+	
+	</div><!-- #secondary -->
+
+		</div><!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+<div id="supplementary">
+	<div id="footer-sidebar" class="footer-sidebar widget-area" role="complementary">
+		<aside id="text-3" class="widget widget_text">			<div class="textwidget"><p>Copyright 2000 &#8211; 2018 Guy Hummel</p>
+</div>
+		</aside>	</div><!-- #footer-sidebar -->
+</div><!-- #supplementary -->
+
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	
+
+
+<div id="pum-559" class="pum pum-overlay pum-theme-549 pum-theme-default-theme popmake-overlay click_open" data-popmake="{&quot;id&quot;:559,&quot;slug&quot;:&quot;free-guide&quot;,&quot;theme_id&quot;:549,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;size&quot;:false,&quot;responsive_min_width&quot;:false,&quot;responsive_max_width&quot;:false,&quot;custom_width&quot;:false,&quot;custom_height&quot;:false,&quot;animation_type&quot;:false,&quot;animation_speed&quot;:false,&quot;animation_origin&quot;:false,&quot;location&quot;:false,&quot;position_bottom&quot;:false,&quot;position_right&quot;:false,&quot;position_top&quot;:false,&quot;position_left&quot;:false,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:false,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width_unit&quot;:false,&quot;custom_height_unit&quot;:false,&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;custom_height_auto&quot;:false,&quot;position_from_trigger&quot;:false,&quot;position_fixed&quot;:false},&quot;close&quot;:{&quot;text&quot;:false,&quot;button_delay&quot;:false,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}" role="dialog" aria-hidden="true" aria-labelledby="pum_popup_title_559">
+
+	<div id="popmake-559" class="pum-container popmake theme-549 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+
+				            <div id="pum_popup_title_559" class="pum-title popmake-title">
+				Where Should I Send It?			</div>
+		
+
+		
+
+				<div class="pum-content popmake-content">
+			<link href="/ls/css/other.css" rel="stylesheet"/>
+<style>
+#mc_embed_signup p { margin-bottom: 0px }
+</style>
+<p><!-- Begin MailChimp Signup Form --></p>
+<div id="mc_embed_signup">
+<form action="//linuxsurvival.us13.list-manage.com/subscribe/post?u=a2717a941a7362aea12ae9a92&amp;id=560cebd4bb&#038;SIGNUP=welcome" method="post" onsubmit="ga('send', 'event', 'submit', 'click'); jQuery(this).parents('.popmake:first').popmake('close');" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div id="mc_embed_signup_scroll">
+<div style="font-weight: bold; font-size:medium; font-family:Lato,sans-serif; padding-bottom:8px; width: 90%; text-align: center; margin: 20px auto 5px">Enter your email address below to get your free Linux Administrator Starter Guide delivered to your inbox</div>
+<div class="mc-field-group" style="min-height: 28px; width: 80%; margin: 0 auto">
+			<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="email address"/>
+		</div>
+<div id="mce-responses" class="clear">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</div>
+<p>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--></p>
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a2717a941a7362aea12ae9a92_560cebd4bb" tabindex="-1" value=""/></div>
+<div style="font-size:12px; font-family:Lato,sans-serif; padding-bottom:8px; width: 80%; text-align: center; margin: 0 auto">We value your privacy and will never share your email address
+	</div>
+<div class="clear" style="width: 96px; margin: 12px auto"><input type="submit" value="Send It!" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color: #315b7c"/></div>
+</div>
+</form>
+</div>
+<p><!--End mc_embed_signup--></p>
+		</div>
+
+
+				
+
+				            <button type="button" class="pum-close popmake-close" aria-label="Close">
+			&#215;            </button>
+		
+	</div>
+
+</div>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.14-6684'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var qpprFrontData = {"linkData":{"https:\/\/linuxsurvival.com\/home2\/":[0,0,""],"https:\/\/linuxsurvival.com\/home3\/":[0,0,""]},"siteURL":"https:\/\/linuxsurvival.com","siteURLq":"https:\/\/linuxsurvival.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-content/plugins/quick-pagepost-redirect-plugin/js/qppr_frontend_script.min.js?ver=5.1.8'></script>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b'></script>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-content/themes/twentyfourteen/js/functions.js?ver=20150315'></script>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pum_vars = {"version":"1.8.3","ajaxurl":"https:\/\/linuxsurvival.com\/wp-admin\/admin-ajax.php","restapi":"https:\/\/linuxsurvival.com\/wp-json\/pum\/v1","rest_nonce":null,"default_theme":"549","debug_mode":"","disable_tracking":"","home_url":"\/","message_position":"top","core_sub_forms_enabled":"1","popups":[]};
+var ajaxurl = "https:\/\/linuxsurvival.com\/wp-admin\/admin-ajax.php";
+var pum_debug_vars = {"debug_mode_enabled":"Popup Maker: Debug Mode Enabled","debug_started_at":"Debug started at:","debug_more_info":"For more information on how to use this information visit https:\/\/docs.wppopupmaker.com\/?utm_medium=js-debug-info&utm_campaign=ContextualHelp&utm_source=browser-console&utm_content=more-info","global_info":"Global Information","localized_vars":"Localized variables","popups_initializing":"Popups Initializing","popups_initialized":"Popups Initialized","single_popup_label":"Popup: #","theme_id":"Theme ID: ","label_method_call":"Method Call:","label_method_args":"Method Arguments:","label_popup_settings":"Settings","label_triggers":"Triggers","label_cookies":"Cookies","label_delay":"Delay:","label_conditions":"Conditions","label_cookie":"Cookie:","label_settings":"Settings:","label_selector":"Selector:","label_mobile_disabled":"Mobile Disabled:","label_tablet_disabled":"Tablet Disabled:","label_event":"Event: %s","triggers":{"click_open":"Click Open","auto_open":"Time Delay \/ Auto Open"},"cookies":{"on_popup_close":"On Popup Close","on_popup_open":"On Popup Open","pum_sub_form_success":"Subscription Form: Successful","pum_sub_form_already_subscribed":"Subscription Form: Already Subscribed","manual":"Manual JavaScript"}};
+var pum_sub_vars = {"ajaxurl":"https:\/\/linuxsurvival.com\/wp-admin\/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-559":{"disable_on_mobile":false,"disable_on_tablet":false,"custom_height_auto":false,"scrollable_content":false,"position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","theme_id":549,"id":559,"slug":"free-guide"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//linuxsurvival.com/wp-content/uploads/pum/pum-site-scripts.js?defer&#038;generated=1552454324&#038;ver=1.8.3'></script>
+<script type='text/javascript' src='https://linuxsurvival.com/wp-includes/js/wp-embed.min.js?ver=5.1.1'></script>
+</body>
+</html>^åÖø \      \« À\« Á@<qË       7    :https://linuxsurvival.com/linux-tutorial-introduction/ strongly-framed 1 security-info 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 request-method GET response-head HTTP/2.0 200 OK
+server: nginx
+date: Mon, 08 Apr 2019 07:59:18 GMT
+content-type: text/html; charset=UTF-8
+x-cache-enabled: False
+link: <https://linuxsurvival.com/wp-json/>; rel="https://api.w.org/", <https://linuxsurvival.com/?p=127>; rel=shortlink
+host-header: 192fc2e7e50945beb8231a492d6a8024
+x-proxy-cache: MISS
+alt-svc: quic=":443"; ma=86400; v="43,39"
+X-Firefox-Spdy: h2
+ original-response-headers server: nginx
+date: Mon, 08 Apr 2019 07:59:18 GMT
+content-type: text/html; charset=UTF-8
+x-cache-enabled: False
+link: <https://linuxsurvival.com/wp-json/>; rel="https://api.w.org/", <https://linuxsurvival.com/?p=127>; rel=shortlink
+host-header: 192fc2e7e50945beb8231a492d6a8024
+x-proxy-cache: MISS
+alt-svc: quic=":443"; ma=86400; v="43,39"
+X-Firefox-Spdy: h2
+ uncompressed-len 0 predictor::resource-count 48 predictor::https://linuxsurvival.com/wp-includes/css/dist/block-library/style.min.css?ver=5.1.1 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.14-6684 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/plugins/yop-poll/public/assets/css/yop-poll-public.css?ver=5.1.1 1,1,1554710720,12288 predictor::https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&subset=latin%2Clatin-ext 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/themes/twentyfourteen/genericons/genericons.css?ver=3.0.3 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/themes/twentyfourteen-child/style.css?ver=5.1.1 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/tablepress-combined.min.css?ver=12 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/uploads/pum/pum-site-styles.css?generated=1552454324&ver=1.8.3 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/themes/twentyfourteen/style.css?ver=5.1.1 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-includes/js/jquery/jquery.js?ver=1.12.4 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/plugins/yop-poll/public/assets/js/yop-poll-public.min.js?ver=5.1.1 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/uploads/2015/01/cropped-Linux-Survival-banner12.png 1,1,0,8192 predictor::https://linuxsurvival.com/ls/jcubic-jquery.terminal/js/jquery-1.7.1.min.js 1,1,1554710720,12288 predictor::https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js 1,1,1554710720,12288 predictor::https://linuxsurvival.com/ls/jcubic-jquery.terminal/js/jquery.mousewheel-min.js 1,1,1554710720,12288 predictor::https://linuxsurvival.com/ls/jcubic-jquery.terminal/js/jquery.terminal.min.js 1,1,1554710720,12288 predictor::https://linuxsurvival.com/ls/js/Utils.js 1,1,1554710720,12288 predictor::https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css 1,1,1554710720,12288 predictor::https://linuxsurvival.com/ls/css/jquery.terminal.css 1,1,1554710720,12288 predictor::https://linuxsurvival.com/ls/css/linux.survival.css 1,1,1554710720,12288 predictor::https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js 1,1,1554710720,12288 predictor::https://linuxsurvival.com/ls/css/other.css 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.14-6684 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/plugins/quick-pagepost-redirect-plugin/js/qppr_frontend_script.min.js?ver=5.1.8 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-includes/js/masonry.min.js?ver=3.3.2 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/themes/twentyfourteen/js/functions.js?ver=20150315 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-content/uploads/pum/pum-site-scripts.js?defer&generated=1552454324&ver=1.8.3 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-includes/js/wp-embed.min.js?ver=5.1.1 1,1,1554710720,12288 predictor::https://ssl.google-analytics.com/ga_exp.js?utmxkey=85006717-21&utmx=&utmxx=&utmxtime=1554710359150 1,1,0,8192 predictor::https://fonts.googleapis.com/css?family=Montserrat|Acme 1,1,1554710720,12288 predictor::https://linuxsurvival.com/wp-includes/js/wp-emoji-release.min.js?ver=5.1.1 1,1,1554710720,12288 predictor::https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXg.woff2 1,1,0,8192 predictor::https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ.woff2 1,1,0,8192 predictor::https://www.google-analytics.com/analytics.js 1,1,0,8192 predictor::https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh50XSwiPGQ.woff2 1,1,0,8192 predictor::https://www.google-analytics.com/plugins/ua/linkid.js 1,1,0,8192 predictor::https://adservice.google.co.za/adsid/integrator.js?domain=linuxsurvival.com 1,1,0,8192 predictor::https://adservice.google.com/adsid/integrator.js?domain=linuxsurvival.com 1,1,0,8192 predictor::https://pagead2.googlesyndication.com/pagead/js/r20190403/r20190131/show_ads_impl.js 1,1,0,8192 predictor::https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-7273964963639227.js 1,1,0,8192 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j73&a=1255255884&t=pageview&_s=1&dl=https%3A%2F%2Flinuxsurvival.com%2Flinux-tutorial-introduction%2F&dr=http%3A%2F%2Flearn.projectcodex.co%2Fview%2Fintro.html&ul=en-us&de=UTF-8&dt=Linux%20Tutorial%20Introduction%20%7C%20Linux%20Survival&sd=24-bit&sr=1366x768&vp=1287x599&je=0&_u=KCDAAEIh~&jid=2068471001&gjid=315991711&cid=823597719.1554200820&tid=UA-50175515-1&_gid=564515419.1554710361&_r=1&z=842345124 1,1,0,8192 predictor::https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101 1,1,0,8192 necko:classified 1 predictor::https://ssl.google-analytics.com/ga_exp.js?utmxkey=85006717-21&utmx=&utmxx=&utmxtime=1554710720645 1,1,1554710720,4096   –

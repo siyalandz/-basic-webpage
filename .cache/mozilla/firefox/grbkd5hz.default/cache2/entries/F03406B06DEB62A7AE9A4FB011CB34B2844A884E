@@ -1,0 +1,1267 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4; }
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+.small-img {
+  max-width: 80%; }
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+textarea {
+  resize: vertical; }
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  font-family: sans-serif;
+  line-height: 1.25; }
+  .wf-active body {
+    font-family: "Source Sans Pro", sans-serif; }
+
+h1, h2, h3, h4, p {
+  margin-top: 0; }
+
+h1 {
+  font-weight: normal; }
+
+h2 {
+  color: #0E6113;
+  margin-bottom: 0.5em; }
+
+h3 {
+  color: #0E6113; }
+
+h4 {
+  color: #0E6113; }
+
+@media (min-width: 43.75em) {
+  html {
+    line-height: 1.375; } }
+h1 {
+  font-size: 2em;
+  line-height: 1.25; }
+  @media (min-width: 43.75em) {
+    h1 {
+      font-size: 2.5em;
+      line-height: 1.125; } }
+  @media (min-width: 56.25em) {
+    h1 {
+      font-size: 3em;
+      line-height: 1.05; } }
+
+h2,
+[role="banner"] {
+  font-size: 1.625em;
+  line-height: 1.15384615; }
+  @media (min-width: 43.75em) {
+    h2,
+    [role="banner"] {
+      font-size: 2em;
+      line-height: 1.25; } }
+  @media (min-width: 56.25em) {
+    h2,
+    [role="banner"] {
+      font-size: 2.25em;
+      line-height: 1.25; } }
+  h2 h1,
+  [role="banner"] h1 {
+    margin-bottom: 0; }
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364; }
+  @media (min-width: 43.75em) {
+    h3 {
+      font-size: 1.5em;
+      line-height: 1.25; } }
+  @media (min-width: 56.25em) {
+    h3 {
+      font-size: 1.75em;
+      line-height: 1.25; } }
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111; }
+  @media (min-width: 43.75em) {
+    h4 {
+      line-height: 1.22222222; } }
+
+a {
+  transition: color 0.25s; }
+  a:link, a:visited {
+    color: #8bc53f; }
+
+a:hover, a:active {
+  color: #0E6113;
+  text-decoration: none; }
+a:focus {
+  text-decoration: none;
+  background-color: #e5e5e5; }
+
+ul, ol {
+  padding: 0 0 0 1em;
+  margin-left: 1em; }
+
+section li {
+  margin-bottom: 0.5em; }
+  section li:last-child {
+    margin-bottom: 0; }
+
+main {
+  font-size: 100%;
+  line-height: 1.25; }
+  @media (min-width: 43.75em) {
+    main {
+      line-height: 1.45833333; } }
+
+.logo {
+  display: inline-block;
+  width: 5em; }
+  @media (min-width: 38em) {
+    .logo {
+      width: 10em; } }
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em; }
+  .nav-top ul {
+    display: none;
+    list-style: none; }
+    @media (min-width: 38em) {
+      .nav-top ul {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1em; } }
+  .nav-top li {
+    display: inline-block;
+    margin-left: 1em; }
+    @media (min-width: 50em) {
+      .nav-top li {
+        margin-left: 2em; } }
+  .nav-top h1 {
+    font-size: 1em;
+    line-height: 1.25;
+    margin-bottom: 0; }
+  .nav-top a:link, .nav-top a:visited {
+    text-decoration: none; }
+  .nav-top a:hover, .nav-top a:active {
+    text-decoration: underline; }
+
+.nav-social {
+  text-align: center;
+  padding: 1em; }
+  .nav-social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; }
+  .nav-social li {
+    display: inline;
+    display: flex;
+    align-items: center;
+    margin: 0 2em 0 0; }
+    @media (min-width: 50em) {
+      .nav-social li {
+        font-size: 1.26em; } }
+
+.social-whatsapp {
+  margin-right: 0.5em; }
+
+@media (min-width: 38em) {
+  [href="#menu"] {
+    display: none; } }
+
+.cta {
+  padding: 0.5em;
+  text-decoration: none;
+  background-color: #8bc53f;
+  clear: left;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  padding-right: 1em;
+  position: relative; }
+  .cta:link, .cta:visited {
+    color: white; }
+  .cta:hover, .cta:focus {
+    background-color: #8bc53f;
+    text-decoration: underline;
+    outline: none; }
+  .cta:after, .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: 1.1em 0.5em; }
+  .cta:before {
+    left: -0.5em;
+    border-color: #8bc53f;
+    border-left-color: white; }
+  .cta:after {
+    right: -0.5em;
+    border-color: white;
+    border-left-color: #8bc53f; }
+  .cta:hover {
+    background-color: #0E6113; }
+    .cta:hover:before {
+      border-color: #0E6113;
+      border-left-color: white; }
+    .cta:hover:after {
+      border-left-color: #0E6113; }
+
+.cta-grey {
+  padding: 0.5em;
+  text-decoration: none;
+  background-color: #8bc53f;
+  clear: left;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  padding-right: 1em;
+  position: relative; }
+  .cta-grey:link, .cta-grey:visited {
+    color: white; }
+  .cta-grey:hover, .cta-grey:focus {
+    background-color: #8bc53f;
+    text-decoration: underline;
+    outline: none; }
+  .cta-grey:after, .cta-grey:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: 1.1em 0.5em; }
+  .cta-grey:before {
+    left: -0.5em;
+    border-color: #8bc53f;
+    border-left-color: #e5e5e5; }
+  .cta-grey:after {
+    right: -0.5em;
+    border-color: #e5e5e5;
+    border-left-color: #8bc53f; }
+  .cta-grey:hover {
+    background-color: #0E6113; }
+    .cta-grey:hover:before {
+      border-color: #0E6113;
+      border-left-color: #e5e5e5; }
+    .cta-grey:hover:after {
+      border-left-color: #0E6113; }
+
+.nav {
+  background-color: #8bc53f; }
+  .nav ul {
+    list-style: none;
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 0; }
+    @media (min-width: 40em) {
+      .nav ul {
+        display: flex;
+        justify-content: space-around; } }
+  .nav a {
+    display: block;
+    padding: 1em;
+    border-top: solid 1px white;
+    text-decoration: none; }
+    @media (min-width: 40em) {
+      .nav a {
+        border: none;
+        font-size: 1.25em; } }
+    .nav a:link, .nav a:visited {
+      color: white; }
+    .nav a:hover, .nav a:active {
+      background-color: #0E6113;
+      text-decoration: underline; }
+
+.active {
+  font-weight: bold; }
+  .nav .active {
+    background-color: #0E6113; }
+  .active a:link, .active a:visited {
+    text-decoration: none; }
+
+.testimonialLink {
+  color: white !important; }
+
+.social {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: transparent url("/css/img/social-media.png") 0 -32px no-repeat; }
+  .social:link, .social:visited {
+    padding: 0; }
+  .social:hover, .social:active {
+    padding: 0; }
+
+.social-twitter {
+  background-position: 0 0; }
+
+.social-facebook {
+  background-position: -32px 0; }
+
+.social-email {
+  background-position: -64px 0; }
+
+.social-whatsapp {
+  background-position: -96px 0; }
+
+img {
+  border-width: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+  height: auto; }
+
+main {
+  padding: 0;
+  padding: 5%; }
+  @media (min-width: 38em) {
+    main {
+      padding-left: 10%;
+      padding-right: 10%; } }
+  @media (min-width: 50em) {
+    main {
+      padding-left: 15%;
+      padding-right: 15%; } }
+  @media (min-width: 64em) {
+    main {
+      padding-left: 20%;
+      padding-right: 20%; } }
+  @media (min-width: 80em) {
+    main {
+      padding-left: 25%;
+      padding-right: 25%; } }
+
+[role="banner"] {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: white; }
+  @media (min-width: 50em) {
+    [role="banner"] {
+      height: 350px; } }
+  @media (min-width: 64em) {
+    [role="banner"] {
+      height: 400px; } }
+  @media (min-width: 38em) {
+    [role="banner"] {
+      padding-left: 10%;
+      padding-right: 10%; } }
+  @media (min-width: 50em) {
+    [role="banner"] {
+      padding-left: 15%;
+      padding-right: 15%; } }
+  @media (min-width: 64em) {
+    [role="banner"] {
+      padding-left: 20%;
+      padding-right: 20%; } }
+  @media (min-width: 80em) {
+    [role="banner"] {
+      padding-left: 25%;
+      padding-right: 25%; } }
+
+[role="banner"] {
+  background-color: transparent;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .codex [role="banner"] {
+    background-image: url("/css/img/home/home_learntocode_c_scale,w_755.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/home/home_learntocode_c_scale,w_200.jpg"); }
+    @media (min-width: 200px) {
+      .codex [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/home/home_learntocode_c_scale,w_755.jpg"); } }
+    @media (min-width: 755px) {
+      .codex [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/home/home_learntocode_c_scale,w_1110.jpg"); } }
+    @media (min-width: 1110px) {
+      .codex [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/home/home_learntocode_c_scale,w_1400.jpg"); } }
+  .apply [role="banner"] {
+    background-image: url("/css/img/about/about_teamcodeX_c_scale,w_755.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/about/about_teamcodeX_c_scale,w_200.jpg"); }
+    @media (min-width: 200px) {
+      .apply [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/about/about_teamcodeX_c_scale,w_755.jpg"); } }
+    @media (min-width: 755px) {
+      .apply [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/about/about_teamcodeX_c_scale,w_1162.jpg"); } }
+    @media (min-width: 1162px) {
+      .apply [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/about/about_teamcodeX_c_scale,w_1399.jpg"); } }
+  .support [role="banner"] {
+    background-image: url("/css/img/about/about_womenintech_c_scale,w_755.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/css/img/about/about_womenintech_c_scale,w_200.jpg"); }
+    @media (min-width: 200px) {
+      .support [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/css/img/about/about_womenintech_c_scale,w_755.jpg"); } }
+    @media (min-width: 755px) {
+      .support [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/css/img/about/about_womenintech_c_scale,w_1110.jpg"); } }
+    @media (min-width: 1110px) {
+      .support [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/css/img/about/about_womenintech_c_scale,w_1400.jpg"); } }
+  .beescorecard [role="banner"] {
+    background-image: url("/css/img/about/about_womenintech_c_scale,w_755.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/css/img/about/about_womenintech_c_scale,w_200.jpg"); }
+    @media (min-width: 200px) {
+      .beescorecard [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/css/img/about/about_womenintech_c_scale,w_755.jpg"); } }
+    @media (min-width: 755px) {
+      .beescorecard [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/css/img/about/about_womenintech_c_scale,w_1110.jpg"); } }
+    @media (min-width: 1110px) {
+      .beescorecard [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/css/img/about/about_womenintech_c_scale,w_1400.jpg"); } }
+  .learn [role="banner"] {
+    background-image: url("/css/img/support/support_agileteam_c_scale,w_756.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/support/support_agileteam_c_scale,w_200.jpg"); }
+    @media (min-width: 200px) {
+      .learn [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/support/support_agileteam_c_scale,w_756.jpg"); } }
+    @media (min-width: 756px) {
+      .learn [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/support/support_agileteam_c_scale,w_1118.jpg"); } }
+    @media (min-width: 1118px) {
+      .learn [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/support/support_agileteam_c_scale,w_1400.jpg"); } }
+  .hire [role="banner"] {
+    background-image: url("/css/img/home/home_agiledeveloper_c_scale,w_755.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/home/home_agiledeveloper_c_scale,w_200.jpg"); }
+    @media (min-width: 200px) {
+      .hire [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/home/home_agiledeveloper_c_scale,w_755.jpg"); } }
+    @media (min-width: 755px) {
+      .hire [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/home/home_agiledeveloper_c_scale,w_1104.jpg"); } }
+    @media (min-width: 1104px) {
+      .hire [role="banner"] {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/css/img/home/home_agiledeveloper_c_scale,w_1400.jpg"); } }
+
+.highlighter-rouge {
+  margin-bottom: 5em; }
+  .highlighter-rouge:before {
+    display: block;
+    content: "The markdown:";
+    padding-top: 1em; }
+
+section {
+  margin-bottom: 3em; }
+
+.logos {
+  text-align: center; }
+  .logos img {
+    max-width: 150px;
+    margin: 0.5em; }
+
+.hackathons img {
+  width: 100%;
+  margin-bottom: 1em; }
+  @media (min-width: 38em) {
+    .hackathons img {
+      max-width: 48%; }
+      .hackathons img:first-of-type {
+        margin-right: 3%; } }
+.hackathons .logos img {
+  max-width: 120px; }
+
+.testimonial {
+  background-color: #8bc53f;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 3em; }
+  @media (min-width: 38em) {
+    .testimonial {
+      margin-left: -12.5%;
+      margin-right: -12.5%;
+      padding-left: 12.5%;
+      padding-right: 12.5%; } }
+  @media (min-width: 50em) {
+    .testimonial {
+      margin-left: -21.4285714286%;
+      margin-right: -21.4285714286%;
+      padding-left: 21.4285714286%;
+      padding-right: 21.4285714286%; } }
+  @media (min-width: 64em) {
+    .testimonial {
+      margin-left: -33.3333333333%;
+      margin-right: -33.3333333333%;
+      padding-left: 33.3333333333%;
+      padding-right: 33.3333333333%; } }
+  @media (min-width: 80em) {
+    .testimonial {
+      margin-left: -50%;
+      margin-right: -50%;
+      padding-left: 50%;
+      padding-right: 50%; } }
+  .testimonial h2 {
+    font-size: 1.375em;
+    line-height: 1.13636364; }
+    @media (min-width: 43.75em) {
+      .testimonial h2 {
+        font-size: 1.5em;
+        line-height: 1.25; } }
+    @media (min-width: 56.25em) {
+      .testimonial h2 {
+        font-size: 1.75em;
+        line-height: 1.25; } }
+  .testimonial img {
+    max-width: 50%;
+    border-radius: 50%; }
+    @media (min-width: 64em) {
+      .testimonial img {
+        max-width: 35%; } }
+  .testimonial blockquote {
+    margin: 0 1em; }
+  .testimonial h2,
+  .testimonial p {
+    margin: 0 1em 1em 1em; }
+  .testimonial img {
+    margin: 1em auto 2em auto;
+    display: block; }
+  .testimonial p:last-child {
+    font-weight: bold; }
+
+:target > h2:before, :target > h3:before, :target > h4:before {
+  content: "";
+  position: relative;
+  top: 0.1em;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.5em 0.5em;
+  border-color: white;
+  border-left-color: #8bc53f; }
+:target > h2:after, :target > h3:after, :target > h4:after {
+  content: "";
+  position: relative;
+  top: 0.1em;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.5em 0.5em;
+  border-color: white;
+  border-right-color: #8bc53f; }
+
+.steps {
+  margin-top: 3em;
+  background-color: #e5e5e5;
+  padding: 1em 2em 1em 4em; }
+  @media (min-width: 38em) {
+    .steps {
+      margin-left: -5%;
+      margin-right: -5%; } }
+  @media (min-width: 50em) {
+    .steps {
+      margin-left: -10%;
+      margin-right: -10%; } }
+  @media (min-width: 64em) {
+    .steps {
+      margin-left: -15%;
+      margin-right: -15%; } }
+  .steps ol {
+    margin-left: 0; }
+  .steps li {
+    padding: 0.75em 0;
+    margin-bottom: 0; }
+
+.steps-hire ol {
+  padding-left: 0; }
+  @media (min-width: 50em) {
+    .steps-hire ol {
+      display: flex;
+      flex-wrap: wrap; } }
+@media (min-width: 50em) {
+  .steps-hire li {
+    margin-right: 5%;
+    flex: 0 1 45%; } }
+
+.steps-learn li:before {
+  top: 0.3em; }
+
+.technologies {
+  background-color: #e5e5e5;
+  padding: 1em 2em 1em 4em; }
+  @media (min-width: 38em) {
+    .technologies {
+      margin-left: -5%;
+      margin-right: -5%; } }
+  @media (min-width: 50em) {
+    .technologies {
+      margin-left: -10%;
+      margin-right: -10%; } }
+  @media (min-width: 64em) {
+    .technologies {
+      margin-left: -15%;
+      margin-right: -15%; } }
+  .technologies ul {
+    padding: 0;
+    margin: 2em 0 0 0; }
+    @media (min-width: 38em) {
+      .technologies ul {
+        columns: 2; } }
+  .technologies li {
+    margin-left: 1em; }
+
+th {
+  text-align: left;
+  padding: 0 0.5em 1em 0; }
+  @media (max-width: 38em) {
+    th {
+      display: block;
+      padding-bottom: 0; } }
+
+td {
+  padding-bottom: 1em; }
+  @media (max-width: 38em) {
+    td {
+      display: block; } }
+
+.details {
+  padding: 1em 1em 0 1em; }
+  @media (min-width: 38em) {
+    .details {
+      margin-left: -5%;
+      margin-right: -5%; } }
+  @media (min-width: 50em) {
+    .details {
+      margin-left: -10%;
+      margin-right: -10%; } }
+  @media (min-width: 64em) {
+    .details {
+      margin-left: -15%;
+      margin-right: -15%; } }
+  .details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .details li {
+    margin-bottom: 3em;
+    padding: 320px 0 0 0;
+    background-color: transparent;
+    background-position: center top;
+    background-repeat: no-repeat; }
+    @media (min-width: 600px) {
+      .details li {
+        background-size: 200px;
+        padding: 1em 0 1em 220px;
+        background-position: left center; } }
+    @media (min-width: 1024px) {
+      .details li {
+        background-size: 400px;
+        padding: 5em 0 5em 420px; } }
+    .details li:nth-child(1) {
+      background-image: url("/css/img/learn/1.jpg"); }
+    .details li:nth-child(2) {
+      background-image: url("/css/img/learn/2.jpg"); }
+    .details li:nth-child(3) {
+      background-image: url("/css/img/learn/3.jpg"); }
+
+.videos {
+  margin-bottom: 3em; }
+
+table {
+  width: 100%; }
+
+th {
+  background-color: #8bc53f; }
+
+th, td {
+  border: 1px solid #8bc53f;
+  padding: 0.5em; }
+
+.sed-table-heading {
+  text-align: center;
+  font-weight: bold; }
+
+.sg-header,
+.sg-subheader {
+  font-size: 1em;
+  font-weight: normal;
+  padding: 0.5em;
+  clear: left;
+  margin: 0;
+  text-transform: none;
+  color: #333; }
+
+.sg-header {
+  margin: 0.5em 0;
+  background-color: #3d3d3d; }
+
+.sg-subheader {
+  background-color: #575757; }
+
+.sg-item {
+  padding: 1em;
+  clear: left; }
+  .sg-item:before, .sg-item:after {
+    content: " ";
+    display: table; }
+  .sg-item:after {
+    clear: both; }
+  .sg-item {
+    *zoom: 1; }
+
+.swatch {
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.25em;
+  text-align: center;
+  padding: 0.75em 1em;
+  color: white; }
+
+.swatch-pcn-first {
+  background-color: #0E6113; }
+
+.swatch-pcn-second {
+  background-color: #8bc53f; }
+
+.swatch-pcn-third {
+  background-color: #3d3d3d; }
+
+.swatch-pcn-fourth {
+  background-color: #e5e5e5; }
+
+.swatch-pcn-fifth {
+  background-color: #5af493; }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+.invisible {
+  visibility: hidden; }
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  .testimonialLink {
+    color: white !important; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group; }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+l¥/$£i      \¢\¢@5[ƒ\¢$A   1    :http://www.projectcodex.co/css/style.css?v=1.0.0 necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+X-GUploader-UploadID: AEnB2UrFHzyuw_SoZOH2Oa6mG-MN38dlvUJDpfJS1JIkcJeaJT6LkQ5G2nbqKMDz-yyN6slQkZKaRwFq0jBjAWQ3Yl5XDkXbFA
+Expires: Mon, 01 Apr 2019 14:46:26 GMT
+Date: Mon, 01 Apr 2019 13:46:26 GMT
+Last-Modified: Tue, 20 Mar 2018 07:41:37 GMT
+ETag: "e4df450ee05864cf1692795d52362830"
+x-goog-generation: 1521531697285258
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 29818
+x-goog-meta-goog-reserved-file-mtime: 1521531581
+Content-Type: text/css
+Content-Language: en
+x-goog-hash: crc32c=qE1q0g==, md5=5N9FDuBYZM8WknldUjYoMA==
+x-goog-storage-class: STANDARD
+Accept-Ranges: bytes
+Content-Length: 29818
+Server: UploadServer
+Cache-Control: public, max-age=3600
+Age: 486
+ original-response-headers X-GUploader-UploadID: AEnB2UrFHzyuw_SoZOH2Oa6mG-MN38dlvUJDpfJS1JIkcJeaJT6LkQ5G2nbqKMDz-yyN6slQkZKaRwFq0jBjAWQ3Yl5XDkXbFA
+Expires: Mon, 01 Apr 2019 14:46:26 GMT
+Date: Mon, 01 Apr 2019 13:46:26 GMT
+Last-Modified: Tue, 20 Mar 2018 07:41:37 GMT
+ETag: "e4df450ee05864cf1692795d52362830"
+x-goog-generation: 1521531697285258
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 29818
+x-goog-meta-goog-reserved-file-mtime: 1521531581
+Content-Type: text/css
+Content-Language: en
+x-goog-hash: crc32c=qE1q0g==
+x-goog-hash: md5=5N9FDuBYZM8WknldUjYoMA==
+x-goog-storage-class: STANDARD
+Accept-Ranges: bytes
+Content-Length: 29818
+Server: UploadServer
+Cache-Control: public, max-age=3600
+Age: 486
+ uncompressed-len 0 net-response-time-onstart 191 net-response-time-onstop 318   tz

@@ -1,0 +1,8 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/codex
+> git status -z -u
+> git show :project/basic-webpage/index.html
+> git check-ignore -z --stdin

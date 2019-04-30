@@ -1,0 +1,186 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/codex
+> git status -z -u
+> git show :project/basic-webpage/simple-grid.css
+> git ls-files --stage -- project/basic-webpage/
+> git check-ignore -z --stdin
+> git show :project/basic-webpage/my-webpage.html
+> git ls-files --stage -- project/basic-webpage/
+> git show :project/basic-webpage/simple-grid.scss
+> git ls-files --stage -- project/basic-webpage/
+> git show :project/basic-webpage/my-webpage.html
+> git ls-files --stage -- project/basic-webpage/
+> git show :project/basic-webpage/my-webpage.html
+> git ls-files --stage -- project/basic-webpage/
+> git show :project/basic-webpage/index.html
+> git ls-files --stage -- project/basic-webpage/
+> git check-ignore -z --stdin
+> git show :project/basic-webpage/simple-grid.scss
+> git show :project/basic-webpage/simple-grid.css
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/simple-grid.scss
+> git show :project/basic-webpage/simple-grid.css
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/simple-grid.css
+> git show :project/basic-webpage/simple-grid.scss
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/simple-grid.scss
+> git show :project/basic-webpage/simple-grid.css
+> git show :project/basic-webpage/simple-grid.scss
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/simple-grid.css
+> git show :project/basic-webpage/simple-grid.scss
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/simple-grid.scss
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html
+> git show :project/basic-webpage/my webpage-grid.html
+> git show :project/basic-webpage/index.html

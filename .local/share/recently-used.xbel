@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/codex" added="2019-04-02T09:07:53Z" modified="2019-04-02T09:07:53Z" visited="2019-04-02T09:07:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-04-02T09:07:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Downloads/GitHubDesktopSetup.exe" added="2019-04-02T09:23:27Z" modified="2019-04-02T09:23:27Z" visited="2019-04-02T09:23:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ms-dos-executable"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-04-02T09:23:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Downloads/GitHubDesktopSetup(1).exe" added="2019-04-02T12:32:57Z" modified="2019-04-02T12:32:57Z" visited="2019-04-02T12:32:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ms-dos-executable"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-04-02T12:32:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_codex0/simple-grid.zip" added="2019-04-05T09:35:49Z" modified="2019-04-05T09:35:49Z" visited="2019-04-05T09:35:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-04-05T09:35:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_codex0/simple-grid-1.zip" added="2019-04-05T12:48:19Z" modified="2019-04-05T12:48:19Z" visited="2019-04-05T12:48:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-04-05T12:48:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/basic/_website/layout-one.html" added="2019-04-05T14:15:30Z" modified="2019-04-29T07:30:00Z" visited="2019-04-05T14:15:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/google-chrome-stable %U&apos;" modified="2019-04-09T07:13:48Z" count="16"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-08T11:12:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/layout-one.html" added="2019-04-08T08:22:28Z" modified="2019-04-29T07:30:00Z" visited="2019-04-08T08:22:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-08T08:22:28Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/google-chrome-stable %U&apos;" modified="2019-04-08T13:38:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Downloads/google-chrome-stable_current_amd64.deb" added="2019-04-08T11:07:09Z" modified="2019-04-08T11:07:09Z" visited="2019-04-08T11:07:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-04-08T11:07:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Downloads/simple-grid.zip" added="2019-04-09T09:19:28Z" modified="2019-04-09T09:19:28Z" visited="2019-04-09T09:19:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-04-09T09:19:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Downloads/simple-grid(1).zip" added="2019-04-09T09:19:58Z" modified="2019-04-09T09:19:58Z" visited="2019-04-09T09:19:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-04-09T09:19:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/siya.png" added="2019-04-09T10:45:03Z" modified="2019-04-09T10:45:10Z" visited="2019-04-09T10:45:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-09T10:45:03Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-09T10:45:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,023%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMG-20180409-WA0002.jpg" added="2019-04-09T11:20:06Z" modified="2019-04-09T11:20:06Z" visited="2019-04-09T11:20:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-09T11:20:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,023%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMG-20180725-WA0011.jpg" added="2019-04-09T11:20:20Z" modified="2019-04-09T11:20:20Z" visited="2019-04-09T11:20:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-09T11:20:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,026%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMAG1190.jpg" added="2019-04-09T11:22:42Z" modified="2019-04-09T11:22:42Z" visited="2019-04-09T11:22:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-09T11:22:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/IMAG1190.jpg" added="2019-04-09T11:22:53Z" modified="2019-04-09T11:22:53Z" visited="2019-04-09T11:22:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-09T11:22:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/basic/_website" added="2019-04-09T11:34:27Z" modified="2019-04-29T07:30:00Z" visited="2019-04-09T11:34:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-04-09T11:34:27Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2019-04-12T09:46:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/siya0.jpg" added="2019-04-09T11:38:44Z" modified="2019-04-09T11:38:44Z" visited="2019-04-09T11:38:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-09T11:38:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/mountain.jpeg" added="2019-04-09T12:32:05Z" modified="2019-04-09T12:32:05Z" visited="2019-04-09T12:32:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-09T12:32:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/intaba.jpg" added="2019-04-09T13:00:05Z" modified="2019-04-12T10:04:47Z" visited="2019-04-09T13:00:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-09T13:00:05Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-12T10:04:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,032%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/dzira.jpg" added="2019-04-12T07:39:20Z" modified="2019-04-12T07:39:37Z" visited="2019-04-12T07:39:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-12T07:39:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/city.jpg" added="2019-04-12T07:53:39Z" modified="2019-04-12T10:04:45Z" visited="2019-04-12T07:53:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-12T07:53:39Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-12T10:04:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/historical.jpg" added="2019-04-12T07:56:07Z" modified="2019-04-12T10:04:46Z" visited="2019-04-12T07:56:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-12T07:56:07Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-12T10:04:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/iziko.jpg" added="2019-04-12T09:34:28Z" modified="2019-04-12T09:34:28Z" visited="2019-04-12T09:34:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-12T09:34:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/mountain.jpg" added="2019-04-12T09:35:50Z" modified="2019-04-12T09:35:50Z" visited="2019-04-12T09:35:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-12T09:35:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/parliament.jpg" added="2019-04-12T09:37:42Z" modified="2019-04-12T09:37:42Z" visited="2019-04-12T09:37:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-12T09:37:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/the_castle_of_good_hope_.jpg" added="2019-04-12T09:40:10Z" modified="2019-04-12T09:40:10Z" visited="2019-04-12T09:40:11Z">
+    <title>the_castle_of_good_hope_.jpg</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable file:///home/codex/Pictures/the_castle_of_good_hope_cape_town.jpg&apos;" modified="2019-04-12T09:40:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/basic-webpage/my%20webpage-grid.html" added="2019-04-12T09:42:07Z" modified="2019-04-29T07:30:00Z" visited="2019-04-12T09:42:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-12T09:42:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/basic/-webpage" added="2019-04-12T09:47:52Z" modified="2019-04-29T07:30:00Z" visited="2019-04-12T09:47:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2019-04-12T09:48:13Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/dzira.jpg" added="2019-04-12T10:04:45Z" modified="2019-04-12T10:04:45Z" visited="2019-04-12T10:04:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-12T10:04:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/s" added="2019-04-12T10:08:50Z" modified="2019-04-29T07:30:00Z" visited="2019-04-12T10:08:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2019-04-29T07:11:41Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/table.jpeg" added="2019-04-15T12:52:57Z" modified="2019-04-16T08:32:31Z" visited="2019-04-15T12:52:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-15T12:52:57Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-16T08:32:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Downloads/simple-grid%20(1).zip" added="2019-04-16T07:27:31Z" modified="2019-04-16T07:29:39Z" visited="2019-04-16T07:27:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2019-04-16T07:29:39Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/basic" added="2019-04-16T07:31:28Z" modified="2019-04-29T07:30:00Z" visited="2019-04-16T07:31:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2019-04-16T07:31:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/tafile.jpeg" added="2019-04-16T08:40:08Z" modified="2019-04-16T08:40:08Z" visited="2019-04-16T08:40:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-16T08:40:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/basic/-webpage/my%20web-page.html" added="2019-04-23T06:24:18Z" modified="2019-04-29T07:30:00Z" visited="2019-04-23T06:24:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/google-chrome-stable %U&apos;" modified="2019-04-23T06:24:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/simple-grid.css" added="2019-04-23T10:54:55Z" modified="2019-04-29T07:30:00Z" visited="2019-04-23T10:54:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-04-23T10:55:16Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/google-chrome-stable %U&apos;" modified="2019-04-23T10:55:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/s/new-webpage/layout-one.html" added="2019-04-24T08:35:47Z" modified="2019-04-29T07:30:00Z" visited="2019-04-24T08:35:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/google-chrome-stable %U&apos;" modified="2019-04-24T08:35:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/s/basic-webpage/new-webpage" added="2019-04-24T09:14:20Z" modified="2019-04-29T07:30:00Z" visited="2019-04-24T09:14:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2019-04-24T09:14:20Z" count="1"/>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-04-24T14:18:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/basic-webpage/index.html" added="2019-04-26T14:25:05Z" modified="2019-04-29T07:30:00Z" visited="2019-04-26T14:25:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-26T14:25:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/s/basic-webpage/new-webpage/index.html" added="2019-04-26T14:26:57Z" modified="2019-04-29T07:30:00Z" visited="2019-04-26T14:26:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-26T14:26:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/projact%201/s/s/basic-webpage" added="2019-04-29T06:48:35Z" modified="2019-04-29T07:30:00Z" visited="2019-04-29T06:48:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2019-04-29T06:48:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,016%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMAG1190.jpg" added="2019-04-29T07:46:25Z" modified="2019-04-29T07:46:25Z" visited="2019-04-29T07:46:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-29T07:46:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,016%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMAG2712_1.jpg" added="2019-04-29T07:46:31Z" modified="2019-04-29T07:46:31Z" visited="2019-04-29T07:46:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-29T07:46:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/landz.jpg" added="2019-04-29T07:47:11Z" modified="2019-04-29T07:47:51Z" visited="2019-04-29T07:47:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-29T07:47:51Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/new-webpage" added="2019-04-29T07:48:23Z" modified="2019-04-29T07:48:23Z" visited="2019-04-29T07:48:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2019-04-29T07:48:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/new-webpage/layouthtml." added="2019-04-29T08:57:49Z" modified="2019-04-29T08:57:49Z" visited="2019-04-29T08:57:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/google-chrome-stable %U&apos;" modified="2019-04-29T08:57:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/new-webpage/landz.jpg" added="2019-04-29T13:49:07Z" modified="2019-04-29T13:49:07Z" visited="2019-04-29T13:49:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-29T13:49:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,031%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMAG1190.jpg" added="2019-04-30T07:25:26Z" modified="2019-04-30T07:25:26Z" visited="2019-04-30T07:25:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-30T07:25:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,031%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMAG2712_1.jpg" added="2019-04-30T07:25:31Z" modified="2019-04-30T07:25:31Z" visited="2019-04-30T07:25:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-30T07:25:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,031%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMAG2718.jpg" added="2019-04-30T07:25:36Z" modified="2019-04-30T07:25:36Z" visited="2019-04-30T07:25:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-30T07:25:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/me.jpg" added="2019-04-30T07:26:04Z" modified="2019-04-30T07:26:04Z" visited="2019-04-30T07:26:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-30T07:26:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,031%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMAG2719_BURST001.jpg" added="2019-04-30T07:26:10Z" modified="2019-04-30T07:26:10Z" visited="2019-04-30T07:26:11Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-30T07:26:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,031%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMAG2719_BURST002_COVER.jpg" added="2019-04-30T07:26:16Z" modified="2019-04-30T07:26:16Z" visited="2019-04-30T07:26:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-30T07:26:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,031%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMAG2720.jpg" added="2019-04-30T07:26:20Z" modified="2019-04-30T07:26:20Z" visited="2019-04-30T07:26:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-30T07:26:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="mtp://%5Busb%3A002,031%5D/SIYA/WhatsApp/Media/WhatsApp%20Images/IMAG2729.jpg" added="2019-04-30T07:26:25Z" modified="2019-04-30T07:26:25Z" visited="2019-04-30T07:26:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-30T07:26:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/me.iziko.jpg" added="2019-04-30T07:26:56Z" modified="2019-04-30T07:26:56Z" visited="2019-04-30T07:26:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-30T07:26:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

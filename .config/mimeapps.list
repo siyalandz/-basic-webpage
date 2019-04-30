@@ -1,0 +1,12 @@
+[Added Associations]
+application/octet-stream=org.gnome.Nautilus.desktop;
+text/plain=google-chrome.desktop;firefox.desktop;
+text/html=google-chrome.desktop;
+text/css=google-chrome.desktop;
+
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop

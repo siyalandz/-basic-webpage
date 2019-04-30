@@ -1,0 +1,12 @@
+2019/04/29-08:49:08.988 3a55 Reusing MANIFEST leveldb/MANIFEST-000001
+2019/04/29-08:49:08.988 3a55 Recovering log #43
+2019/04/29-08:49:08.989 3a55 Reusing old log leveldb/000043.log 
+2019/04/29-09:27:12.375 4b9a Level-0 table #48: started
+2019/04/29-09:27:12.417 4b9a Level-0 table #48: 14513 bytes OK
+2019/04/29-09:27:12.473 4b9a Delete type=0 #43
+2019/04/29-14:16:35.431 5fc9 Level-0 table #50: started
+2019/04/29-14:16:35.501 5fc9 Level-0 table #50: 14058 bytes OK
+2019/04/29-14:16:35.579 5fc9 Delete type=0 #47
+2019/04/29-15:17:21.647 68a3 Level-0 table #52: started
+2019/04/29-15:17:21.713 68a3 Level-0 table #52: 92618 bytes OK
+2019/04/29-15:17:21.780 68a3 Delete type=0 #49

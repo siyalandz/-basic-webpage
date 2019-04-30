@@ -1,0 +1,27 @@
+2019/04/25-16:35:11.548 396 Reusing MANIFEST /home/codex/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2019/04/25-16:35:11.548 396 Recovering log #116
+2019/04/25-16:35:11.548 396 Reusing old log /home/codex/.config/google-chrome/Default/Session Storage/000116.log 
+2019/04/26-12:33:31.342 1bdc Level-0 table #120: started
+2019/04/26-12:33:31.411 1bdc Level-0 table #120: 19062 bytes OK
+2019/04/26-12:33:31.466 1bdc Delete type=0 #116
+2019/04/26-13:00:38.396 1bdc Level-0 table #122: started
+2019/04/26-13:00:38.480 1bdc Level-0 table #122: 15000 bytes OK
+2019/04/26-13:00:38.544 1bdc Delete type=0 #119
+2019/04/26-15:42:26.724 1bdc Level-0 table #124: started
+2019/04/26-15:42:26.862 1bdc Level-0 table #124: 21171 bytes OK
+2019/04/26-15:42:26.927 1bdc Delete type=0 #121
+2019/04/26-15:42:26.927 1bdc Compacting 4@0 + 1@1 files
+2019/04/26-15:42:27.007 1bdc Generated table #125@0: 1534 keys, 57656 bytes
+2019/04/26-15:42:27.007 1bdc Compacted 4@0 + 1@1 files => 57656 bytes
+2019/04/26-15:42:27.049 1bdc compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/04/26-15:42:27.050 1bdc Delete type=2 #115
+2019/04/26-15:42:27.069 1bdc Delete type=2 #122
+2019/04/26-15:42:27.069 1bdc Delete type=2 #117
+2019/04/26-15:42:27.069 1bdc Delete type=2 #124
+2019/04/26-15:42:27.069 1bdc Delete type=2 #120
+2019/04/26-15:42:34.073 1bdc Level-0 table #127: started
+2019/04/26-15:42:34.113 1bdc Level-0 table #127: 24322 bytes OK
+2019/04/26-15:42:34.150 1bdc Delete type=0 #123
+2019/04/26-16:11:20.935 1bdc Level-0 table #129: started
+2019/04/26-16:11:20.996 1bdc Level-0 table #129: 26500 bytes OK
+2019/04/26-16:11:21.033 1bdc Delete type=0 #126

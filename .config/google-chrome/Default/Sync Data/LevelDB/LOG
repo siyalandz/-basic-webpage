@@ -1,0 +1,6 @@
+2019/04/29-08:49:06.827 39a1 Reusing MANIFEST /home/codex/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/04/29-08:49:06.827 39a1 Recovering log #30
+2019/04/29-08:49:06.827 39a1 Reusing old log /home/codex/.config/google-chrome/Default/Sync Data/LevelDB/000030.log 
+2019/04/29-14:50:24.027 4f1b Level-0 table #34: started
+2019/04/29-14:50:24.104 4f1b Level-0 table #34: 94728 bytes OK
+2019/04/29-14:50:24.169 4f1b Delete type=0 #30
