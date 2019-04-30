@@ -9,10 +9,10 @@
     <application id="update-manager.desktop" open-window-count="0" score="0.078125" last-seen="1556541976"/>
     <application id="eog.desktop" open-window-count="0" score="17.15625" last-seen="1556609221"/>
     <application id="code.desktop" open-window-count="1" score="19607.609375" last-seen="1556610382"/>
-    <application id="google-chrome.desktop" open-window-count="1" score="7178.765625" last-seen="1556610409"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="7184.765625" last-seen="1556610630"/>
     <application id="org.gnome.gedit.desktop" open-window-count="0" score="0.5" last-seen="1556016923"/>
     <application id="nautilus-folder-handler.desktop" open-window-count="0" score="0" last-seen="0"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="527.328125" last-seen="1556610403"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="549.328125" last-seen="1556610624"/>
     <application id="org.gnome.Software.desktop" open-window-count="0" score="0.78125" last-seen="1555399731"/>
     <application id="thunderbird.desktop" open-window-count="0" score="1" last-seen="1556522522"/>
   </context>

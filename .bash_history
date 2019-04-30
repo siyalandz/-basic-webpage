@@ -208,3 +208,4 @@ git checkout gh-pages
 git push origin gh-pages
 git add
 git add .
+git commit -m 'edited my pictures on the web page.'

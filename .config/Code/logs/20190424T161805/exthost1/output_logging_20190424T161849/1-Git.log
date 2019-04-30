@@ -3171,3 +3171,5 @@ Open repository: /home/codex
 > git ls-files --stage -- project/new-webpage/
 > git show :project/new-webpage/my-webpage.html
 > git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
