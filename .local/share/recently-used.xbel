@@ -508,7 +508,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/codex/project/new-webpage" added="2019-04-29T07:48:23Z" modified="2019-04-29T07:48:23Z" visited="2019-04-29T07:48:24Z">
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../3/." added="2019-04-29T07:48:23Z" modified="2019-05-07T09:38:43Z" visited="2019-04-29T07:48:24Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
@@ -518,7 +518,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/codex/project/new-webpage/layouthtml." added="2019-04-29T08:57:49Z" modified="2019-04-29T08:57:49Z" visited="2019-04-29T08:57:50Z">
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../3/./layouthtml." added="2019-04-29T08:57:49Z" modified="2019-05-07T09:38:43Z" visited="2019-04-29T08:57:50Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
@@ -528,7 +528,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/codex/project/new-webpage/landz.jpg" added="2019-04-29T13:49:07Z" modified="2019-04-29T13:49:07Z" visited="2019-04-29T13:49:07Z">
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../3/./landz.jpg" added="2019-04-29T13:49:07Z" modified="2019-05-07T09:38:43Z" visited="2019-04-29T13:49:07Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/jpeg"/>
@@ -648,6 +648,265 @@
         <mime:mime-type type="image/jpeg"/>
         <bookmark:applications>
           <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-04-30T07:26:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures/pal.jpeg" added="2019-04-30T13:47:39Z" modified="2019-04-30T13:47:39Z" visited="2019-04-30T13:47:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2019-04-30T13:47:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../3/./landing%20page.html" added="2019-05-02T08:24:45Z" modified="2019-05-07T09:38:43Z" visited="2019-05-02T08:24:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/google-chrome-stable %U&apos;" modified="2019-05-02T08:24:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../3/./simple-grid.scss" added="2019-05-03T12:09:07Z" modified="2019-05-07T09:38:43Z" visited="2019-05-03T12:09:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-05-03T12:09:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../%202" added="2019-05-03T12:11:32Z" modified="2019-05-07T09:38:43Z" visited="2019-05-03T12:11:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T12:16:00Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../3/index.html" added="2019-05-06T07:22:06Z" modified="2019-05-07T09:38:43Z" visited="2019-05-06T07:22:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T07:22:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/Pictures" added="2019-05-06T09:01:59Z" modified="2019-05-06T09:01:59Z" visited="2019-05-06T09:01:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Déjà Dup Backup Tool" exec="&apos;org.gnome.DejaDup %u&apos;" modified="2019-05-06T09:01:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../3" added="2019-05-06T09:26:35Z" modified="2019-05-07T09:38:43Z" visited="2019-05-06T09:26:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T09:26:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../%202/my%20webpage-grid.html" added="2019-05-06T09:43:01Z" modified="2019-05-07T09:38:43Z" visited="2019-05-06T09:43:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T10:45:01Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/new-web%20page" added="2019-05-06T10:05:08Z" modified="2019-05-06T10:59:14Z" visited="2019-05-06T10:05:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T10:59:14Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/new-web%20page/my%20web-page.html" added="2019-05-06T10:16:12Z" modified="2019-05-06T10:16:12Z" visited="2019-05-06T10:16:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T10:16:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/new-web%20page/my%20webpage.html" added="2019-05-06T10:24:51Z" modified="2019-05-06T12:16:24Z" visited="2019-05-06T10:24:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T12:16:24Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/new-web%20page/my%20webpage-grid.html" added="2019-05-06T10:54:15Z" modified="2019-05-06T10:54:15Z" visited="2019-05-06T10:54:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T10:54:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/layout-one.html" added="2019-05-06T12:55:24Z" modified="2019-05-07T09:38:43Z" visited="2019-05-06T12:55:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T12:55:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/index.html" added="2019-05-06T12:56:39Z" modified="2019-05-07T09:38:43Z" visited="2019-05-06T12:56:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-07T08:41:25Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../my%20web-page.html" added="2019-05-06T13:57:41Z" modified="2019-05-07T09:38:43Z" visited="2019-05-06T13:57:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T13:57:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../my-webpage.html" added="2019-05-06T13:58:31Z" modified="2019-05-07T09:38:43Z" visited="2019-05-06T13:58:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T13:58:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage../style.css" added="2019-05-06T13:59:08Z" modified="2019-05-07T09:38:43Z" visited="2019-05-06T13:59:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T13:59:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/new-webpage.." added="2019-05-06T14:08:57Z" modified="2019-05-07T09:38:43Z" visited="2019-05-06T14:08:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-06T14:08:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/me.jpg" added="2019-05-06T14:11:36Z" modified="2019-05-07T10:48:16Z" visited="2019-05-06T14:11:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-05-06T14:11:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/newStyle.css" added="2019-05-07T07:33:37Z" modified="2019-05-07T10:48:16Z" visited="2019-05-07T07:33:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-07T07:33:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/newPage.html" added="2019-05-07T07:35:18Z" modified="2019-05-07T10:48:16Z" visited="2019-05-07T07:35:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-07T07:35:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/web.page.index.html" added="2019-05-07T08:40:59Z" modified="2019-05-07T10:48:16Z" visited="2019-05-07T08:40:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-07T08:40:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage/grid/simple-grid.scss" added="2019-05-07T10:46:28Z" modified="2019-05-07T10:47:21Z" visited="2019-05-07T10:46:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-05-07T10:46:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project" added="2019-05-07T10:53:59Z" modified="2019-05-07T10:53:59Z" visited="2019-05-07T10:53:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-07T10:53:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/codex/project/basic-webpage" added="2019-05-07T10:54:23Z" modified="2019-05-07T10:54:23Z" visited="2019-05-07T10:54:23.574856Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-05-07T10:54:23Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

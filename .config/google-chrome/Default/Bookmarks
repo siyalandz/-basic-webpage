@@ -6,10 +6,10 @@
             "date_added": "13200476502570586",
             "id": "5",
             "meta_info": {
-               "last_visited_desktop": "13200572050880395"
+               "last_visited_desktop": "13201612443989753"
             },
             "name": "my webpage(SIYANDA)",
-            "sync_transaction_version": "40",
+            "sync_transaction_version": "41",
             "type": "url",
             "url": "file:///home/codex/project/basic-webpage/my-webpage.html"
          } ],
@@ -27,7 +27,7 @@
          "name": "Other bookmarks",
          "type": "folder"
       },
-      "sync_transaction_version": "40",
+      "sync_transaction_version": "41",
       "synced": {
          "children": [  ],
          "date_added": "13199195316397937",

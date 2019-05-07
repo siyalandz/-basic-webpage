@@ -43,18 +43,7 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/codex/project/new-webpage",
-                                        "external": "file:///home/codex/project/new-webpage",
-                                        "path": "/home/codex/project/new-webpage",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/project/new-webpage"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
+                                        "fsPath": "/home/codex/project/basic-webpage",
                                         "external": "file:///home/codex/project/basic-webpage",
                                         "path": "/home/codex/project/basic-webpage",
                                         "scheme": "file"
@@ -66,12 +55,34 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/codex/projects/basic_website",
-                                        "path": "/home/codex/projects/basic_website",
+                                        "external": "file:///home/codex/project",
+                                        "path": "/home/codex/project",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/projects/basic_website"
+                                    "label": "~/project"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/new-webpage%202",
+                                        "path": "/home/codex/project/new-webpage 2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/new-webpage 2"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/new-web%20page%203",
+                                        "path": "/home/codex/project/new-web page 3",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/new-web page 3"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -83,6 +94,119 @@
                                     },
                                     "enabled": true,
                                     "label": "/home/codex"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/basic_website/index.html",
+                                        "path": "/home/codex/project/basic_website/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/basic_website/index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/basic_website/new-webpage../web.page.index.html",
+                                        "path": "/home/codex/project/basic_website/new-webpage../web.page.index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/basic_website/new-webpage../web.page.index.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/basic_website/new-webpage../style.css",
+                                        "path": "/home/codex/project/basic_website/new-webpage../style.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/basic_website/new-webpage../style.css"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/basic_website/new-webpage../my-webpage.html",
+                                        "path": "/home/codex/project/basic_website/new-webpage../my-webpage.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/basic_website/new-webpage../my-webpage.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/basic_website/new-webpage../my%20web-page.html",
+                                        "path": "/home/codex/project/basic_website/new-webpage../my web-page.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/basic_website/new-webpage../my web-page.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/basic_website/layout-one.html",
+                                        "path": "/home/codex/project/basic_website/layout-one.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/basic_website/layout-one.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/new-web%20page/my%20webpage.html",
+                                        "path": "/home/codex/project/new-web page/my webpage.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/new-web page/my webpage.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/new-web%20page/my%20webpage-grid.html",
+                                        "path": "/home/codex/project/new-web page/my webpage-grid.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/new-web page/my webpage-grid.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/new-webpage%202/my%20webpage-grid.html",
+                                        "path": "/home/codex/project/new-webpage 2/my webpage-grid.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/new-webpage 2/my webpage-grid.html"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/codex/project/new-web%20page/my%20web-page.html",
+                                        "path": "/home/codex/project/new-web page/my web-page.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/project/new-web page/my web-page.html"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -839,7 +963,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1398,17 +1523,30 @@
     "pickerWorkingDir": "/home/codex/project",
     "openedPathsList": {
         "workspaces3": [
-            "file:///home/codex/project/new-webpage",
             "file:///home/codex/project/basic-webpage",
-            "file:///home/codex/projects/basic_website",
+            "file:///home/codex/project",
+            "file:///home/codex/project/new-webpage%202",
+            "file:///home/codex/project/new-web%20page%203",
             "file:///home/codex"
         ],
-        "files2": []
+        "files2": [
+            "file:///home/codex/project/basic_website/index.html",
+            "file:///home/codex/project/basic_website/new-webpage../web.page.index.html",
+            "file:///home/codex/project/basic_website/new-webpage../style.css",
+            "file:///home/codex/project/basic_website/new-webpage../my-webpage.html",
+            "file:///home/codex/project/basic_website/new-webpage../my%20web-page.html",
+            "file:///home/codex/project/basic_website/layout-one.html",
+            "file:///home/codex/project/new-web%20page/my%20webpage.html",
+            "file:///home/codex/project/new-web%20page/my%20webpage-grid.html",
+            "file:///home/codex/project/new-webpage%202/my%20webpage-grid.html",
+            "file:///home/codex/project/new-web%20page/my%20web-page.html",
+            "file:///home/codex/project/new-web%20page%203/index.html"
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/codex/project/basic-webpage",
-            "backupPath": "/home/codex/.config/Code/Backups/70016ae533aafc290f32cd25e69eddca",
+            "folder": "file:///home/codex/project/basic_website/new-webpage..",
+            "backupPath": "/home/codex/.config/Code/Backups/5f64201b51aa684212cab6e3e29f4cdd",
             "uiState": {
                 "mode": 0,
                 "x": 67,

@@ -1,763 +1,554 @@
-[    87.737] (--) Log file renamed from "/home/codex/.local/share/xorg/Xorg.pid-1261.log" to "/home/codex/.local/share/xorg/Xorg.0.log"
-[    87.738] 
+[    63.487] (--) Log file renamed from "/home/codex/.local/share/xorg/Xorg.pid-1248.log" to "/home/codex/.local/share/xorg/Xorg.0.log"
+[    63.487] 
 X.Org X Server 1.19.6
 Release Date: 2017-12-20
-[    87.738] X Protocol Version 11, Revision 0
-[    87.738] Build Operating System: Linux 4.4.0-138-generic x86_64 Ubuntu
-[    87.738] Current Operating System: Linux codex-Inspiron-3558 4.15.0-47-generic #50-Ubuntu SMP Wed Mar 13 10:44:52 UTC 2019 x86_64
-[    87.738] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-47-generic root=UUID=66d05cf0-361f-4467-ac43-ed2a4d156a9c ro quiet splash vt.handoff=1
-[    87.738] Build Date: 25 October 2018  04:11:27PM
-[    87.738] xorg-server 2:1.19.6-1ubuntu4.2 (For technical support please see http://www.ubuntu.com/support) 
-[    87.738] Current version of pixman: 0.34.0
-[    87.738] 	Before reporting problems, check http://wiki.x.org
+[    63.487] X Protocol Version 11, Revision 0
+[    63.487] Build Operating System: Linux 4.4.0-138-generic x86_64 Ubuntu
+[    63.487] Current Operating System: Linux codex-Inspiron-3558 4.15.0-47-generic #50-Ubuntu SMP Wed Mar 13 10:44:52 UTC 2019 x86_64
+[    63.487] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-47-generic root=UUID=66d05cf0-361f-4467-ac43-ed2a4d156a9c ro quiet splash vt.handoff=1
+[    63.487] Build Date: 25 October 2018  04:11:27PM
+[    63.487] xorg-server 2:1.19.6-1ubuntu4.2 (For technical support please see http://www.ubuntu.com/support) 
+[    63.487] Current version of pixman: 0.34.0
+[    63.487] 	Before reporting problems, check http://wiki.x.org
 	to make sure that you have the latest version.
-[    87.738] Markers: (--) probed, (**) from config file, (==) default setting,
+[    63.487] Markers: (--) probed, (**) from config file, (==) default setting,
 	(++) from command line, (!!) notice, (II) informational,
 	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
-[    87.738] (==) Log file: "/home/codex/.local/share/xorg/Xorg.0.log", Time: Tue Apr 23 08:17:23 2019
-[    87.767] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
-[    87.793] (==) No Layout section.  Using the first Screen section.
-[    87.793] (==) No screen section available. Using defaults.
-[    87.794] (**) |-->Screen "Default Screen Section" (0)
-[    87.794] (**) |   |-->Monitor "<default monitor>"
-[    87.815] (==) No monitor specified for screen "Default Screen Section".
+[    63.487] (==) Log file: "/home/codex/.local/share/xorg/Xorg.0.log", Time: Mon May  6 11:23:40 2019
+[    63.537] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    63.564] (==) No Layout section.  Using the first Screen section.
+[    63.564] (==) No screen section available. Using defaults.
+[    63.564] (**) |-->Screen "Default Screen Section" (0)
+[    63.564] (**) |   |-->Monitor "<default monitor>"
+[    63.586] (==) No monitor specified for screen "Default Screen Section".
 	Using a default monitor configuration.
-[    87.815] (==) Automatically adding devices
-[    87.815] (==) Automatically enabling devices
-[    87.815] (==) Automatically adding GPU devices
-[    87.815] (==) Automatically binding GPU devices
-[    87.815] (==) Max clients allowed: 256, resource mask: 0x1fffff
-[    87.815] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
-[    87.815] 	Entry deleted from font path.
-[    87.815] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
-[    87.815] 	Entry deleted from font path.
-[    87.815] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
-[    87.815] 	Entry deleted from font path.
-[    87.815] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
-[    87.815] 	Entry deleted from font path.
-[    87.815] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
-[    87.815] 	Entry deleted from font path.
-[    87.815] (==) FontPath set to:
+[    63.586] (==) Automatically adding devices
+[    63.586] (==) Automatically enabling devices
+[    63.586] (==) Automatically adding GPU devices
+[    63.586] (==) Automatically binding GPU devices
+[    63.586] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    63.586] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    63.586] 	Entry deleted from font path.
+[    63.586] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    63.586] 	Entry deleted from font path.
+[    63.586] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    63.586] 	Entry deleted from font path.
+[    63.586] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    63.586] 	Entry deleted from font path.
+[    63.586] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    63.586] 	Entry deleted from font path.
+[    63.586] (==) FontPath set to:
 	/usr/share/fonts/X11/misc,
 	/usr/share/fonts/X11/Type1,
 	built-ins
-[    87.815] (==) ModulePath set to "/usr/lib/xorg/modules"
-[    87.815] (II) The server relies on udev to provide the list of input devices.
+[    63.586] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    63.586] (II) The server relies on udev to provide the list of input devices.
 	If no devices become available, reconfigure udev or disable AutoAddDevices.
-[    87.823] (II) Loader magic: 0x55a07b734020
-[    87.823] (II) Module ABI versions:
-[    87.823] 	X.Org ANSI C Emulation: 0.4
-[    87.823] 	X.Org Video Driver: 23.0
-[    87.823] 	X.Org XInput driver : 24.1
-[    87.823] 	X.Org Server Extension : 10.0
-[    87.824] (++) using VT number 2
+[    63.594] (II) Loader magic: 0x563b205ca020
+[    63.594] (II) Module ABI versions:
+[    63.594] 	X.Org ANSI C Emulation: 0.4
+[    63.594] 	X.Org Video Driver: 23.0
+[    63.594] 	X.Org XInput driver : 24.1
+[    63.594] 	X.Org Server Extension : 10.0
+[    63.595] (++) using VT number 2
 
-[    87.827] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_33
-[    87.828] (II) xfree86: Adding drm device (/dev/dri/card0)
-[    87.828] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
-[    87.831] (--) PCI:*(0:0:2:0) 8086:1616:1028:06b0 rev 9, Mem @ 0xa8000000/16777216, 0xb0000000/268435456, I/O @ 0x00004000/64, BIOS @ 0x????????/131072
-[    87.831] (II) LoadModule: "glx"
-[    87.866] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
-[    87.895] (II) Module glx: vendor="X.Org Foundation"
-[    87.895] 	compiled for 1.19.6, module version = 1.0.0
-[    87.895] 	ABI class: X.Org Server Extension, version 10.0
-[    87.895] (==) Matched modesetting as autoconfigured driver 0
-[    87.895] (==) Matched fbdev as autoconfigured driver 1
-[    87.895] (==) Matched vesa as autoconfigured driver 2
-[    87.895] (==) Assigned the driver to the xf86ConfigLayout
-[    87.895] (II) LoadModule: "modesetting"
-[    87.895] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
-[    87.907] (II) Module modesetting: vendor="X.Org Foundation"
-[    87.907] 	compiled for 1.19.6, module version = 1.19.6
-[    87.907] 	Module class: X.Org Video Driver
-[    87.907] 	ABI class: X.Org Video Driver, version 23.0
-[    87.907] (II) LoadModule: "fbdev"
-[    87.907] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
-[    87.926] (II) Module fbdev: vendor="X.Org Foundation"
-[    87.926] 	compiled for 1.19.3, module version = 0.4.4
-[    87.926] 	Module class: X.Org Video Driver
-[    87.926] 	ABI class: X.Org Video Driver, version 23.0
-[    87.926] (II) LoadModule: "vesa"
-[    87.926] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
-[    87.933] (II) Module vesa: vendor="X.Org Foundation"
-[    87.933] 	compiled for 1.19.3, module version = 2.3.4
-[    87.933] 	Module class: X.Org Video Driver
-[    87.933] 	ABI class: X.Org Video Driver, version 23.0
-[    87.933] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
-[    87.933] (II) FBDEV: driver for framebuffer: fbdev
-[    87.933] (II) VESA: driver for VESA chipsets: vesa
-[    87.934] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
-[    87.934] (II) modeset(0): using drv /dev/dri/card0
-[    87.934] (WW) Falling back to old probe method for fbdev
-[    87.934] (II) Loading sub module "fbdevhw"
-[    87.934] (II) LoadModule: "fbdevhw"
-[    87.934] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
-[    87.951] (II) Module fbdevhw: vendor="X.Org Foundation"
-[    87.951] 	compiled for 1.19.6, module version = 0.0.2
-[    87.951] 	ABI class: X.Org Video Driver, version 23.0
-[    87.951] (EE) open /dev/fb0: Permission denied
-[    87.951] (WW) Falling back to old probe method for vesa
-[    87.951] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
-[    87.951] (II) modeset(0): Creating default Display subsection in Screen section
+[    63.597] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_32
+[    63.598] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    63.601] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+[    63.604] (--) PCI:*(0:0:2:0) 8086:1616:1028:06b0 rev 9, Mem @ 0xa8000000/16777216, 0xb0000000/268435456, I/O @ 0x00004000/64, BIOS @ 0x????????/131072
+[    63.604] (II) LoadModule: "glx"
+[    63.705] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    63.746] (II) Module glx: vendor="X.Org Foundation"
+[    63.746] 	compiled for 1.19.6, module version = 1.0.0
+[    63.746] 	ABI class: X.Org Server Extension, version 10.0
+[    63.746] (==) Matched modesetting as autoconfigured driver 0
+[    63.746] (==) Matched fbdev as autoconfigured driver 1
+[    63.746] (==) Matched vesa as autoconfigured driver 2
+[    63.746] (==) Assigned the driver to the xf86ConfigLayout
+[    63.746] (II) LoadModule: "modesetting"
+[    63.747] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    63.758] (II) Module modesetting: vendor="X.Org Foundation"
+[    63.758] 	compiled for 1.19.6, module version = 1.19.6
+[    63.758] 	Module class: X.Org Video Driver
+[    63.758] 	ABI class: X.Org Video Driver, version 23.0
+[    63.758] (II) LoadModule: "fbdev"
+[    63.758] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    63.777] (II) Module fbdev: vendor="X.Org Foundation"
+[    63.777] 	compiled for 1.19.3, module version = 0.4.4
+[    63.777] 	Module class: X.Org Video Driver
+[    63.777] 	ABI class: X.Org Video Driver, version 23.0
+[    63.777] (II) LoadModule: "vesa"
+[    63.777] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    63.784] (II) Module vesa: vendor="X.Org Foundation"
+[    63.784] 	compiled for 1.19.3, module version = 2.3.4
+[    63.784] 	Module class: X.Org Video Driver
+[    63.784] 	ABI class: X.Org Video Driver, version 23.0
+[    63.784] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    63.784] (II) FBDEV: driver for framebuffer: fbdev
+[    63.784] (II) VESA: driver for VESA chipsets: vesa
+[    63.785] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[    63.785] (II) modeset(0): using drv /dev/dri/card0
+[    63.785] (WW) Falling back to old probe method for fbdev
+[    63.785] (II) Loading sub module "fbdevhw"
+[    63.785] (II) LoadModule: "fbdevhw"
+[    63.785] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    63.800] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    63.800] 	compiled for 1.19.6, module version = 0.0.2
+[    63.800] 	ABI class: X.Org Video Driver, version 23.0
+[    63.800] (EE) open /dev/fb0: Permission denied
+[    63.800] (WW) Falling back to old probe method for vesa
+[    63.800] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    63.800] (II) modeset(0): Creating default Display subsection in Screen section
 	"Default Screen Section" for depth/fbbpp 24/32
-[    87.951] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
-[    87.951] (==) modeset(0): RGB weight 888
-[    87.951] (==) modeset(0): Default visual is TrueColor
-[    87.951] (II) Loading sub module "glamoregl"
-[    87.951] (II) LoadModule: "glamoregl"
-[    87.951] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
-[    87.977] (II) Module glamoregl: vendor="X.Org Foundation"
-[    87.977] 	compiled for 1.19.6, module version = 1.0.0
-[    87.977] 	ABI class: X.Org ANSI C Emulation, version 0.4
-[    87.977] (II) glamor: OpenGL accelerated X.org driver based.
-[    87.994] (II) glamor: EGL version 1.4 (DRI2):
-[    88.000] (II) modeset(0): glamor initialized
-[    88.002] (II) modeset(0): Output eDP-1 has no monitor section
-[    88.010] (II) modeset(0): Output HDMI-1 has no monitor section
-[    88.015] (II) modeset(0): EDID for output eDP-1
-[    88.015] (II) modeset(0): Manufacturer: LGD  Model: 456  Serial#: 0
-[    88.015] (II) modeset(0): Year: 2014  Week: 0
-[    88.015] (II) modeset(0): EDID Version: 1.4
-[    88.015] (II) modeset(0): Digital Display Input
-[    88.015] (II) modeset(0): 6 bits per channel
-[    88.015] (II) modeset(0): Digital interface is DisplayPort
-[    88.015] (II) modeset(0): Max Image Size [cm]: horiz.: 34  vert.: 19
-[    88.015] (II) modeset(0): Gamma: 2.20
-[    88.015] (II) modeset(0): No DPMS capabilities specified
-[    88.015] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
-[    88.015] (II) modeset(0): First detailed timing is preferred mode
-[    88.015] (II) modeset(0): Preferred mode is native pixel format and refresh rate
-[    88.015] (II) modeset(0): redX: 0.578 redY: 0.344   greenX: 0.337 greenY: 0.571
-[    88.015] (II) modeset(0): blueX: 0.159 blueY: 0.120   whiteX: 0.313 whiteY: 0.329
-[    88.015] (II) modeset(0): Manufacturer's mask: 0
-[    88.015] (II) modeset(0): Supported detailed timing:
-[    88.015] (II) modeset(0): clock: 76.3 MHz   Image Size:  344 x 194 mm
-[    88.015] (II) modeset(0): h_active: 1366  h_sync: 1414  h_sync_end 1446 h_blank_end 1610 h_border: 0
-[    88.015] (II) modeset(0): v_active: 768  v_sync: 771  v_sync_end 776 v_blanking: 790 v_border: 0
-[    88.015] (II) modeset(0): Supported detailed timing:
-[    88.015] (II) modeset(0): clock: 61.0 MHz   Image Size:  344 x 194 mm
-[    88.015] (II) modeset(0): h_active: 1366  h_sync: 1414  h_sync_end 1446 h_blank_end 1610 h_border: 0
-[    88.015] (II) modeset(0): v_active: 768  v_sync: 771  v_sync_end 776 v_blanking: 790 v_border: 0
-[    88.015] (II) modeset(0):  DCR74€156WHB
-[    88.015] (II) modeset(0): Unknown vendor-specific block 0
-[    88.015] (II) modeset(0): EDID (in hex):
-[    88.015] (II) modeset(0): 	00ffffffffffff0030e4560400000000
-[    88.015] (II) modeset(0): 	00180104952213780a05f59458569228
-[    88.015] (II) modeset(0): 	1e505400000001010101010101010101
-[    88.015] (II) modeset(0): 	010101010101d01d56f4500016303020
-[    88.015] (II) modeset(0): 	350058c21000001ad91756f450001630
-[    88.015] (II) modeset(0): 	3020350058c21000001a000000fe0044
-[    88.015] (II) modeset(0): 	43523734803135365748420a00000000
-[    88.016] (II) modeset(0): 	00004131940010000009010a20200085
-[    88.016] (II) modeset(0): Printing probed modes for output eDP-1
-[    88.016] (II) modeset(0): Modeline "1366x768"x60.0   76.32  1366 1414 1446 1610  768 771 776 790 +hsync -vsync (47.4 kHz eP)
-[    88.016] (II) modeset(0): Modeline "1366x768"x48.0   61.05  1366 1414 1446 1610  768 771 776 790 +hsync -vsync (37.9 kHz e)
-[    88.016] (II) modeset(0): Modeline "1360x768"x59.8   84.75  1360 1432 1568 1776  768 771 781 798 -hsync +vsync (47.7 kHz d)
-[    88.016] (II) modeset(0): Modeline "1360x768"x60.0   72.00  1360 1408 1440 1520  768 771 781 790 +hsync -vsync (47.4 kHz d)
-[    88.016] (II) modeset(0): Modeline "1280x720"x120.0  156.12  1280 1376 1512 1744  720 721 724 746 doublescan -hsync +vsync (89.5 kHz d)
-[    88.016] (II) modeset(0): Modeline "1280x720"x120.0  120.75  1280 1304 1320 1360  720 721 724 740 doublescan +hsync -vsync (88.8 kHz d)
-[    88.016] (II) modeset(0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz d)
-[    88.016] (II) modeset(0): Modeline "1280x720"x59.7   63.75  1280 1328 1360 1440  720 723 728 741 +hsync -vsync (44.3 kHz d)
-[    88.016] (II) modeset(0): Modeline "1024x768"x120.1  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
-[    88.016] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz d)
-[    88.016] (II) modeset(0): Modeline "960x720"x120.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
-[    88.016] (II) modeset(0): Modeline "928x696"x120.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
-[    88.016] (II) modeset(0): Modeline "896x672"x120.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
-[    88.016] (II) modeset(0): Modeline "1024x576"x119.9   98.50  1024 1092 1200 1376  576 577 580 597 doublescan -hsync +vsync (71.6 kHz d)
-[    88.016] (II) modeset(0): Modeline "1024x576"x119.9   78.38  1024 1048 1064 1104  576 577 580 592 doublescan +hsync -vsync (71.0 kHz d)
-[    88.016] (II) modeset(0): Modeline "1024x576"x59.9   46.50  1024 1064 1160 1296  576 579 584 599 -hsync +vsync (35.9 kHz d)
-[    88.016] (II) modeset(0): Modeline "1024x576"x59.8   42.00  1024 1072 1104 1184  576 579 584 593 +hsync -vsync (35.5 kHz d)
-[    88.016] (II) modeset(0): Modeline "960x600"x119.9   96.62  960 1028 1128 1296  600 601 604 622 doublescan -hsync +vsync (74.6 kHz d)
-[    88.016] (II) modeset(0): Modeline "960x600"x120.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
-[    88.016] (II) modeset(0): Modeline "960x540"x119.9   86.50  960 1024 1124 1288  540 541 544 560 doublescan -hsync +vsync (67.2 kHz d)
-[    88.016] (II) modeset(0): Modeline "960x540"x120.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
-[    88.016] (II) modeset(0): Modeline "960x540"x59.6   40.75  960 992 1088 1216  540 543 548 562 -hsync +vsync (33.5 kHz d)
-[    88.016] (II) modeset(0): Modeline "960x540"x59.8   37.25  960 1008 1040 1120  540 543 548 556 +hsync -vsync (33.3 kHz d)
-[    88.016] (II) modeset(0): Modeline "800x600"x120.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
-[    88.016] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz d)
-[    88.016] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
-[    88.017] (II) modeset(0): Modeline "840x525"x120.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
-[    88.017] (II) modeset(0): Modeline "840x525"x119.8   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
-[    88.017] (II) modeset(0): Modeline "864x486"x59.9   32.50  864 888 968 1072  486 489 494 506 -hsync +vsync (30.3 kHz d)
-[    88.017] (II) modeset(0): Modeline "864x486"x59.6   30.50  864 912 944 1024  486 489 494 500 +hsync -vsync (29.8 kHz d)
-[    88.017] (II) modeset(0): Modeline "800x512"x120.3   51.56  800 800 828 832  512 512 514 515 doublescan +hsync +vsync (62.0 kHz d)
-[    88.017] (II) modeset(0): Modeline "700x525"x120.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
-[    88.017] (II) modeset(0): Modeline "800x450"x119.9   59.12  800 848 928 1056  450 451 454 467 doublescan -hsync +vsync (56.0 kHz d)
-[    88.017] (II) modeset(0): Modeline "800x450"x119.6   48.75  800 824 840 880  450 451 454 463 doublescan +hsync -vsync (55.4 kHz d)
-[    88.017] (II) modeset(0): Modeline "640x512"x120.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
-[    88.017] (II) modeset(0): Modeline "720x450"x119.8   53.25  720 760 836 952  450 451 454 467 doublescan -hsync +vsync (55.9 kHz d)
-[    88.017] (II) modeset(0): Modeline "700x450"x119.9   51.75  700 740 812 924  450 451 456 467 doublescan -hsync +vsync (56.0 kHz d)
-[    88.017] (II) modeset(0): Modeline "700x450"x119.8   43.25  700 724 740 780  450 451 456 463 doublescan +hsync -vsync (55.4 kHz d)
-[    88.017] (II) modeset(0): Modeline "640x480"x120.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
-[    88.017] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz d)
-[    88.017] (II) modeset(0): Modeline "720x405"x59.5   22.50  720 744 808 896  405 408 413 422 -hsync +vsync (25.1 kHz d)
-[    88.017] (II) modeset(0): Modeline "720x405"x59.0   21.75  720 768 800 880  405 408 413 419 +hsync -vsync (24.7 kHz d)
-[    88.017] (II) modeset(0): Modeline "684x384"x119.8   42.62  684 720 788 892  384 385 390 399 doublescan -hsync +vsync (47.8 kHz d)
-[    88.017] (II) modeset(0): Modeline "684x384"x119.7   36.12  684 708 724 764  384 385 390 395 doublescan +hsync -vsync (47.3 kHz d)
-[    88.017] (II) modeset(0): Modeline "680x384"x119.6   42.38  680 716 784 888  384 385 390 399 doublescan -hsync +vsync (47.7 kHz d)
-[    88.017] (II) modeset(0): Modeline "680x384"x119.9   36.00  680 704 720 760  384 385 390 395 doublescan +hsync -vsync (47.4 kHz d)
-[    88.017] (II) modeset(0): Modeline "640x400"x119.8   41.75  640 676 740 840  400 401 404 415 doublescan -hsync +vsync (49.7 kHz d)
-[    88.017] (II) modeset(0): Modeline "640x400"x120.0   35.50  640 664 680 720  400 401 404 411 doublescan +hsync -vsync (49.3 kHz d)
-[    88.017] (II) modeset(0): Modeline "576x432"x120.1   40.81  576 608 668 760  432 432 434 447 doublescan -hsync +vsync (53.7 kHz d)
-[    88.017] (II) modeset(0): Modeline "640x360"x119.7   37.25  640 672 736 832  360 361 364 374 doublescan -hsync +vsync (44.8 kHz d)
-[    88.017] (II) modeset(0): Modeline "640x360"x119.7   31.88  640 664 680 720  360 361 364 370 doublescan +hsync -vsync (44.3 kHz d)
-[    88.017] (II) modeset(0): Modeline "640x360"x59.8   18.00  640 664 720 800  360 363 368 376 -hsync +vsync (22.5 kHz d)
-[    88.017] (II) modeset(0): Modeline "640x360"x59.3   17.75  640 688 720 800  360 363 368 374 +hsync -vsync (22.2 kHz d)
-[    88.017] (II) modeset(0): Modeline "512x384"x120.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
-[    88.017] (II) modeset(0): Modeline "512x288"x120.0   23.25  512 532 580 648  288 289 292 299 doublescan -hsync +vsync (35.9 kHz d)
-[    88.017] (II) modeset(0): Modeline "512x288"x119.8   21.00  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (35.5 kHz d)
-[    88.017] (II) modeset(0): Modeline "480x270"x119.3   20.38  480 496 544 608  270 271 274 281 doublescan -hsync +vsync (33.5 kHz d)
-[    88.017] (II) modeset(0): Modeline "480x270"x119.6   18.62  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (33.3 kHz d)
-[    88.017] (II) modeset(0): Modeline "400x300"x120.6   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
-[    88.017] (II) modeset(0): Modeline "400x300"x112.7   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
-[    88.017] (II) modeset(0): Modeline "432x243"x119.8   16.25  432 444 484 536  243 244 247 253 doublescan -hsync +vsync (30.3 kHz d)
-[    88.017] (II) modeset(0): Modeline "432x243"x119.1   15.25  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (29.8 kHz d)
-[    88.017] (II) modeset(0): Modeline "320x240"x120.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
-[    88.017] (II) modeset(0): Modeline "360x202"x119.0   11.25  360 372 404 448  202 204 206 211 doublescan -hsync +vsync (25.1 kHz d)
-[    88.017] (II) modeset(0): Modeline "360x202"x118.3   10.88  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (24.7 kHz d)
-[    88.017] (II) modeset(0): Modeline "320x180"x119.7    9.00  320 332 360 400  180 181 184 188 doublescan -hsync +vsync (22.5 kHz d)
-[    88.017] (II) modeset(0): Modeline "320x180"x118.6    8.88  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (22.2 kHz d)
-[    88.026] (II) modeset(0): EDID for output HDMI-1
-[    88.026] (II) modeset(0): Output eDP-1 connected
-[    88.026] (II) modeset(0): Output HDMI-1 disconnected
-[    88.026] (II) modeset(0): Using exact sizes for initial modes
-[    88.026] (II) modeset(0): Output eDP-1 using initial mode 1366x768 +0+0
-[    88.026] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
-[    88.026] (==) modeset(0): DPI set to (96, 96)
-[    88.026] (II) Loading sub module "fb"
-[    88.026] (II) LoadModule: "fb"
-[    88.026] (II) Loading /usr/lib/xorg/modules/libfb.so
-[    88.041] (II) Module fb: vendor="X.Org Foundation"
-[    88.041] 	compiled for 1.19.6, module version = 1.0.0
-[    88.041] 	ABI class: X.Org ANSI C Emulation, version 0.4
-[    88.041] (II) UnloadModule: "fbdev"
-[    88.041] (II) Unloading fbdev
-[    88.041] (II) UnloadSubModule: "fbdevhw"
-[    88.041] (II) Unloading fbdevhw
-[    88.041] (II) UnloadModule: "vesa"
-[    88.041] (II) Unloading vesa
-[    88.041] (==) Depth 24 pixmap format is 32 bpp
-[    88.147] (==) modeset(0): Backing store enabled
-[    88.147] (==) modeset(0): Silken mouse enabled
-[    88.147] (II) modeset(0): RandR 1.2 enabled, ignore the following RandR disabled message.
-[    88.214] (==) modeset(0): DPMS enabled
-[    88.214] (II) modeset(0): [DRI2] Setup complete
-[    88.214] (II) modeset(0): [DRI2]   DRI driver: i965
-[    88.214] (II) modeset(0): [DRI2]   VDPAU driver: i965
-[    88.214] (--) RandR disabled
-[    88.217] (II) SELinux: Disabled on system
-[    88.236] (II) AIGLX: enabled GLX_MESA_copy_sub_buffer
-[    88.236] (II) AIGLX: enabled GLX_ARB_create_context
-[    88.236] (II) AIGLX: enabled GLX_ARB_create_context_profile
-[    88.236] (II) AIGLX: enabled GLX_EXT_create_context_es{,2}_profile
-[    88.236] (II) AIGLX: enabled GLX_INTEL_swap_event
-[    88.236] (II) AIGLX: enabled GLX_SGI_swap_control
-[    88.236] (II) AIGLX: enabled GLX_EXT_framebuffer_sRGB
-[    88.236] (II) AIGLX: enabled GLX_ARB_fbconfig_float
-[    88.236] (II) AIGLX: enabled GLX_EXT_fbconfig_packed_float
-[    88.236] (II) AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
-[    88.236] (II) AIGLX: enabled GLX_ARB_create_context_robustness
-[    88.237] (II) AIGLX: Loaded and initialized i965
-[    88.237] (II) GLX: Initialized DRI2 GL provider for screen 0
-[    88.240] (II) modeset(0): Damage tracking initialized
-[    88.240] (II) modeset(0): Setting screen physical size to 361 x 203
-[    88.285] (II) config/udev: Adding input device Power Button (/dev/input/event3)
-[    88.285] (**) Power Button: Applying InputClass "libinput keyboard catchall"
-[    88.285] (II) LoadModule: "libinput"
-[    88.286] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
-[    88.306] (II) Module libinput: vendor="X.Org Foundation"
-[    88.306] 	compiled for 1.19.6, module version = 0.27.1
-[    88.306] 	Module class: X.Org XInput Driver
-[    88.306] 	ABI class: X.Org XInput driver, version 24.1
-[    88.306] (II) Using input driver 'libinput' for 'Power Button'
-[    88.307] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 21 paused 0
-[    88.307] (**) Power Button: always reports core events
-[    88.307] (**) Option "Device" "/dev/input/event3"
-[    88.307] (**) Option "_source" "server/udev"
-[    88.308] (II) event3  - Power Button: is tagged by udev as: Keyboard
-[    88.308] (II) event3  - Power Button: device is a keyboard
-[    88.308] (II) event3  - Power Button: device removed
-[    88.308] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3"
-[    88.308] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
-[    88.308] (**) Option "xkb_model" "pc105"
-[    88.308] (**) Option "xkb_layout" "za"
-[    88.334] (II) event3  - Power Button: is tagged by udev as: Keyboard
-[    88.334] (II) event3  - Power Button: device is a keyboard
-[    88.335] (II) config/udev: Adding input device Video Bus (/dev/input/event5)
-[    88.335] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
-[    88.335] (II) Using input driver 'libinput' for 'Video Bus'
-[    88.336] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 24 paused 0
-[    88.336] (**) Video Bus: always reports core events
-[    88.336] (**) Option "Device" "/dev/input/event5"
-[    88.336] (**) Option "_source" "server/udev"
-[    88.337] (II) event5  - Video Bus: is tagged by udev as: Keyboard
-[    88.337] (II) event5  - Video Bus: device is a keyboard
-[    88.337] (II) event5  - Video Bus: device removed
-[    88.337] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input8/event5"
-[    88.337] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
-[    88.337] (**) Option "xkb_model" "pc105"
-[    88.337] (**) Option "xkb_layout" "za"
-[    88.338] (II) event5  - Video Bus: is tagged by udev as: Keyboard
-[    88.338] (II) event5  - Video Bus: device is a keyboard
-[    88.338] (II) config/udev: Adding input device Power Button (/dev/input/event1)
-[    88.338] (**) Power Button: Applying InputClass "libinput keyboard catchall"
-[    88.338] (II) Using input driver 'libinput' for 'Power Button'
-[    88.339] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 25 paused 0
-[    88.339] (**) Power Button: always reports core events
-[    88.339] (**) Option "Device" "/dev/input/event1"
-[    88.339] (**) Option "_source" "server/udev"
-[    88.340] (II) event1  - Power Button: is tagged by udev as: Keyboard
-[    88.340] (II) event1  - Power Button: device is a keyboard
-[    88.340] (II) event1  - Power Button: device removed
-[    88.340] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
-[    88.340] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
-[    88.340] (**) Option "xkb_model" "pc105"
-[    88.340] (**) Option "xkb_layout" "za"
-[    88.341] (II) event1  - Power Button: is tagged by udev as: Keyboard
-[    88.341] (II) event1  - Power Button: device is a keyboard
-[    88.341] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
-[    88.341] (II) No input driver specified, ignoring this device.
-[    88.341] (II) This device may have been added with another device file.
-[    88.342] (II) config/udev: Adding input device Sleep Button (/dev/input/event2)
-[    88.342] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
-[    88.342] (II) Using input driver 'libinput' for 'Sleep Button'
-[    88.343] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 26 paused 0
-[    88.343] (**) Sleep Button: always reports core events
-[    88.343] (**) Option "Device" "/dev/input/event2"
-[    88.343] (**) Option "_source" "server/udev"
-[    88.343] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
-[    88.343] (II) event2  - Sleep Button: device is a keyboard
-[    88.343] (II) event2  - Sleep Button: device removed
-[    88.343] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2/event2"
-[    88.343] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
-[    88.343] (**) Option "xkb_model" "pc105"
-[    88.343] (**) Option "xkb_layout" "za"
-[    88.344] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
-[    88.344] (II) event2  - Sleep Button: device is a keyboard
-[    88.345] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=3 (/dev/input/event11)
-[    88.345] (II) No input driver specified, ignoring this device.
-[    88.345] (II) This device may have been added with another device file.
-[    88.345] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=7 (/dev/input/event12)
-[    88.346] (II) No input driver specified, ignoring this device.
-[    88.346] (II) This device may have been added with another device file.
-[    88.346] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=8 (/dev/input/event13)
-[    88.346] (II) No input driver specified, ignoring this device.
-[    88.346] (II) This device may have been added with another device file.
-[    88.346] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=9 (/dev/input/event14)
-[    88.347] (II) No input driver specified, ignoring this device.
-[    88.347] (II) This device may have been added with another device file.
-[    88.347] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=10 (/dev/input/event15)
-[    88.347] (II) No input driver specified, ignoring this device.
-[    88.347] (II) This device may have been added with another device file.
-[    88.348] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[    88.348] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[    88.348] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[    88.349] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 27 paused 0
-[    88.349] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[    88.349] (**) Option "Device" "/dev/input/event7"
-[    88.349] (**) Option "_source" "server/udev"
-[    88.350] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[    88.350] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[    88.350] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[    88.350] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[    88.350] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0002/input/input9/event7"
-[    88.350] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[    88.350] (**) Option "AccelerationScheme" "none"
-[    88.350] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[    88.350] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[    88.350] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[    88.351] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[    88.351] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[    88.351] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[    88.352] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[    88.352] (II) No input driver specified, ignoring this device.
-[    88.352] (II) This device may have been added with another device file.
-[    88.353] (II) config/udev: Adding input device Integrated_Webcam_HD: Integrate (/dev/input/event10)
-[    88.353] (**) Integrated_Webcam_HD: Integrate: Applying InputClass "libinput keyboard catchall"
-[    88.353] (II) Using input driver 'libinput' for 'Integrated_Webcam_HD: Integrate'
-[    88.354] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 28 paused 0
-[    88.354] (**) Integrated_Webcam_HD: Integrate: always reports core events
-[    88.354] (**) Option "Device" "/dev/input/event10"
-[    88.354] (**) Option "_source" "server/udev"
-[    88.355] (II) event10 - Integrated_Webcam_HD: Integrate: is tagged by udev as: Keyboard
-[    88.355] (II) event10 - Integrated_Webcam_HD: Integrate: device is a keyboard
-[    88.355] (II) event10 - Integrated_Webcam_HD: Integrate: device removed
-[    88.355] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-5/2-5:1.0/input/input12/event10"
-[    88.355] (II) XINPUT: Adding extended input device "Integrated_Webcam_HD: Integrate" (type: KEYBOARD, id 11)
-[    88.355] (**) Option "xkb_model" "pc105"
-[    88.355] (**) Option "xkb_layout" "za"
-[    88.356] (II) event10 - Integrated_Webcam_HD: Integrate: is tagged by udev as: Keyboard
-[    88.356] (II) event10 - Integrated_Webcam_HD: Integrate: device is a keyboard
-[    88.357] (II) config/udev: Adding input device HDA Intel PCH Headphone Mic (/dev/input/event16)
-[    88.357] (II) No input driver specified, ignoring this device.
-[    88.357] (II) This device may have been added with another device file.
-[    88.357] (II) config/udev: Adding input device Synaptics TM3096-001 (/dev/input/event6)
-[    88.357] (**) Synaptics TM3096-001: Applying InputClass "libinput touchpad catchall"
-[    88.357] (II) Using input driver 'libinput' for 'Synaptics TM3096-001'
-[    88.359] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 29 paused 0
-[    88.359] (**) Synaptics TM3096-001: always reports core events
-[    88.359] (**) Option "Device" "/dev/input/event6"
-[    88.359] (**) Option "_source" "server/udev"
-[    88.360] (II) event6  - Synaptics TM3096-001: is tagged by udev as: Touchpad
-[    88.360] (II) event6  - Synaptics TM3096-001: device is a touchpad
-[    88.360] (II) event6  - Synaptics TM3096-001: device removed
-[    88.360] (**) Option "config_info" "udev:/sys/devices/pci0000:00/INT3433:00/i2c-1/i2c-DLL06B0:00/0018:06CB:78F1.0001/input/input7/event6"
-[    88.360] (II) XINPUT: Adding extended input device "Synaptics TM3096-001" (type: TOUCHPAD, id 12)
-[    88.361] (**) Option "AccelerationScheme" "none"
-[    88.361] (**) Synaptics TM3096-001: (accel) selected scheme none/0
-[    88.361] (**) Synaptics TM3096-001: (accel) acceleration factor: 2.000
-[    88.361] (**) Synaptics TM3096-001: (accel) acceleration threshold: 4
-[    88.361] (II) event6  - Synaptics TM3096-001: is tagged by udev as: Touchpad
-[    88.361] (II) event6  - Synaptics TM3096-001: device is a touchpad
-[    88.362] (II) config/udev: Adding input device Synaptics TM3096-001 (/dev/input/mouse0)
-[    88.362] (II) No input driver specified, ignoring this device.
-[    88.362] (II) This device may have been added with another device file.
-[    88.363] (II) config/udev: Adding input device Dell WMI hotkeys (/dev/input/event9)
-[    88.363] (**) Dell WMI hotkeys: Applying InputClass "libinput keyboard catchall"
-[    88.363] (II) Using input driver 'libinput' for 'Dell WMI hotkeys'
-[    88.364] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 30 paused 0
-[    88.364] (**) Dell WMI hotkeys: always reports core events
-[    88.364] (**) Option "Device" "/dev/input/event9"
-[    88.364] (**) Option "_source" "server/udev"
-[    88.365] (II) event9  - Dell WMI hotkeys: is tagged by udev as: Keyboard
-[    88.365] (II) event9  - Dell WMI hotkeys: device is a keyboard
-[    88.365] (II) event9  - Dell WMI hotkeys: device removed
-[    88.365] (**) Option "config_info" "udev:/sys/devices/platform/PNP0C14:00/wmi_bus/wmi_bus-PNP0C14:00/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input11/event9"
-[    88.365] (II) XINPUT: Adding extended input device "Dell WMI hotkeys" (type: KEYBOARD, id 13)
-[    88.365] (**) Option "xkb_model" "pc105"
-[    88.365] (**) Option "xkb_layout" "za"
-[    88.366] (II) event9  - Dell WMI hotkeys: is tagged by udev as: Keyboard
-[    88.366] (II) event9  - Dell WMI hotkeys: device is a keyboard
-[    88.367] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event4)
-[    88.367] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
-[    88.367] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
-[    88.368] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 31 paused 0
-[    88.368] (**) AT Translated Set 2 keyboard: always reports core events
-[    88.368] (**) Option "Device" "/dev/input/event4"
-[    88.368] (**) Option "_source" "server/udev"
-[    88.369] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
-[    88.369] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
-[    88.369] (II) event4  - AT Translated Set 2 keyboard: device removed
-[    88.369] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input4/event4"
-[    88.369] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 14)
-[    88.369] (**) Option "xkb_model" "pc105"
-[    88.369] (**) Option "xkb_layout" "za"
-[    88.370] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
-[    88.370] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
-[    88.373] (II) config/udev: Adding input device DELL Wireless hotkeys (/dev/input/event8)
-[    88.373] (**) DELL Wireless hotkeys: Applying InputClass "libinput keyboard catchall"
-[    88.373] (II) Using input driver 'libinput' for 'DELL Wireless hotkeys'
-[    88.374] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 32 paused 0
-[    88.374] (**) DELL Wireless hotkeys: always reports core events
-[    88.374] (**) Option "Device" "/dev/input/event8"
-[    88.374] (**) Option "_source" "server/udev"
-[    88.375] (II) event8  - DELL Wireless hotkeys: is tagged by udev as: Keyboard
-[    88.375] (II) event8  - DELL Wireless hotkeys: device is a keyboard
-[    88.375] (II) event8  - DELL Wireless hotkeys: device removed
-[    88.375] (**) Option "config_info" "udev:/sys/devices/virtual/input/input10/event8"
-[    88.375] (II) XINPUT: Adding extended input device "DELL Wireless hotkeys" (type: KEYBOARD, id 15)
-[    88.375] (**) Option "xkb_model" "pc105"
-[    88.375] (**) Option "xkb_layout" "za"
-[    88.376] (II) event8  - DELL Wireless hotkeys: is tagged by udev as: Keyboard
-[    88.376] (II) event8  - DELL Wireless hotkeys: device is a keyboard
-[    90.146] (II) modeset(0): EDID vendor "LGD", prod id 1110
-[    90.146] (II) modeset(0): Printing DDC gathered Modelines:
-[    90.146] (II) modeset(0): Modeline "1366x768"x0.0   76.32  1366 1414 1446 1610  768 771 776 790 +hsync -vsync (47.4 kHz eP)
-[    90.146] (II) modeset(0): Modeline "1366x768"x0.0   61.05  1366 1414 1446 1610  768 771 776 790 +hsync -vsync (37.9 kHz e)
-[ 18298.799] (EE) client bug: timer event6 keyboard: offset negative (-826ms)
-[ 18299.067] (EE) client bug: timer event6 keyboard: offset negative (-763ms)
-[ 27194.776] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
-[ 27195.165] (**) Option "fd" "27"
-[ 27195.328] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 27195.438] (II) UnloadModule: "libinput"
-[ 27195.439] (II) systemd-logind: releasing fd for 13:71
-[ 27195.453] (EE) systemd-logind: failed to release device: Device not taken
-[ 27212.180] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[ 27212.180] (II) No input driver specified, ignoring this device.
-[ 27212.180] (II) This device may have been added with another device file.
-[ 27212.290] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[ 27212.290] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[ 27212.290] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[ 27212.291] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 61 paused 0
-[ 27212.291] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[ 27212.291] (**) Option "Device" "/dev/input/event7"
-[ 27212.291] (**) Option "_source" "server/udev"
-[ 27212.303] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 27212.303] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 27212.303] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 27212.303] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 27212.303] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0003/input/input25/event7"
-[ 27212.303] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[ 27212.305] (**) Option "AccelerationScheme" "none"
-[ 27212.306] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[ 27212.306] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[ 27212.306] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[ 27212.332] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 27212.332] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 27212.332] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 45215.128] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
-[ 45215.460] (**) Option "fd" "61"
-[ 45215.573] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 45215.576] (II) UnloadModule: "libinput"
-[ 45215.576] (II) systemd-logind: releasing fd for 13:71
-[ 45215.577] (EE) systemd-logind: failed to release device: Device not taken
-[ 45226.881] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[ 45226.881] (II) No input driver specified, ignoring this device.
-[ 45226.881] (II) This device may have been added with another device file.
-[ 45227.015] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[ 45227.015] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[ 45227.015] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[ 45227.017] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 61 paused 0
-[ 45227.017] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[ 45227.017] (**) Option "Device" "/dev/input/event7"
-[ 45227.017] (**) Option "_source" "server/udev"
-[ 45227.018] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 45227.018] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 45227.018] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 45227.018] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 45227.018] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0004/input/input28/event7"
-[ 45227.018] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[ 45227.019] (**) Option "AccelerationScheme" "none"
-[ 45227.023] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[ 45227.023] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[ 45227.023] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[ 45227.068] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 45227.069] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 45227.069] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 50534.290] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
-[ 50534.290] (**) Option "fd" "61"
-[ 50534.290] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 50534.292] (II) UnloadModule: "libinput"
-[ 50534.292] (II) systemd-logind: releasing fd for 13:71
-[ 51122.328] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[ 51122.393] (II) No input driver specified, ignoring this device.
-[ 51122.393] (II) This device may have been added with another device file.
-[ 51122.491] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[ 51122.491] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[ 51122.491] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[ 51122.493] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 92 paused 0
-[ 51122.494] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[ 51122.494] (**) Option "Device" "/dev/input/event7"
-[ 51122.494] (**) Option "_source" "server/udev"
-[ 51122.495] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 51122.495] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 51122.495] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 51122.495] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 51122.495] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0005/input/input29/event7"
-[ 51122.495] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[ 51122.500] (**) Option "AccelerationScheme" "none"
-[ 51122.503] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[ 51122.503] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[ 51122.503] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[ 51122.504] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 51122.504] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 51122.504] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 51735.400] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
-[ 51735.670] (**) Option "fd" "92"
-[ 51735.670] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 51735.678] (II) UnloadModule: "libinput"
-[ 51735.678] (II) systemd-logind: releasing fd for 13:71
-[ 51735.679] (EE) systemd-logind: failed to release device: Device not taken
-[ 51742.180] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[ 51742.180] (II) No input driver specified, ignoring this device.
-[ 51742.180] (II) This device may have been added with another device file.
-[ 51742.211] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[ 51742.212] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[ 51742.212] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[ 51742.213] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 90 paused 0
-[ 51742.213] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[ 51742.213] (**) Option "Device" "/dev/input/event7"
-[ 51742.213] (**) Option "_source" "server/udev"
-[ 51742.214] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 51742.214] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 51742.214] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 51742.214] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 51742.214] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0006/input/input32/event7"
-[ 51742.214] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[ 51742.217] (**) Option "AccelerationScheme" "none"
-[ 51742.220] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[ 51742.220] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[ 51742.220] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[ 51742.221] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 51742.221] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 51742.221] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 56559.808] (II) event7  - PIXART USB OPTICAL MOUSE: SYN_DROPPED event - some input events have been lost.
-[ 64252.488] (EE) event6  - Synaptics TM3096-001: kernel bug: Invalid fake finger state 0x7
-[ 64252.530] (EE) event6  - Synaptics TM3096-001: kernel bug: Invalid fake finger state 0x7
-[ 64252.530] (EE) event6  - Synaptics TM3096-001: kernel bug: Invalid fake finger state 0x7
-[ 76689.874] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
-[ 76690.291] (**) Option "fd" "90"
-[ 76690.313] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 76690.459] (II) UnloadModule: "libinput"
-[ 76690.459] (II) systemd-logind: releasing fd for 13:71
-[ 76690.459] (EE) systemd-logind: failed to release device: Device not taken
-[ 76972.584] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[ 76972.830] (II) No input driver specified, ignoring this device.
-[ 76972.830] (II) This device may have been added with another device file.
-[ 76972.945] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[ 76972.963] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[ 76972.963] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[ 76973.166] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 90 paused 0
-[ 76973.166] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[ 76973.166] (**) Option "Device" "/dev/input/event7"
-[ 76973.166] (**) Option "_source" "server/udev"
-[ 76973.399] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 76973.399] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 76973.399] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 76973.399] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 76973.399] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0007/input/input33/event7"
-[ 76973.399] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[ 76973.400] (**) Option "AccelerationScheme" "none"
-[ 76973.401] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[ 76973.401] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[ 76973.401] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[ 76973.402] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 76973.402] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 76973.402] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 78387.929] (EE) event6  - Synaptics TM3096-001: libinput bug: invalid tap event TAP_EVENT_PALM in state TAP_STATE_TAPPED
-[ 81564.210] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
-[ 81564.210] (**) Option "fd" "90"
-[ 81564.210] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 81564.222] (II) UnloadModule: "libinput"
-[ 81564.222] (II) systemd-logind: releasing fd for 13:71
-[ 81666.695] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[ 81666.695] (II) No input driver specified, ignoring this device.
-[ 81666.696] (II) This device may have been added with another device file.
-[ 81666.750] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[ 81666.750] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[ 81666.751] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[ 81666.759] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 82 paused 0
-[ 81666.760] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[ 81666.760] (**) Option "Device" "/dev/input/event7"
-[ 81666.760] (**) Option "_source" "server/udev"
-[ 81666.760] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 81666.760] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 81666.760] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 81666.760] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 81666.761] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0008/input/input36/event7"
-[ 81666.761] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[ 81666.791] (**) Option "AccelerationScheme" "none"
-[ 81666.797] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[ 81666.797] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[ 81666.797] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[ 81666.798] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 81666.798] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 81666.798] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 81709.906] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
-[ 81709.906] (**) Option "fd" "82"
-[ 81709.906] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 81709.917] (II) UnloadModule: "libinput"
-[ 81709.917] (II) systemd-logind: releasing fd for 13:71
-[ 81741.172] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[ 81741.172] (II) No input driver specified, ignoring this device.
-[ 81741.172] (II) This device may have been added with another device file.
-[ 81741.236] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[ 81741.236] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[ 81741.236] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[ 81741.238] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 90 paused 0
-[ 81741.238] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[ 81741.238] (**) Option "Device" "/dev/input/event7"
-[ 81741.238] (**) Option "_source" "server/udev"
-[ 81741.240] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 81741.240] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 81741.240] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 81741.240] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[ 81741.240] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0009/input/input37/event7"
-[ 81741.240] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[ 81741.247] (**) Option "AccelerationScheme" "none"
-[ 81741.251] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[ 81741.251] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[ 81741.251] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[ 81741.252] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[ 81741.252] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[ 81741.252] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[ 85106.965] (EE) client bug: timer event7 debounce: offset negative (-67ms)
-[ 85376.511] (EE) event6  - Synaptics TM3096-001: kernel bug: Invalid fake finger state 0x7
-[ 85376.512] (EE) event6  - Synaptics TM3096-001: kernel bug: Invalid fake finger state 0x7
-[ 85376.512] (EE) event6  - Synaptics TM3096-001: kernel bug: Invalid fake finger state 0x7
-[110632.189] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
-[110632.301] (**) Option "fd" "90"
-[110632.489] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[110632.502] (II) UnloadModule: "libinput"
-[110632.502] (II) systemd-logind: releasing fd for 13:71
-[110632.502] (EE) systemd-logind: failed to release device: Device not taken
-[110644.787] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[110644.787] (II) No input driver specified, ignoring this device.
-[110644.787] (II) This device may have been added with another device file.
-[110645.120] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[110645.120] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[110645.120] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[110645.122] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 90 paused 0
-[110645.123] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[110645.123] (**) Option "Device" "/dev/input/event7"
-[110645.123] (**) Option "_source" "server/udev"
-[110645.125] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[110645.125] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[110645.125] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[110645.125] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[110645.125] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.000A/input/input40/event7"
-[110645.125] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[110645.130] (**) Option "AccelerationScheme" "none"
-[110645.134] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[110645.134] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[110645.134] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[110645.283] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[110645.283] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[110645.283] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[133659.159] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
-[133659.181] (**) Option "fd" "90"
-[133659.181] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[133659.203] (II) UnloadModule: "libinput"
-[133659.203] (II) systemd-logind: releasing fd for 13:71
-[133855.937] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[133855.937] (II) No input driver specified, ignoring this device.
-[133855.937] (II) This device may have been added with another device file.
-[133856.139] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[133856.139] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[133856.139] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[133856.141] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 89 paused 0
-[133856.141] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[133856.141] (**) Option "Device" "/dev/input/event7"
-[133856.141] (**) Option "_source" "server/udev"
-[133856.143] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[133856.143] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[133856.143] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[133856.143] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[133856.143] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.000D/input/input41/event7"
-[133856.143] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[133856.149] (**) Option "AccelerationScheme" "none"
-[133856.153] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[133856.153] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[133856.153] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[133856.154] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[133856.154] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[133856.154] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[138690.591] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
-[138690.690] (**) Option "fd" "89"
-[138690.690] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[138690.698] (II) UnloadModule: "libinput"
-[138690.698] (II) systemd-logind: releasing fd for 13:71
-[138690.852] (EE) systemd-logind: failed to release device: Device not taken
-[138772.187] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
-[138772.187] (II) No input driver specified, ignoring this device.
-[138772.187] (II) This device may have been added with another device file.
-[138772.831] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
-[138772.831] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
-[138772.831] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
-[138772.832] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 93 paused 0
-[138772.832] (**) PIXART USB OPTICAL MOUSE: always reports core events
-[138772.832] (**) Option "Device" "/dev/input/event7"
-[138772.832] (**) Option "_source" "server/udev"
-[138772.841] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[138772.912] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[138772.912] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
-[138772.912] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
-[138772.912] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.000E/input/input44/event7"
-[138772.912] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
-[138772.913] (**) Option "AccelerationScheme" "none"
-[138772.914] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
-[138772.914] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
-[138772.914] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
-[138772.914] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
-[138772.914] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
-[138772.914] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
+[    63.800] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[    63.800] (==) modeset(0): RGB weight 888
+[    63.800] (==) modeset(0): Default visual is TrueColor
+[    63.800] (II) Loading sub module "glamoregl"
+[    63.800] (II) LoadModule: "glamoregl"
+[    63.800] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    63.944] (II) Module glamoregl: vendor="X.Org Foundation"
+[    63.944] 	compiled for 1.19.6, module version = 1.0.0
+[    63.944] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    63.944] (II) glamor: OpenGL accelerated X.org driver based.
+[    63.956] (II) glamor: EGL version 1.4 (DRI2):
+[    63.960] (II) modeset(0): glamor initialized
+[    63.961] (II) modeset(0): Output eDP-1 has no monitor section
+[    63.970] (II) modeset(0): Output HDMI-1 has no monitor section
+[    63.980] (II) modeset(0): EDID for output eDP-1
+[    63.980] (II) modeset(0): Manufacturer: LGD  Model: 456  Serial#: 0
+[    63.980] (II) modeset(0): Year: 2014  Week: 0
+[    63.980] (II) modeset(0): EDID Version: 1.4
+[    63.980] (II) modeset(0): Digital Display Input
+[    63.980] (II) modeset(0): 6 bits per channel
+[    63.980] (II) modeset(0): Digital interface is DisplayPort
+[    63.980] (II) modeset(0): Max Image Size [cm]: horiz.: 34  vert.: 19
+[    63.980] (II) modeset(0): Gamma: 2.20
+[    63.980] (II) modeset(0): No DPMS capabilities specified
+[    63.980] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[    63.980] (II) modeset(0): First detailed timing is preferred mode
+[    63.980] (II) modeset(0): Preferred mode is native pixel format and refresh rate
+[    63.980] (II) modeset(0): redX: 0.578 redY: 0.344   greenX: 0.337 greenY: 0.571
+[    63.980] (II) modeset(0): blueX: 0.159 blueY: 0.120   whiteX: 0.313 whiteY: 0.329
+[    63.980] (II) modeset(0): Manufacturer's mask: 0
+[    63.980] (II) modeset(0): Supported detailed timing:
+[    63.980] (II) modeset(0): clock: 76.3 MHz   Image Size:  344 x 194 mm
+[    63.980] (II) modeset(0): h_active: 1366  h_sync: 1414  h_sync_end 1446 h_blank_end 1610 h_border: 0
+[    63.980] (II) modeset(0): v_active: 768  v_sync: 771  v_sync_end 776 v_blanking: 790 v_border: 0
+[    63.980] (II) modeset(0): Supported detailed timing:
+[    63.980] (II) modeset(0): clock: 61.0 MHz   Image Size:  344 x 194 mm
+[    63.980] (II) modeset(0): h_active: 1366  h_sync: 1414  h_sync_end 1446 h_blank_end 1610 h_border: 0
+[    63.980] (II) modeset(0): v_active: 768  v_sync: 771  v_sync_end 776 v_blanking: 790 v_border: 0
+[    63.980] (II) modeset(0):  DCR74€156WHB
+[    63.980] (II) modeset(0): Unknown vendor-specific block 0
+[    63.980] (II) modeset(0): EDID (in hex):
+[    63.980] (II) modeset(0): 	00ffffffffffff0030e4560400000000
+[    63.980] (II) modeset(0): 	00180104952213780a05f59458569228
+[    63.980] (II) modeset(0): 	1e505400000001010101010101010101
+[    63.980] (II) modeset(0): 	010101010101d01d56f4500016303020
+[    63.980] (II) modeset(0): 	350058c21000001ad91756f450001630
+[    63.980] (II) modeset(0): 	3020350058c21000001a000000fe0044
+[    63.980] (II) modeset(0): 	43523734803135365748420a00000000
+[    63.980] (II) modeset(0): 	00004131940010000009010a20200085
+[    63.981] (II) modeset(0): Printing probed modes for output eDP-1
+[    63.981] (II) modeset(0): Modeline "1366x768"x60.0   76.32  1366 1414 1446 1610  768 771 776 790 +hsync -vsync (47.4 kHz eP)
+[    63.981] (II) modeset(0): Modeline "1366x768"x48.0   61.05  1366 1414 1446 1610  768 771 776 790 +hsync -vsync (37.9 kHz e)
+[    63.981] (II) modeset(0): Modeline "1360x768"x59.8   84.75  1360 1432 1568 1776  768 771 781 798 -hsync +vsync (47.7 kHz d)
+[    63.981] (II) modeset(0): Modeline "1360x768"x60.0   72.00  1360 1408 1440 1520  768 771 781 790 +hsync -vsync (47.4 kHz d)
+[    63.981] (II) modeset(0): Modeline "1280x720"x120.0  156.12  1280 1376 1512 1744  720 721 724 746 doublescan -hsync +vsync (89.5 kHz d)
+[    63.981] (II) modeset(0): Modeline "1280x720"x120.0  120.75  1280 1304 1320 1360  720 721 724 740 doublescan +hsync -vsync (88.8 kHz d)
+[    63.981] (II) modeset(0): Modeline "1280x720"x59.9   74.50  1280 1344 1472 1664  720 723 728 748 -hsync +vsync (44.8 kHz d)
+[    63.981] (II) modeset(0): Modeline "1280x720"x59.7   63.75  1280 1328 1360 1440  720 723 728 741 +hsync -vsync (44.3 kHz d)
+[    63.981] (II) modeset(0): Modeline "1024x768"x120.1  133.47  1024 1100 1212 1400  768 768 770 794 doublescan -hsync +vsync (95.3 kHz d)
+[    63.981] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz d)
+[    63.981] (II) modeset(0): Modeline "960x720"x120.0  117.00  960 1024 1128 1300  720 720 722 750 doublescan -hsync +vsync (90.0 kHz d)
+[    63.981] (II) modeset(0): Modeline "928x696"x120.1  109.15  928 976 1088 1264  696 696 698 719 doublescan -hsync +vsync (86.4 kHz d)
+[    63.981] (II) modeset(0): Modeline "896x672"x120.0  102.40  896 960 1060 1224  672 672 674 697 doublescan -hsync +vsync (83.7 kHz d)
+[    63.981] (II) modeset(0): Modeline "1024x576"x119.9   98.50  1024 1092 1200 1376  576 577 580 597 doublescan -hsync +vsync (71.6 kHz d)
+[    63.981] (II) modeset(0): Modeline "1024x576"x119.9   78.38  1024 1048 1064 1104  576 577 580 592 doublescan +hsync -vsync (71.0 kHz d)
+[    63.981] (II) modeset(0): Modeline "1024x576"x59.9   46.50  1024 1064 1160 1296  576 579 584 599 -hsync +vsync (35.9 kHz d)
+[    63.981] (II) modeset(0): Modeline "1024x576"x59.8   42.00  1024 1072 1104 1184  576 579 584 593 +hsync -vsync (35.5 kHz d)
+[    63.981] (II) modeset(0): Modeline "960x600"x119.9   96.62  960 1028 1128 1296  600 601 604 622 doublescan -hsync +vsync (74.6 kHz d)
+[    63.981] (II) modeset(0): Modeline "960x600"x120.0   77.00  960 984 1000 1040  600 601 604 617 doublescan +hsync -vsync (74.0 kHz d)
+[    63.981] (II) modeset(0): Modeline "960x540"x119.9   86.50  960 1024 1124 1288  540 541 544 560 doublescan -hsync +vsync (67.2 kHz d)
+[    63.981] (II) modeset(0): Modeline "960x540"x120.0   69.25  960 984 1000 1040  540 541 544 555 doublescan +hsync -vsync (66.6 kHz d)
+[    63.981] (II) modeset(0): Modeline "960x540"x59.6   40.75  960 992 1088 1216  540 543 548 562 -hsync +vsync (33.5 kHz d)
+[    63.981] (II) modeset(0): Modeline "960x540"x59.8   37.25  960 1008 1040 1120  540 543 548 556 +hsync -vsync (33.3 kHz d)
+[    63.981] (II) modeset(0): Modeline "800x600"x120.0   81.00  800 832 928 1080  600 600 602 625 doublescan +hsync +vsync (75.0 kHz d)
+[    63.981] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz d)
+[    63.981] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[    63.981] (II) modeset(0): Modeline "840x525"x120.0   73.12  840 892 980 1120  525 526 529 544 doublescan -hsync +vsync (65.3 kHz d)
+[    63.981] (II) modeset(0): Modeline "840x525"x119.8   59.50  840 864 880 920  525 526 529 540 doublescan +hsync -vsync (64.7 kHz d)
+[    63.981] (II) modeset(0): Modeline "864x486"x59.9   32.50  864 888 968 1072  486 489 494 506 -hsync +vsync (30.3 kHz d)
+[    63.981] (II) modeset(0): Modeline "864x486"x59.6   30.50  864 912 944 1024  486 489 494 500 +hsync -vsync (29.8 kHz d)
+[    63.981] (II) modeset(0): Modeline "800x512"x120.3   51.56  800 800 828 832  512 512 514 515 doublescan +hsync +vsync (62.0 kHz d)
+[    63.981] (II) modeset(0): Modeline "700x525"x120.0   61.00  700 744 820 940  525 526 532 541 doublescan +hsync +vsync (64.9 kHz d)
+[    63.982] (II) modeset(0): Modeline "800x450"x119.9   59.12  800 848 928 1056  450 451 454 467 doublescan -hsync +vsync (56.0 kHz d)
+[    63.982] (II) modeset(0): Modeline "800x450"x119.6   48.75  800 824 840 880  450 451 454 463 doublescan +hsync -vsync (55.4 kHz d)
+[    63.982] (II) modeset(0): Modeline "640x512"x120.0   54.00  640 664 720 844  512 512 514 533 doublescan +hsync +vsync (64.0 kHz d)
+[    63.982] (II) modeset(0): Modeline "720x450"x119.8   53.25  720 760 836 952  450 451 454 467 doublescan -hsync +vsync (55.9 kHz d)
+[    63.982] (II) modeset(0): Modeline "700x450"x119.9   51.75  700 740 812 924  450 451 456 467 doublescan -hsync +vsync (56.0 kHz d)
+[    63.982] (II) modeset(0): Modeline "700x450"x119.8   43.25  700 724 740 780  450 451 456 463 doublescan +hsync -vsync (55.4 kHz d)
+[    63.982] (II) modeset(0): Modeline "640x480"x120.0   54.00  640 688 744 900  480 480 482 500 doublescan +hsync +vsync (60.0 kHz d)
+[    63.982] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz d)
+[    63.982] (II) modeset(0): Modeline "720x405"x59.5   22.50  720 744 808 896  405 408 413 422 -hsync +vsync (25.1 kHz d)
+[    63.982] (II) modeset(0): Modeline "720x405"x59.0   21.75  720 768 800 880  405 408 413 419 +hsync -vsync (24.7 kHz d)
+[    63.982] (II) modeset(0): Modeline "684x384"x119.8   42.62  684 720 788 892  384 385 390 399 doublescan -hsync +vsync (47.8 kHz d)
+[    63.982] (II) modeset(0): Modeline "684x384"x119.7   36.12  684 708 724 764  384 385 390 395 doublescan +hsync -vsync (47.3 kHz d)
+[    63.982] (II) modeset(0): Modeline "680x384"x119.6   42.38  680 716 784 888  384 385 390 399 doublescan -hsync +vsync (47.7 kHz d)
+[    63.982] (II) modeset(0): Modeline "680x384"x119.9   36.00  680 704 720 760  384 385 390 395 doublescan +hsync -vsync (47.4 kHz d)
+[    63.982] (II) modeset(0): Modeline "640x400"x119.8   41.75  640 676 740 840  400 401 404 415 doublescan -hsync +vsync (49.7 kHz d)
+[    63.982] (II) modeset(0): Modeline "640x400"x120.0   35.50  640 664 680 720  400 401 404 411 doublescan +hsync -vsync (49.3 kHz d)
+[    63.982] (II) modeset(0): Modeline "576x432"x120.1   40.81  576 608 668 760  432 432 434 447 doublescan -hsync +vsync (53.7 kHz d)
+[    63.982] (II) modeset(0): Modeline "640x360"x119.7   37.25  640 672 736 832  360 361 364 374 doublescan -hsync +vsync (44.8 kHz d)
+[    63.982] (II) modeset(0): Modeline "640x360"x119.7   31.88  640 664 680 720  360 361 364 370 doublescan +hsync -vsync (44.3 kHz d)
+[    63.982] (II) modeset(0): Modeline "640x360"x59.8   18.00  640 664 720 800  360 363 368 376 -hsync +vsync (22.5 kHz d)
+[    63.982] (II) modeset(0): Modeline "640x360"x59.3   17.75  640 688 720 800  360 363 368 374 +hsync -vsync (22.2 kHz d)
+[    63.982] (II) modeset(0): Modeline "512x384"x120.0   32.50  512 524 592 672  384 385 388 403 doublescan -hsync -vsync (48.4 kHz d)
+[    63.982] (II) modeset(0): Modeline "512x288"x120.0   23.25  512 532 580 648  288 289 292 299 doublescan -hsync +vsync (35.9 kHz d)
+[    63.982] (II) modeset(0): Modeline "512x288"x119.8   21.00  512 536 552 592  288 289 292 296 doublescan +hsync -vsync (35.5 kHz d)
+[    63.982] (II) modeset(0): Modeline "480x270"x119.3   20.38  480 496 544 608  270 271 274 281 doublescan -hsync +vsync (33.5 kHz d)
+[    63.982] (II) modeset(0): Modeline "480x270"x119.6   18.62  480 504 520 560  270 271 274 278 doublescan +hsync -vsync (33.3 kHz d)
+[    63.982] (II) modeset(0): Modeline "400x300"x120.6   20.00  400 420 484 528  300 300 302 314 doublescan +hsync +vsync (37.9 kHz d)
+[    63.982] (II) modeset(0): Modeline "400x300"x112.7   18.00  400 412 448 512  300 300 301 312 doublescan +hsync +vsync (35.2 kHz d)
+[    63.982] (II) modeset(0): Modeline "432x243"x119.8   16.25  432 444 484 536  243 244 247 253 doublescan -hsync +vsync (30.3 kHz d)
+[    63.982] (II) modeset(0): Modeline "432x243"x119.1   15.25  432 456 472 512  243 244 247 250 doublescan +hsync -vsync (29.8 kHz d)
+[    63.982] (II) modeset(0): Modeline "320x240"x120.1   12.59  320 328 376 400  240 245 246 262 doublescan -hsync -vsync (31.5 kHz d)
+[    63.982] (II) modeset(0): Modeline "360x202"x119.0   11.25  360 372 404 448  202 204 206 211 doublescan -hsync +vsync (25.1 kHz d)
+[    63.982] (II) modeset(0): Modeline "360x202"x118.3   10.88  360 384 400 440  202 204 206 209 doublescan +hsync -vsync (24.7 kHz d)
+[    63.982] (II) modeset(0): Modeline "320x180"x119.7    9.00  320 332 360 400  180 181 184 188 doublescan -hsync +vsync (22.5 kHz d)
+[    63.982] (II) modeset(0): Modeline "320x180"x118.6    8.88  320 344 360 400  180 181 184 187 doublescan +hsync -vsync (22.2 kHz d)
+[    63.990] (II) modeset(0): EDID for output HDMI-1
+[    63.990] (II) modeset(0): Output eDP-1 connected
+[    63.990] (II) modeset(0): Output HDMI-1 disconnected
+[    63.990] (II) modeset(0): Using exact sizes for initial modes
+[    63.990] (II) modeset(0): Output eDP-1 using initial mode 1366x768 +0+0
+[    63.990] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[    63.990] (==) modeset(0): DPI set to (96, 96)
+[    63.990] (II) Loading sub module "fb"
+[    63.990] (II) LoadModule: "fb"
+[    63.990] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    63.994] (II) Module fb: vendor="X.Org Foundation"
+[    63.994] 	compiled for 1.19.6, module version = 1.0.0
+[    63.994] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    63.994] (II) UnloadModule: "fbdev"
+[    63.994] (II) Unloading fbdev
+[    63.995] (II) UnloadSubModule: "fbdevhw"
+[    63.995] (II) Unloading fbdevhw
+[    63.995] (II) UnloadModule: "vesa"
+[    63.995] (II) Unloading vesa
+[    63.995] (==) Depth 24 pixmap format is 32 bpp
+[    64.109] (==) modeset(0): Backing store enabled
+[    64.109] (==) modeset(0): Silken mouse enabled
+[    64.110] (II) modeset(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[    64.164] (==) modeset(0): DPMS enabled
+[    64.164] (II) modeset(0): [DRI2] Setup complete
+[    64.164] (II) modeset(0): [DRI2]   DRI driver: i965
+[    64.164] (II) modeset(0): [DRI2]   VDPAU driver: i965
+[    64.164] (--) RandR disabled
+[    64.167] (II) SELinux: Disabled on system
+[    64.180] (II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+[    64.180] (II) AIGLX: enabled GLX_ARB_create_context
+[    64.180] (II) AIGLX: enabled GLX_ARB_create_context_profile
+[    64.180] (II) AIGLX: enabled GLX_EXT_create_context_es{,2}_profile
+[    64.180] (II) AIGLX: enabled GLX_INTEL_swap_event
+[    64.180] (II) AIGLX: enabled GLX_SGI_swap_control
+[    64.180] (II) AIGLX: enabled GLX_EXT_framebuffer_sRGB
+[    64.180] (II) AIGLX: enabled GLX_ARB_fbconfig_float
+[    64.180] (II) AIGLX: enabled GLX_EXT_fbconfig_packed_float
+[    64.180] (II) AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+[    64.180] (II) AIGLX: enabled GLX_ARB_create_context_robustness
+[    64.180] (II) AIGLX: Loaded and initialized i965
+[    64.180] (II) GLX: Initialized DRI2 GL provider for screen 0
+[    64.183] (II) modeset(0): Damage tracking initialized
+[    64.183] (II) modeset(0): Setting screen physical size to 361 x 203
+[    64.228] (II) config/udev: Adding input device Power Button (/dev/input/event3)
+[    64.228] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    64.228] (II) LoadModule: "libinput"
+[    64.229] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    64.251] (II) Module libinput: vendor="X.Org Foundation"
+[    64.251] 	compiled for 1.19.6, module version = 0.27.1
+[    64.251] 	Module class: X.Org XInput Driver
+[    64.251] 	ABI class: X.Org XInput driver, version 24.1
+[    64.251] (II) Using input driver 'libinput' for 'Power Button'
+[    64.252] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 21 paused 0
+[    64.252] (**) Power Button: always reports core events
+[    64.252] (**) Option "Device" "/dev/input/event3"
+[    64.252] (**) Option "_source" "server/udev"
+[    64.252] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[    64.252] (II) event3  - Power Button: device is a keyboard
+[    64.252] (II) event3  - Power Button: device removed
+[    64.253] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3"
+[    64.253] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    64.253] (**) Option "xkb_model" "pc105"
+[    64.253] (**) Option "xkb_layout" "za"
+[    64.276] (II) event3  - Power Button: is tagged by udev as: Keyboard
+[    64.276] (II) event3  - Power Button: device is a keyboard
+[    64.277] (II) config/udev: Adding input device Video Bus (/dev/input/event5)
+[    64.277] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    64.277] (II) Using input driver 'libinput' for 'Video Bus'
+[    64.278] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 24 paused 0
+[    64.278] (**) Video Bus: always reports core events
+[    64.278] (**) Option "Device" "/dev/input/event5"
+[    64.278] (**) Option "_source" "server/udev"
+[    64.279] (II) event5  - Video Bus: is tagged by udev as: Keyboard
+[    64.279] (II) event5  - Video Bus: device is a keyboard
+[    64.279] (II) event5  - Video Bus: device removed
+[    64.279] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input8/event5"
+[    64.279] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7)
+[    64.279] (**) Option "xkb_model" "pc105"
+[    64.279] (**) Option "xkb_layout" "za"
+[    64.280] (II) event5  - Video Bus: is tagged by udev as: Keyboard
+[    64.280] (II) event5  - Video Bus: device is a keyboard
+[    64.281] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[    64.281] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    64.281] (II) Using input driver 'libinput' for 'Power Button'
+[    64.282] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 25 paused 0
+[    64.282] (**) Power Button: always reports core events
+[    64.282] (**) Option "Device" "/dev/input/event1"
+[    64.282] (**) Option "_source" "server/udev"
+[    64.283] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    64.283] (II) event1  - Power Button: device is a keyboard
+[    64.283] (II) event1  - Power Button: device removed
+[    64.283] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1/event1"
+[    64.283] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8)
+[    64.283] (**) Option "xkb_model" "pc105"
+[    64.283] (**) Option "xkb_layout" "za"
+[    64.284] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[    64.284] (II) event1  - Power Button: device is a keyboard
+[    64.284] (II) config/udev: Adding input device Lid Switch (/dev/input/event0)
+[    64.284] (II) No input driver specified, ignoring this device.
+[    64.284] (II) This device may have been added with another device file.
+[    64.285] (II) config/udev: Adding input device Sleep Button (/dev/input/event2)
+[    64.285] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    64.285] (II) Using input driver 'libinput' for 'Sleep Button'
+[    64.286] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 26 paused 0
+[    64.286] (**) Sleep Button: always reports core events
+[    64.286] (**) Option "Device" "/dev/input/event2"
+[    64.286] (**) Option "_source" "server/udev"
+[    64.287] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+[    64.287] (II) event2  - Sleep Button: device is a keyboard
+[    64.287] (II) event2  - Sleep Button: device removed
+[    64.287] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2/event2"
+[    64.287] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9)
+[    64.287] (**) Option "xkb_model" "pc105"
+[    64.287] (**) Option "xkb_layout" "za"
+[    64.288] (II) event2  - Sleep Button: is tagged by udev as: Keyboard
+[    64.288] (II) event2  - Sleep Button: device is a keyboard
+[    64.288] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=3 (/dev/input/event11)
+[    64.289] (II) No input driver specified, ignoring this device.
+[    64.289] (II) This device may have been added with another device file.
+[    64.289] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=7 (/dev/input/event12)
+[    64.289] (II) No input driver specified, ignoring this device.
+[    64.289] (II) This device may have been added with another device file.
+[    64.290] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=8 (/dev/input/event13)
+[    64.290] (II) No input driver specified, ignoring this device.
+[    64.290] (II) This device may have been added with another device file.
+[    64.290] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=9 (/dev/input/event14)
+[    64.290] (II) No input driver specified, ignoring this device.
+[    64.290] (II) This device may have been added with another device file.
+[    64.290] (II) config/udev: Adding input device HDA Intel HDMI HDMI/DP,pcm=10 (/dev/input/event15)
+[    64.290] (II) No input driver specified, ignoring this device.
+[    64.290] (II) This device may have been added with another device file.
+[    64.291] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
+[    64.291] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
+[    64.291] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
+[    64.292] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 27 paused 0
+[    64.292] (**) PIXART USB OPTICAL MOUSE: always reports core events
+[    64.292] (**) Option "Device" "/dev/input/event7"
+[    64.292] (**) Option "_source" "server/udev"
+[    64.293] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
+[    64.293] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
+[    64.293] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
+[    64.293] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
+[    64.293] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0002/input/input9/event7"
+[    64.293] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
+[    64.293] (**) Option "AccelerationScheme" "none"
+[    64.293] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
+[    64.293] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
+[    64.293] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
+[    64.294] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
+[    64.294] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
+[    64.294] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
+[    64.294] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
+[    64.294] (II) No input driver specified, ignoring this device.
+[    64.294] (II) This device may have been added with another device file.
+[    64.295] (II) config/udev: Adding input device Integrated_Webcam_HD: Integrate (/dev/input/event10)
+[    64.295] (**) Integrated_Webcam_HD: Integrate: Applying InputClass "libinput keyboard catchall"
+[    64.295] (II) Using input driver 'libinput' for 'Integrated_Webcam_HD: Integrate'
+[    64.297] (II) systemd-logind: got fd for /dev/input/event10 13:74 fd 28 paused 0
+[    64.297] (**) Integrated_Webcam_HD: Integrate: always reports core events
+[    64.297] (**) Option "Device" "/dev/input/event10"
+[    64.297] (**) Option "_source" "server/udev"
+[    64.298] (II) event10 - Integrated_Webcam_HD: Integrate: is tagged by udev as: Keyboard
+[    64.298] (II) event10 - Integrated_Webcam_HD: Integrate: device is a keyboard
+[    64.298] (II) event10 - Integrated_Webcam_HD: Integrate: device removed
+[    64.298] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-5/2-5:1.0/input/input12/event10"
+[    64.298] (II) XINPUT: Adding extended input device "Integrated_Webcam_HD: Integrate" (type: KEYBOARD, id 11)
+[    64.298] (**) Option "xkb_model" "pc105"
+[    64.298] (**) Option "xkb_layout" "za"
+[    64.299] (II) event10 - Integrated_Webcam_HD: Integrate: is tagged by udev as: Keyboard
+[    64.299] (II) event10 - Integrated_Webcam_HD: Integrate: device is a keyboard
+[    64.299] (II) config/udev: Adding input device HDA Intel PCH Headphone Mic (/dev/input/event16)
+[    64.300] (II) No input driver specified, ignoring this device.
+[    64.300] (II) This device may have been added with another device file.
+[    64.300] (II) config/udev: Adding input device Synaptics TM3096-001 (/dev/input/event6)
+[    64.300] (**) Synaptics TM3096-001: Applying InputClass "libinput touchpad catchall"
+[    64.300] (II) Using input driver 'libinput' for 'Synaptics TM3096-001'
+[    64.302] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 29 paused 0
+[    64.302] (**) Synaptics TM3096-001: always reports core events
+[    64.302] (**) Option "Device" "/dev/input/event6"
+[    64.302] (**) Option "_source" "server/udev"
+[    64.302] (II) event6  - Synaptics TM3096-001: is tagged by udev as: Touchpad
+[    64.302] (II) event6  - Synaptics TM3096-001: device is a touchpad
+[    64.302] (II) event6  - Synaptics TM3096-001: device removed
+[    64.303] (**) Option "config_info" "udev:/sys/devices/pci0000:00/INT3433:00/i2c-1/i2c-DLL06B0:00/0018:06CB:78F1.0001/input/input7/event6"
+[    64.303] (II) XINPUT: Adding extended input device "Synaptics TM3096-001" (type: TOUCHPAD, id 12)
+[    64.303] (**) Option "AccelerationScheme" "none"
+[    64.303] (**) Synaptics TM3096-001: (accel) selected scheme none/0
+[    64.303] (**) Synaptics TM3096-001: (accel) acceleration factor: 2.000
+[    64.303] (**) Synaptics TM3096-001: (accel) acceleration threshold: 4
+[    64.304] (II) event6  - Synaptics TM3096-001: is tagged by udev as: Touchpad
+[    64.304] (II) event6  - Synaptics TM3096-001: device is a touchpad
+[    64.305] (II) config/udev: Adding input device Synaptics TM3096-001 (/dev/input/mouse0)
+[    64.305] (II) No input driver specified, ignoring this device.
+[    64.305] (II) This device may have been added with another device file.
+[    64.305] (II) config/udev: Adding input device Dell WMI hotkeys (/dev/input/event9)
+[    64.305] (**) Dell WMI hotkeys: Applying InputClass "libinput keyboard catchall"
+[    64.305] (II) Using input driver 'libinput' for 'Dell WMI hotkeys'
+[    64.306] (II) systemd-logind: got fd for /dev/input/event9 13:73 fd 30 paused 0
+[    64.306] (**) Dell WMI hotkeys: always reports core events
+[    64.306] (**) Option "Device" "/dev/input/event9"
+[    64.306] (**) Option "_source" "server/udev"
+[    64.307] (II) event9  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[    64.307] (II) event9  - Dell WMI hotkeys: device is a keyboard
+[    64.307] (II) event9  - Dell WMI hotkeys: device removed
+[    64.307] (**) Option "config_info" "udev:/sys/devices/platform/PNP0C14:00/wmi_bus/wmi_bus-PNP0C14:00/9DBB5994-A997-11DA-B012-B622A1EF5492/input/input11/event9"
+[    64.307] (II) XINPUT: Adding extended input device "Dell WMI hotkeys" (type: KEYBOARD, id 13)
+[    64.307] (**) Option "xkb_model" "pc105"
+[    64.307] (**) Option "xkb_layout" "za"
+[    64.309] (II) event9  - Dell WMI hotkeys: is tagged by udev as: Keyboard
+[    64.309] (II) event9  - Dell WMI hotkeys: device is a keyboard
+[    64.309] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event4)
+[    64.309] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    64.309] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    64.310] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 31 paused 0
+[    64.310] (**) AT Translated Set 2 keyboard: always reports core events
+[    64.310] (**) Option "Device" "/dev/input/event4"
+[    64.310] (**) Option "_source" "server/udev"
+[    64.311] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    64.311] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
+[    64.311] (II) event4  - AT Translated Set 2 keyboard: device removed
+[    64.311] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input4/event4"
+[    64.311] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 14)
+[    64.311] (**) Option "xkb_model" "pc105"
+[    64.311] (**) Option "xkb_layout" "za"
+[    64.312] (II) event4  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    64.312] (II) event4  - AT Translated Set 2 keyboard: device is a keyboard
+[    64.316] (II) config/udev: Adding input device DELL Wireless hotkeys (/dev/input/event8)
+[    64.316] (**) DELL Wireless hotkeys: Applying InputClass "libinput keyboard catchall"
+[    64.316] (II) Using input driver 'libinput' for 'DELL Wireless hotkeys'
+[    64.317] (II) systemd-logind: got fd for /dev/input/event8 13:72 fd 32 paused 0
+[    64.317] (**) DELL Wireless hotkeys: always reports core events
+[    64.317] (**) Option "Device" "/dev/input/event8"
+[    64.317] (**) Option "_source" "server/udev"
+[    64.317] (II) event8  - DELL Wireless hotkeys: is tagged by udev as: Keyboard
+[    64.317] (II) event8  - DELL Wireless hotkeys: device is a keyboard
+[    64.317] (II) event8  - DELL Wireless hotkeys: device removed
+[    64.317] (**) Option "config_info" "udev:/sys/devices/virtual/input/input10/event8"
+[    64.317] (II) XINPUT: Adding extended input device "DELL Wireless hotkeys" (type: KEYBOARD, id 15)
+[    64.317] (**) Option "xkb_model" "pc105"
+[    64.317] (**) Option "xkb_layout" "za"
+[    64.318] (II) event8  - DELL Wireless hotkeys: is tagged by udev as: Keyboard
+[    64.318] (II) event8  - DELL Wireless hotkeys: device is a keyboard
+[    66.029] (II) modeset(0): EDID vendor "LGD", prod id 1110
+[    66.029] (II) modeset(0): Printing DDC gathered Modelines:
+[    66.029] (II) modeset(0): Modeline "1366x768"x0.0   76.32  1366 1414 1446 1610  768 771 776 790 +hsync -vsync (47.4 kHz eP)
+[    66.029] (II) modeset(0): Modeline "1366x768"x0.0   61.05  1366 1414 1446 1610  768 771 776 790 +hsync -vsync (37.9 kHz e)
+[ 19507.988] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
+[ 19508.039] (**) Option "fd" "27"
+[ 19508.040] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
+[ 19508.745] (II) UnloadModule: "libinput"
+[ 19508.803] (II) systemd-logind: releasing fd for 13:71
+[ 19508.847] (EE) systemd-logind: failed to release device: Device not taken
+[ 19520.994] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
+[ 19520.994] (II) No input driver specified, ignoring this device.
+[ 19520.994] (II) This device may have been added with another device file.
+[ 19521.560] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
+[ 19521.560] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
+[ 19521.560] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
+[ 19521.561] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 78 paused 0
+[ 19521.562] (**) PIXART USB OPTICAL MOUSE: always reports core events
+[ 19521.562] (**) Option "Device" "/dev/input/event7"
+[ 19521.562] (**) Option "_source" "server/udev"
+[ 19521.563] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
+[ 19521.563] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
+[ 19521.563] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
+[ 19521.563] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
+[ 19521.563] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0003/input/input21/event7"
+[ 19521.563] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
+[ 19521.566] (**) Option "AccelerationScheme" "none"
+[ 19521.567] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
+[ 19521.567] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
+[ 19521.567] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
+[ 19521.676] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
+[ 19521.676] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
+[ 19521.676] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
+[ 33286.833] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
+[ 33286.891] (**) Option "fd" "78"
+[ 33286.892] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
+[ 33286.931] (II) UnloadModule: "libinput"
+[ 33286.939] (II) systemd-logind: releasing fd for 13:71
+[ 33286.940] (EE) systemd-logind: failed to release device: Device not taken
+[ 34583.984] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/mouse1)
+[ 34584.323] (II) No input driver specified, ignoring this device.
+[ 34584.323] (II) This device may have been added with another device file.
+[ 34584.324] (II) config/udev: Adding input device PIXART USB OPTICAL MOUSE (/dev/input/event7)
+[ 34584.324] (**) PIXART USB OPTICAL MOUSE: Applying InputClass "libinput pointer catchall"
+[ 34584.324] (II) Using input driver 'libinput' for 'PIXART USB OPTICAL MOUSE'
+[ 34584.382] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 91 paused 0
+[ 34584.382] (**) PIXART USB OPTICAL MOUSE: always reports core events
+[ 34584.382] (**) Option "Device" "/dev/input/event7"
+[ 34584.382] (**) Option "_source" "server/udev"
+[ 34584.383] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
+[ 34584.383] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
+[ 34584.383] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
+[ 34584.456] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
+[ 34584.456] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0005/input/input24/event7"
+[ 34584.456] (II) XINPUT: Adding extended input device "PIXART USB OPTICAL MOUSE" (type: MOUSE, id 10)
+[ 34584.458] (**) Option "AccelerationScheme" "none"
+[ 34584.459] (**) PIXART USB OPTICAL MOUSE: (accel) selected scheme none/0
+[ 34584.459] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration factor: 2.000
+[ 34584.459] (**) PIXART USB OPTICAL MOUSE: (accel) acceleration threshold: 4
+[ 34584.505] (II) event7  - PIXART USB OPTICAL MOUSE: is tagged by udev as: Mouse
+[ 34584.505] (II) event7  - PIXART USB OPTICAL MOUSE: device set to 1000 DPI
+[ 34584.505] (II) event7  - PIXART USB OPTICAL MOUSE: device is a pointer
+[ 36458.317] (II) event7  - PIXART USB OPTICAL MOUSE: SYN_DROPPED event - some input events have been lost.
+[ 38653.043] (II) config/udev: removing device PIXART USB OPTICAL MOUSE
+[ 38653.043] (**) Option "fd" "91"
+[ 38653.043] (II) event7  - PIXART USB OPTICAL MOUSE: device removed
+[ 38653.062] (II) UnloadModule: "libinput"
+[ 38653.140] (II) systemd-logind: releasing fd for 13:71
+[ 38653.141] (EE) systemd-logind: failed to release device: Device not taken
+[ 38715.789] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/mouse1)
+[ 38715.789] (II) No input driver specified, ignoring this device.
+[ 38715.789] (II) This device may have been added with another device file.
+[ 38715.897] (II) config/udev: Adding input device PixArt USB Optical Mouse (/dev/input/event7)
+[ 38715.897] (**) PixArt USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[ 38715.897] (II) Using input driver 'libinput' for 'PixArt USB Optical Mouse'
+[ 38715.900] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 91 paused 0
+[ 38715.900] (**) PixArt USB Optical Mouse: always reports core events
+[ 38715.900] (**) Option "Device" "/dev/input/event7"
+[ 38715.900] (**) Option "_source" "server/udev"
+[ 38715.902] (II) event7  - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[ 38715.902] (II) event7  - PixArt USB Optical Mouse: device set to 1000 DPI
+[ 38715.902] (II) event7  - PixArt USB Optical Mouse: device is a pointer
+[ 38715.902] (II) event7  - PixArt USB Optical Mouse: device removed
+[ 38715.902] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:093A:2510.0007/input/input27/event7"
+[ 38715.902] (II) XINPUT: Adding extended input device "PixArt USB Optical Mouse" (type: MOUSE, id 10)
+[ 38715.907] (**) Option "AccelerationScheme" "none"
+[ 38715.912] (**) PixArt USB Optical Mouse: (accel) selected scheme none/0
+[ 38715.912] (**) PixArt USB Optical Mouse: (accel) acceleration factor: 2.000
+[ 38715.912] (**) PixArt USB Optical Mouse: (accel) acceleration threshold: 4
+[ 38715.913] (II) event7  - PixArt USB Optical Mouse: is tagged by udev as: Mouse
+[ 38715.913] (II) event7  - PixArt USB Optical Mouse: device set to 1000 DPI
+[ 38715.913] (II) event7  - PixArt USB Optical Mouse: device is a pointer

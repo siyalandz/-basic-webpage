@@ -3173,3 +3173,415 @@ Open repository: /home/codex
 > git ls-files --stage -- project/new-webpage/
 > git show :project/new-webpage/my-webpage.html
 > git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+git.getSCMResource.uri file:///home/codex/project/new-webpage/my-webpage.html
+repo root /home/codex
+git.getSCMResource.uri file:///home/codex/project/new-webpage/my-webpage.html
+repo root /home/codex
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git check-ignore -z --stdin
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git check-ignore -z --stdin
+> git show :project/new-webpage/landing page.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/landing page.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my-webpage.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/style.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/index.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/my webpage-grid.html
+> git ls-files --stage -- project/new-webpage/
+> git show :project/new-webpage/simple-grid.css
+> git ls-files --stage -- project/new-webpage/

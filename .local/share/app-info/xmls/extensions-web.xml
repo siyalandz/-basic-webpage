@@ -2393,6 +2393,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_977_Hz6gVb0.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="9"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3138,7 +3141,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="14"/>
+      <release version="16"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -3428,7 +3431,7 @@
     <id>TwitchLive_Panel_extensions.maweki.de</id>
     <name>TwitchLive Panel</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>A panel showing whether your favorite Twitch.tv streamers are streaming.</p><p>Cycles through the online streamers if multiples are configured. Click on the panel and then on streamer&apos;s name to launch the stream with a custom command (your browser or some other application).</p><p>Needs curl and mogrify to fully support streamer logos.</p></description>
+    <description><p>A panel showing whether your favorite Twitch.tv streamers are streaming.</p><p>Cycles through the online streamers if multiples are configured. Click on the panel and then on streamer&apos;s name to launch the stream with a custom command (your browser or some other application).</p><p>Needs curl and mogrify to fully support streamer logos. For an extension version compatible with shell version 3.30 or earlier visit our github page.</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -7084,7 +7087,7 @@
     <id>desktop-icons_csoriano</id>
     <name>Desktop Icons</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Add icons to the desktop - Report any issue at https://gitlab.gnome.org/World/ShellExtensions/desktop-icons/issues/new</p></description>
+    <description><p>Add icons to the desktop</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -8037,7 +8040,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="29"/>
+      <release version="30"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -10703,7 +10706,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="21"/>
+      <release version="23"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -13369,6 +13372,9 @@
     </categories>
     <project_license>GPL-2.0+</project_license>
     <url type="homepage">https://extensions.gnome.org/extension/352/middle-click-to-close-in-overview/</url>
+    <releases>
+      <release version="15"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -18561,6 +18567,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_355_1.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="13"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -19076,7 +19085,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="37"/>
+      <release version="38"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -21629,6 +21638,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1007.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="3"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>

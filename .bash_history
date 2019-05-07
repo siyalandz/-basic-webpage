@@ -209,3 +209,126 @@ git push origin gh-pages
 git add
 git add .
 git commit -m 'edited my pictures on the web page.'
+touch style.css
+git add .
+git commit -m 'edited my historical images.'
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+git branch -d master
+siyalandz
+git push origin gh-pages
+git branch -d master
+ls
+cd projects
+cd project
+cd new-webpage
+git add .
+git commit -m 'editing the historical places images.'
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+git add .
+git commit -m 'edidting my web page to be responsive.'
+git branch gh-pages
+git push origin gh-pages
+git branch -d master
+git add .
+git commit -m
+git add .
+git commit -m 'make page responsive again.'
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+touch "landing page"html
+touch "landing page".html
+ls
+cd new-web page
+cd new-webpage
+cd new-webpage2
+cd project
+cd new-webpage
+ls
+cd new-webpage
+cd project
+project cd
+cd project
+cd projects
+cd project
+cd new-webpage 2
+cd new-webpage2
+cd new-webpage 2
+cd new-webpage
+git add .
+cd project
+cd new-webpage
+cd project
+cd new-webpage 2
+cd new-webpage2
+cd new-webpage 2
+cd new-webpage
+cd new-webpage..
+git add .
+git commit -m'edited my web page.'
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+git add .
+git commit -m 'my first website has been edited.'
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+siyalandz
+git push origin gh-pages
+cd new-wepage
+cd project
+cd new-webpage 2
+cd 2nd new-webpage
+cd basic_website
+git add .
+cd project
+cd basic_website
+cd project
+cd basic_website
+git add .
+git commit -m 'i have edited my landing page'
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+git branch -d master
+git add .
+git commit -m 'edited my landing page that link both pages.'
+git prune
+git add .
+git commit -m 'edited my landing page that link both pages.'
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pag
+cd project
+cd basic_website
+git commit -m.'edited thelanding page.'
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+siyalandz
+git push origin gh-pages
+git branch -d master
+cd project
+cd basic-webpage
+git add .
+git commit -m 'edited my landing page.'
+it branch gh-pages
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+git branch -d master
+git push origin gh-pages
+git branch -d master
+ls
+git add .
+git commit -m 'landing page edited.'
+git branch gh-pages
+git checkout gh-pages
+git push origin gh-pages
+git branch -d master
+git status

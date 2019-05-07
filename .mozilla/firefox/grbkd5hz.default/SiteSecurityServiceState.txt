@@ -2,7 +2,7 @@ accounts.firefox.com:HSTS	0	17983	1569322011049,1,1,2
 www.google-analytics.com:HSTS	7	17995	1565354703474,1,1,2
 snippets.cdn.mozilla.net:HSTS	4	17998	1586588843495,1,0,2
 classify-client.services.mozilla.com:HSTS	12	18003	1587024742173,1,0,2
-vimeo.com:HSTS	0	17991	1570022035981,1,1,2
+www.youtube.com:HSTS	4	17995	1586335639614,1,0,2
 cdnjs.cloudflare.com:HSTS	8	17998	1570832860429,1,1,2
 4382365.fls.doubleclick.net:HSTS	0	17991	1554479568893,1,0,2
 graph.facebook.com:HSTS	2	17994	1570280730153,1,0,2
@@ -22,10 +22,10 @@ cdn.ampproject.org:HSTS	0	17994	1586248393723,1,1,2
 fbsbx.com:HSTS	3	17991	1586001234212,1,1,2
 avatars2.githubusercontent.com:HSTS	3	17995	1586357232891,1,0,2
 pixel.facebook.com:HSTS	1	17989	1569843391199,1,0,2
+accounts.google.com:HSTS	1	17994	1586246146085,1,1,2
 services.addons.mozilla.org:HPKP	10	18002	1560603838495,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
 external.fcpt7-1.fna.fbcdn.net:HSTS	3	17991	1586000895477,1,1,2
 www.squarespace.com:HSTS	0	17991	1554515814718,1,0,2
-en-gb.facebook.com:HSTS	0	17987	1569679051332,1,0,2
 versioncheck-bg.addons.mozilla.org:HSTS	10	18002	1555420139813,1,0,2
 mail.google.com:HSTS	1	17994	1565360383568,1,1,2
 help.github.com:HSTS	0	17988	1569753745092,1,1,2
@@ -50,7 +50,7 @@ ssl.google-analytics.com:HSTS	2	17994	1565614499110,1,1,2
 versioncheck-bg.addons.mozilla.org:HPKP	10	18002	1560603839814,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
 apis.google.com:HSTS	2	17995	1586333102534,1,0,2
 static.xx.fbcdn.net:HSTS	3	17991	1586000923795,1,1,2
-www.youtube.com:HSTS	4	17995	1586335639614,1,0,2
+camo.githubusercontent.com:HSTS	2	17990	1585917509294,1,1,2
 stats.g.doubleclick.net:HSTS	6	17995	1565687950741,1,1,2
 aus5.mozilla.org:HSTS	10	18002	1586955840109,1,0,2
 www.google.co.za:HSTS	3	17991	1585993955017,1,0,2
@@ -70,7 +70,7 @@ chat-pa.clients6.google.com:HSTS	0	17991	1565360380908,1,1,2
 shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	13	18012	1587800004967,1,1,2
 ogs.google.com:HSTS	1	17991	1585993954542,1,0,2
 taskassist-pa.clients6.google.com:HSTS	0	17991	1565340685139,1,1,2
-camo.githubusercontent.com:HSTS	2	17990	1585917509294,1,1,2
+vimeo.com:HSTS	0	17991	1570022035981,1,1,2
 www.wix.com:HSTS	0	17991	1554458087866,1,0,2
 signaler-pa.clients6.google.com:HSTS	0	17991	1565360256384,1,1,2
 stackoverflow.com:HSTS	4	17996	1570280730303,1,0,2
@@ -87,5 +87,5 @@ staticxx.facebook.com:HSTS	1	17991	1570017233403,1,0,2
 collector.githubapp.com:HSTS	5	17995	1586335635118,1,0,2
 code.visualstudio.com:HSTS	2	17998	1586588859928,1,0,2
 github-atom-io-herokuapp-com.freetls.fastly.net:HSTS	1	17990	1569937516410,1,0,2
-accounts.google.com:HSTS	1	17994	1586246146085,1,1,2
+en-gb.facebook.com:HSTS	0	17987	1569679051332,1,0,2
 users.wix.com:HSTS	0	17991	1585993959365,1,0,2

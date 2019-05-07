@@ -1,21 +1,54 @@
-2019/04/25-16:34:14.130 396 Reusing MANIFEST leveldb/MANIFEST-000001
-2019/04/25-16:34:14.133 396 Recovering log #36
-2019/04/25-16:34:14.134 396 Reusing old log leveldb/000036.log 
-2019/04/26-14:41:54.289 234a Level-0 table #40: started
-2019/04/26-14:41:54.343 234a Level-0 table #40: 13509 bytes OK
-2019/04/26-14:41:54.410 234a Delete type=0 #36
-2019/04/26-15:46:46.758 27dd Level-0 table #42: started
-2019/04/26-15:46:46.818 27dd Level-0 table #42: 327805 bytes OK
-2019/04/26-15:46:46.886 27dd Delete type=0 #39
-2019/04/26-15:52:44.406 2843 Level-0 table #44: started
-2019/04/26-15:52:44.461 2843 Level-0 table #44: 329814 bytes OK
-2019/04/26-15:52:44.495 2843 Delete type=0 #41
-2019/04/26-15:52:44.495 2843 Compacting 4@0 + 1@1 files
-2019/04/26-15:52:44.595 2843 Generated table #45@0: 743 keys, 371661 bytes
-2019/04/26-15:52:44.595 2843 Compacted 4@0 + 1@1 files => 371661 bytes
-2019/04/26-15:52:44.628 2843 compacted to: files[ 0 1 1 0 0 0 0 ]
-2019/04/26-15:52:44.629 2843 Delete type=2 #42
-2019/04/26-15:52:44.629 2843 Delete type=2 #37
-2019/04/26-15:52:44.629 2843 Delete type=2 #44
-2019/04/26-15:52:44.629 2843 Delete type=2 #40
-2019/04/26-15:52:44.629 2843 Delete type=2 #35
+2019/04/29-08:49:08.988 3a55 Reusing MANIFEST leveldb/MANIFEST-000001
+2019/04/29-08:49:08.988 3a55 Recovering log #43
+2019/04/29-08:49:08.989 3a55 Reusing old log leveldb/000043.log 
+2019/04/29-09:27:12.375 4b9a Level-0 table #48: started
+2019/04/29-09:27:12.417 4b9a Level-0 table #48: 14513 bytes OK
+2019/04/29-09:27:12.473 4b9a Delete type=0 #43
+2019/04/29-14:16:35.431 5fc9 Level-0 table #50: started
+2019/04/29-14:16:35.501 5fc9 Level-0 table #50: 14058 bytes OK
+2019/04/29-14:16:35.579 5fc9 Delete type=0 #47
+2019/04/29-15:17:21.647 68a3 Level-0 table #52: started
+2019/04/29-15:17:21.713 68a3 Level-0 table #52: 92618 bytes OK
+2019/04/29-15:17:21.780 68a3 Delete type=0 #49
+2019/04/30-10:00:03.859 799c Level-0 table #54: started
+2019/04/30-10:00:05.616 799c Level-0 table #54: 14818 bytes OK
+2019/04/30-10:00:05.860 799c Delete type=0 #51
+2019/04/30-10:00:05.860 799c Compacting 4@0 + 1@1 files
+2019/04/30-10:00:06.004 799c Generated table #55@0: 912 keys, 461099 bytes
+2019/04/30-10:00:06.004 799c Compacted 4@0 + 1@1 files => 461099 bytes
+2019/04/30-10:00:06.037 799c compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/04/30-10:00:06.038 799c Delete type=2 #52
+2019/04/30-10:00:06.056 799c Delete type=2 #45
+2019/04/30-10:00:06.056 799c Delete type=2 #54
+2019/04/30-10:00:06.056 799c Delete type=2 #50
+2019/04/30-10:00:06.071 799c Delete type=2 #48
+2019/04/30-11:52:41.067 a78 Level-0 table #57: started
+2019/04/30-11:52:41.161 a78 Level-0 table #57: 13374 bytes OK
+2019/04/30-11:52:41.250 a78 Delete type=0 #53
+2019/05/02-10:19:52.903 4491 Level-0 table #59: started
+2019/05/02-10:19:52.983 4491 Level-0 table #59: 14563 bytes OK
+2019/05/02-10:19:53.039 4491 Delete type=0 #56
+2019/05/03-08:48:39.860 5783 Level-0 table #61: started
+2019/05/03-08:48:39.948 5783 Level-0 table #61: 11917 bytes OK
+2019/05/03-08:48:40.046 5783 Delete type=0 #58
+2019/05/03-10:12:22.023 5ccf Level-0 table #63: started
+2019/05/03-10:12:22.091 5ccf Level-0 table #63: 13495 bytes OK
+2019/05/03-10:12:22.158 5ccf Delete type=0 #60
+2019/05/03-10:12:22.158 5ccf Compacting 4@0 + 1@1 files
+2019/05/03-10:12:22.270 5ccf Generated table #64@0: 964 keys, 462596 bytes
+2019/05/03-10:12:22.270 5ccf Compacted 4@0 + 1@1 files => 462596 bytes
+2019/05/03-10:12:22.315 5ccf compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/05/03-10:12:22.315 5ccf Delete type=2 #63
+2019/05/03-10:12:22.316 5ccf Delete type=2 #57
+2019/05/03-10:12:22.316 5ccf Delete type=2 #61
+2019/05/03-10:12:22.317 5ccf Delete type=2 #55
+2019/05/03-10:12:22.317 5ccf Delete type=2 #59
+2019/05/04-12:41:46.363 79ec Level-0 table #66: started
+2019/05/04-12:41:46.445 79ec Level-0 table #66: 14125 bytes OK
+2019/05/04-12:41:46.509 79ec Delete type=0 #62
+2019/05/06-09:57:45.633 a6c Level-0 table #68: started
+2019/05/06-09:57:45.719 a6c Level-0 table #68: 15875 bytes OK
+2019/05/06-09:57:45.776 a6c Delete type=0 #65
+2019/05/06-10:58:55.643 d64 Level-0 table #70: started
+2019/05/06-10:58:55.686 d64 Level-0 table #70: 12006 bytes OK
+2019/05/06-10:58:55.720 d64 Delete type=0 #67

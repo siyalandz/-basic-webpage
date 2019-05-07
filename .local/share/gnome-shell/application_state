@@ -1,19 +1,17 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.FileRoller.desktop" open-window-count="0" score="0.8125" last-seen="1555399925"/>
-    <application id="firefox.desktop" open-window-count="0" score="507.34375" last-seen="1556264013"/>
-    <application id="gnome-control-center.desktop" open-window-count="0" score="0.75" last-seen="1555497481"/>
+    <application id="firefox.desktop" open-window-count="0" score="0" last-seen="1557224684"/>
     <application id="gedit.desktop" open-window-count="0" score="0" last-seen="0"/>
-    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="16978.421875" last-seen="1556610395"/>
-    <application id="update-manager.desktop" open-window-count="0" score="0.078125" last-seen="1556541976"/>
-    <application id="eog.desktop" open-window-count="0" score="17.15625" last-seen="1556609221"/>
-    <application id="code.desktop" open-window-count="1" score="19607.609375" last-seen="1556610382"/>
-    <application id="google-chrome.desktop" open-window-count="1" score="7184.765625" last-seen="1556610630"/>
-    <application id="org.gnome.gedit.desktop" open-window-count="0" score="0.5" last-seen="1556016923"/>
-    <application id="nautilus-folder-handler.desktop" open-window-count="0" score="0" last-seen="0"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="549.328125" last-seen="1556610624"/>
-    <application id="org.gnome.Software.desktop" open-window-count="0" score="0.78125" last-seen="1555399731"/>
-    <application id="thunderbird.desktop" open-window-count="0" score="1" last-seen="1556522522"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="5375.35546875" last-seen="1557230154"/>
+    <application id="update-manager.desktop" open-window-count="0" score="0.01953125" last-seen="1556789792"/>
+    <application id="eog.desktop" open-window-count="0" score="4.2890625" last-seen="1557151899"/>
+    <application id="code.desktop" open-window-count="1" score="9670.40234375" last-seen="1557226953"/>
+    <application id="org.gnome.DejaDup.desktop" open-window-count="0" score="12" last-seen="1557133369"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="16953.94140625" last-seen="1557230309"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="0.125" last-seen="1557225991"/>
+    <application id="gnome-terminal.desktop" open-window-count="0" score="0" last-seen="0"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="1369.58203125" last-seen="1557230225"/>
+    <application id="apport-gtk.desktop" open-window-count="1" score="0" last-seen="1557211218"/>
   </context>
 </application-state>
