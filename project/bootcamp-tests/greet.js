@@ -1,7 +1,7 @@
-describe("the greet function"),function greet(name){
+function greet(name){
     console.log("Hello, " + name);
-    assert.equal("Hello, Siya",greet("Siya"));
-    return "Hello, " + "Siya";
+    return "Hello, " + name;
+  
+  }
 
-}  
-
+//   alert( greet("andrew") );
